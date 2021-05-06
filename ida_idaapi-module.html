@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_idaapi</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_idaapi
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_idaapi-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_idaapi</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: idaapi</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.IDAPython_displayhook-class.html" class="summary-name">IDAPython_displayhook</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.PyIdc_cvt_int64__-class.html" class="summary-name">PyIdc_cvt_int64__</a><br />
+      Helper class for explicitly representing VT_INT64 values
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.PyIdc_cvt_refclass__-class.html" class="summary-name">PyIdc_cvt_refclass__</a><br />
+      Helper class for representing references to immutable objects
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.loader_input_t-class.html" class="summary-name">loader_input_t</a><br />
+      Proxy of C++ loader_input_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.object_t-class.html" class="summary-name">object_t</a><br />
+      Helper class used to initialize empty objects
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.plugin_t-class.html" class="summary-name">plugin_t</a><br />
+      Base class for all scripted plugins.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.py_clinked_object_t-class.html" class="summary-name">py_clinked_object_t</a><br />
+      This is a utility and base class for C linked objects
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.pyidc_cvt_helper__-class.html" class="summary-name">pyidc_cvt_helper__</a><br />
+      This is a special helper object that helps detect which kind of 
+        object is this python object wrapping and how to convert it back 
+        and from IDC.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi.pyidc_opaque_object_t-class.html" class="summary-name">pyidc_opaque_object_t</a><br />
+      This is the base class for all Python&lt;-&gt;IDC opaque objects
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#IDAPython_ExecScript" class="summary-sig-name">IDAPython_ExecScript</a>(<span class="summary-sig-arg">script</span>,
+        <span class="summary-sig-arg">g</span>,
+        <span class="summary-sig-arg">print_error</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Run the specified script.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="IDAPython_ExecSystem"></a><span class="summary-sig-name">IDAPython_ExecSystem</span>(<span class="summary-sig-arg">cmd</span>)</span><br />
+      Executes a command with popen().</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="IDAPython_FormatExc"></a><span class="summary-sig-name">IDAPython_FormatExc</span>(<span class="summary-sig-arg">etype</span>,
+        <span class="summary-sig-arg">value</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">tb</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">limit</span>=<span class="summary-sig-default">None</span>)</span><br />
+      This function is used to format an exception given the values 
+      returned by a PyErr_Fetch()</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="IDAPython_LoadProcMod"></a><span class="summary-sig-name">IDAPython_LoadProcMod</span>(<span class="summary-sig-arg">script</span>,
+        <span class="summary-sig-arg">g</span>,
+        <span class="summary-sig-arg">print_error</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Load processor module.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="IDAPython_UnLoadProcMod"></a><span class="summary-sig-name">IDAPython_UnLoadProcMod</span>(<span class="summary-sig-arg">script</span>,
+        <span class="summary-sig-arg">g</span>,
+        <span class="summary-sig-arg">print_error</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Unload processor module.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="as_UTF16"></a><span class="summary-sig-name">as_UTF16</span>(<span class="summary-sig-arg">s</span>)</span><br />
+      Convenience function to convert a string into appropriate unicode 
+      format</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#as_cstr" class="summary-sig-name">as_cstr</a>(<span class="summary-sig-arg">val</span>)</span><br />
+      Returns a C str from the passed value.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="as_int32"></a><span class="summary-sig-name">as_int32</span>(<span class="summary-sig-arg">v</span>)</span><br />
+      Returns a number as a signed int32 number</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#as_signed" class="summary-sig-name">as_signed</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">nbits</span>=<span class="summary-sig-default">32</span>)</span><br />
+      Returns a number as signed.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="as_uint32"></a><span class="summary-sig-name">as_uint32</span>(<span class="summary-sig-arg">v</span>)</span><br />
+      Returns a number as an unsigned int32 number</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="as_unicode"></a><span class="summary-sig-name">as_unicode</span>(<span class="summary-sig-arg">s</span>)</span><br />
+      Convenience function to convert a string into appropriate unicode 
+      format</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#copy_bits" class="summary-sig-name">copy_bits</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">e</span>=<span class="summary-sig-default">-1</span>)</span><br />
+      Copy bits from a value</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#disable_script_timeout" class="summary-sig-name">disable_script_timeout</a>()</span><br />
+      Disables the script timeout and hides the script wait box.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#enable_extlang_python" class="summary-sig-name">enable_extlang_python</a>(<span class="summary-sig-arg">enable</span>)</span><br />
+      Enables or disables Python extlang.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="enable_python_cli"></a><span class="summary-sig-name">enable_python_cli</span>(<span class="summary-sig-arg">enable</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="format_basestring"></a><span class="summary-sig-name">format_basestring</span>(<span class="summary-sig-arg">_in</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idainfo</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_inf_structure"></a><span class="summary-sig-name">get_inf_structure</span>()</span><br />
+      Returns the global variable 'inf' (an instance of idainfo structure, 
+      see ida.hpp)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">loader_input_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="loader_input_t_from_capsule"></a><span class="summary-sig-name">loader_input_t_from_capsule</span>(<span class="summary-sig-arg">pycapsule</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">loader_input_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="loader_input_t_from_fp"></a><span class="summary-sig-name">loader_input_t_from_fp</span>(<span class="summary-sig-arg">fp</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">loader_input_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="loader_input_t_from_linput"></a><span class="summary-sig-name">loader_input_t_from_linput</span>(<span class="summary-sig-arg">linput</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#notify_when" class="summary-sig-name">notify_when</a>(<span class="summary-sig-arg">when</span>,
+        <span class="summary-sig-arg">callback</span>)</span><br />
+      Register a callback that will be called when an event happens.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="parse_command_line3"></a><span class="summary-sig-name">parse_command_line3</span>(<span class="summary-sig-arg">cmdline</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">TWidget *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pycim_get_widget"></a><span class="summary-sig-name">pycim_get_widget</span>(<span class="summary-sig-arg">_self</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pycim_view_close"></a><span class="summary-sig-name">pycim_view_close</span>(<span class="summary-sig-arg">_self</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pygc_create_groups"></a><span class="summary-sig-name">pygc_create_groups</span>(<span class="summary-sig-arg">_self</span>,
+        <span class="summary-sig-arg">groups_infos</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pygc_delete_groups"></a><span class="summary-sig-name">pygc_delete_groups</span>(<span class="summary-sig-arg">_self</span>,
+        <span class="summary-sig-arg">groups</span>,
+        <span class="summary-sig-arg">new_current</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pygc_refresh"></a><span class="summary-sig-name">pygc_refresh</span>(<span class="summary-sig-arg">_self</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pygc_set_groups_visibility"></a><span class="summary-sig-name">pygc_set_groups_visibility</span>(<span class="summary-sig-arg">_self</span>,
+        <span class="summary-sig-arg">groups</span>,
+        <span class="summary-sig-arg">expand</span>,
+        <span class="summary-sig-arg">new_current</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="replfun"></a><span class="summary-sig-name">replfun</span>(<span class="summary-sig-arg">func</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#require" class="summary-sig-name">require</a>(<span class="summary-sig-arg">modulename</span>,
+        <span class="summary-sig-arg">package</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Load, or reload a module.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#set_script_timeout" class="summary-sig-name">set_script_timeout</a>(<span class="summary-sig-arg">timeout</span>)</span><br />
+      Changes the script timeout value.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idaapi-module.html#struct_unpack" class="summary-sig-name">struct_unpack</a>(<span class="summary-sig-arg">buffer</span>,
+        <span class="summary-sig-arg">signed</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">offs</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Unpack a buffer given its length and offset using 
+      struct.unpack_from().</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BADADDR"></a><span class="summary-name">BADADDR</span> = <code title="4294967295">4294967295</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BADSEL"></a><span class="summary-name">BADSEL</span> = <code title="4294967295">4294967295</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HBF_CALL_WITH_NEW_EXEC"></a><span class="summary-name">HBF_CALL_WITH_NEW_EXEC</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HBF_VOLATILE_METHOD_SET"></a><span class="summary-name">HBF_VOLATILE_METHOD_SET</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idaapi-module.html#IDAPython_Completion" class="summary-name">IDAPython_Completion</a> = <code title="&lt;ida_idaapi.__IDAPython_Completion_Util object&gt;">&lt;ida_idaapi.__IDAPython_Completion_Util<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NW_CLOSEIDB"></a><span class="summary-name">NW_CLOSEIDB</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NW_INITIDA"></a><span class="summary-name">NW_INITIDA</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NW_OPENIDB"></a><span class="summary-name">NW_OPENIDB</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NW_REMOVE"></a><span class="summary-name">NW_REMOVE</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NW_TERMIDA"></a><span class="summary-name">NW_TERMIDA</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_DBG"></a><span class="summary-name">PLUGIN_DBG</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_DRAW"></a><span class="summary-name">PLUGIN_DRAW</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_FIX"></a><span class="summary-name">PLUGIN_FIX</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_HIDE"></a><span class="summary-name">PLUGIN_HIDE</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_KEEP"></a><span class="summary-name">PLUGIN_KEEP</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_MOD"></a><span class="summary-name">PLUGIN_MOD</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_OK"></a><span class="summary-name">PLUGIN_OK</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_PROC"></a><span class="summary-name">PLUGIN_PROC</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_SEG"></a><span class="summary-name">PLUGIN_SEG</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_SKIP"></a><span class="summary-name">PLUGIN_SKIP</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLUGIN_UNL"></a><span class="summary-name">PLUGIN_UNL</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PY_ICID_BYREF"></a><span class="summary-name">PY_ICID_BYREF</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PY_ICID_INT64"></a><span class="summary-name">PY_ICID_INT64</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PY_ICID_OPAQUE"></a><span class="summary-name">PY_ICID_OPAQUE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEEK_CUR"></a><span class="summary-name">SEEK_CUR</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEEK_END"></a><span class="summary-name">SEEK_END</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEEK_SET"></a><span class="summary-name">SEEK_SET</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SIZE_MAX"></a><span class="summary-name">SIZE_MAX</span> = <code title="18446744073709551615">18446744073709551615</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ST_OVER_DEBUG_SEG"></a><span class="summary-name">ST_OVER_DEBUG_SEG</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ST_OVER_LIB_FUNC"></a><span class="summary-name">ST_OVER_LIB_FUNC</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__EA64__"></a><span class="summary-name">__EA64__</span> = <code title="False">False</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="has_mbcs"></a><span class="summary-name">has_mbcs</span> = <code title="False">False</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="integer_types"></a><span class="summary-name">integer_types</span> = <code title="(&lt;type 'int'&gt;, &lt;type 'long'&gt;)"><code class="variable-group">(</code>&lt;type 'int'&gt;<code class="variable-op">, </code>&lt;type 'long'&gt;<code class="variable-group">)</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="string_types"></a><span class="summary-name">string_types</span> = <code title="(&lt;type 'str'&gt;, &lt;type 'unicode'&gt;)"><code class="variable-group">(</code>&lt;type 'str'&gt;<code class="variable-op">, </code>&lt;type 'unicode'&gt;<code class="variable-group">)</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="uses_swig_builtins"></a><span class="summary-name">uses_swig_builtins</span> = <code title="False">False</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="IDAPython_ExecScript"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">IDAPython_ExecScript</span>(<span class="sig-arg">script</span>,
+        <span class="sig-arg">g</span>,
+        <span class="sig-arg">print_error</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Run the specified script. It also addresses 
+  http://code.google.com/p/idapython/issues/detail?id=42</p>
+  <p>This function is used by the low-level plugin code.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_cstr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_cstr</span>(<span class="sig-arg">val</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a C str from the passed value. The passed value can be of type
+  refclass (returned by a call to buffer() or byref()) It scans for the 
+  first   and returns the string value up to that point.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="as_signed"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">as_signed</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">nbits</span>=<span class="sig-default">32</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a number as signed. The number of bits are specified by the 
+  user. The MSB holds the sign.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="copy_bits"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">copy_bits</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">s</span>,
+        <span class="sig-arg">e</span>=<span class="sig-default">-1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Copy bits from a value</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong> - the value</li>
+        <li><strong class="pname"><code>s</code></strong> - starting bit (0-based)</li>
+        <li><strong class="pname"><code>e</code></strong> - ending bit</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="disable_script_timeout"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">disable_script_timeout</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Disables the script timeout and hides the script wait box. Calling <a 
+  href="ida_idaapi-module.html#set_script_timeout" 
+  class="link">set_script_timeout</a> will not have any effects until the 
+  script is compiled and executed again</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>None</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="enable_extlang_python"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">enable_extlang_python</span>(<span class="sig-arg">enable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Enables or disables Python extlang. When enabled, all expressions will
+  be evaluated by Python.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>enable</code></strong> - Set to True to enable, False otherwise</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="notify_when"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">notify_when</span>(<span class="sig-arg">when</span>,
+        <span class="sig-arg">callback</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Register a callback that will be called when an event happens.
+@param when: one of NW_XXXX constants
+@param callback: This callback prototype varies depending on the 'when' parameter:
+                 The general callback format:
+                     def notify_when_callback(nw_code)
+                 In the case of NW_OPENIDB:
+                     def notify_when_callback(nw_code, is_old_database)
+@return: Boolean
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="require"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">require</span>(<span class="sig-arg">modulename</span>,
+        <span class="sig-arg">package</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Load, or reload a module.</p>
+  <p>When under heavy development, a user's tool might consist of multiple 
+  modules. If those are imported using the standard 'import' mechanism, 
+  there is no guarantee that the Python implementation will re-read and 
+  re-evaluate the module's Python code. In fact, it usually doesn't. What 
+  should be done instead is 'reload()'-ing that module.</p>
+  <p>This is a simple helper function that will do just that: In case the 
+  module doesn't exist, it 'import's it, and if it does exist, 'reload()'s 
+  it.</p>
+  <p>The importing module (i.e., the module calling require()) will have 
+  the loaded module bound to its globals(), under the name 'modulename'. 
+  (If require() is called from the command line, the importing module will 
+  be '__main__'.)</p>
+  <p>For more information, see: &lt;http://www.hexblog.com/?p=749&gt;.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_script_timeout"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_script_timeout</span>(<span class="sig-arg">timeout</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Changes the script timeout value. The script wait box dialog will be 
+  hidden and shown again when the timeout elapses. See also <a 
+  href="ida_idaapi-module.html#disable_script_timeout" 
+  class="link">disable_script_timeout</a>.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>timeout</code></strong> - This value is in seconds. If this value is set to zero then the 
+          script will never timeout.</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>Returns the old timeout value</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="struct_unpack"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">struct_unpack</span>(<span class="sig-arg">buffer</span>,
+        <span class="sig-arg">signed</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">offs</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Unpack a buffer given its length and offset using 
+  struct.unpack_from(). This function will know how to unpack the given 
+  buffer by using the lookup table '__struct_unpack_table' If the buffer is
+  of unknown length then None is returned. Otherwise the unpacked value is 
+  returned.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== VARIABLES DETAILS ==================== -->
+<a name="section-VariablesDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables Details</span></td>
+</tr>
+</table>
+<a name="IDAPython_Completion"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">IDAPython_Completion</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">&lt;ida_idaapi.__IDAPython_Completion_Util object&gt;
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

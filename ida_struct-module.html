@@ -1,0 +1,3138 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_struct</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_struct
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_struct-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_struct</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: struct</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_struct.member_t-class.html" class="summary-name">member_t</a><br />
+      Proxy of C++ member_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_struct.struc_t-class.html" class="summary-name">struc_t</a><br />
+      Proxy of C++ struc_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_struct.struct_field_visitor_t-class.html" class="summary-name">struct_field_visitor_t</a><br />
+      Proxy of C++ struct_field_visitor_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tid_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#add_struc" class="summary-sig-name">add_struc</a>(<span class="summary-sig-arg">idx</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">is_union</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Create a structure type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struc_error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#add_struc_member" class="summary-sig-name">add_struc_member</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">fieldname</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">flag</span>,
+        <span class="summary-sig-arg">mt</span>,
+        <span class="summary-sig-arg">nbytes</span>)</span><br />
+      Add member to existing structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#del_member_tinfo" class="summary-sig-name">del_member_tinfo</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">mptr</span>)</span><br />
+      Delete tinfo for given member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#del_struc" class="summary-sig-name">del_struc</a>(<span class="summary-sig-arg">sptr</span>)</span><br />
+      Delete a structure type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#del_struc_member" class="summary-sig-name">del_struc_member</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Delete member at given offset.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#del_struc_members" class="summary-sig-name">del_struc_members</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">off1</span>,
+        <span class="summary-sig-arg">off2</span>)</span><br />
+      Delete members which occupy range of offsets (off1..off2).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#expand_struc" class="summary-sig-name">expand_struc</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">delta</span>,
+        <span class="summary-sig-arg">recalc</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Expand/Shrink structure type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">member_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_best_fit_member" class="summary-sig-name">get_best_fit_member</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Get member that is most likely referenced by the specified offset.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uval_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_first_struc_idx" class="summary-sig-name">get_first_struc_idx</a>()</span><br />
+      Get index of first structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uval_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_last_struc_idx" class="summary-sig-name">get_last_struc_idx</a>()</span><br />
+      Get index of last structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_max_offset" class="summary-sig-name">get_max_offset</a>(<span class="summary-sig-arg">sptr</span>)</span><br />
+      For unions: returns number of members, for structs: returns size of 
+      structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">member_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member" class="summary-sig-name">get_member</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Get member at given offset.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">member_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_by_fullname" class="summary-sig-name">get_member_by_fullname</a>(<span class="summary-sig-arg">fullname</span>)</span><br />
+      Get a member by its fully qualified name, &quot;struct.field&quot;.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">member_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_by_id" class="summary-sig-name">get_member_by_id</a>(<span class="summary-sig-arg">mid</span>)</span><br />
+      Check if the specified member id points to a struct member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">member_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_by_name" class="summary-sig-name">get_member_by_name</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">membername</span>)</span><br />
+      Get a member by its name, like &quot;field44&quot;.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_cmt" class="summary-sig-name">get_member_cmt</a>(<span class="summary-sig-arg">mid</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Get comment of structure member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_fullname" class="summary-sig-name">get_member_fullname</a>(<span class="summary-sig-arg">mid</span>)</span><br />
+      Get a member's fully qualified name, &quot;struct.field&quot;.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tid_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_id" class="summary-sig-name">get_member_id</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Get member id at given offset.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_name" class="summary-sig-name">get_member_name</a>(<span class="summary-sig-arg">mid</span>)</span><br />
+      Get name of structure member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">asize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_size" class="summary-sig-name">get_member_size</a>(<span class="summary-sig-arg">nonnul_mptr</span>)</span><br />
+      Get size of structure member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struc_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_struc" class="summary-sig-name">get_member_struc</a>(<span class="summary-sig-arg">fullname</span>)</span><br />
+      Get containing structure of member by its full name 
+      &quot;struct.field&quot;.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_member_tinfo" class="summary-sig-name">get_member_tinfo</a>(<span class="summary-sig-arg">tif</span>,
+        <span class="summary-sig-arg">mptr</span>)</span><br />
+      Get tinfo for given member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_next_member_idx" class="summary-sig-name">get_next_member_idx</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">off</span>)</span><br />
+      Get the next member idx, if it does not exist, return -1.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uval_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_next_struc_idx" class="summary-sig-name">get_next_struc_idx</a>(<span class="summary-sig-arg">idx</span>)</span><br />
+      Get next struct index.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_or_guess_member_tinfo" class="summary-sig-name">get_or_guess_member_tinfo</a>(<span class="summary-sig-arg">tif</span>,
+        <span class="summary-sig-arg">mptr</span>)</span><br />
+      Try to get tinfo for given member - if failed, generate a tinfo using
+      information about the member id from the disassembly</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_prev_member_idx" class="summary-sig-name">get_prev_member_idx</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">off</span>)</span><br />
+      Get the prev member idx, if it does not exist, return -1.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uval_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_prev_struc_idx" class="summary-sig-name">get_prev_struc_idx</a>(<span class="summary-sig-arg">idx</span>)</span><br />
+      Get previous struct index.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struc_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_sptr" class="summary-sig-name">get_sptr</a>(<span class="summary-sig-arg">mptr</span>)</span><br />
+      Get child struct if member is a struct.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struc_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc" class="summary-sig-name">get_struc</a>(<span class="summary-sig-arg">id</span>)</span><br />
+      Get pointer to struct type info.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tid_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_by_idx" class="summary-sig-name">get_struc_by_idx</a>(<span class="summary-sig-arg">idx</span>)</span><br />
+      Get struct id by struct number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_cmt" class="summary-sig-name">get_struc_cmt</a>(<span class="summary-sig-arg">id</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Get struct comment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_first_offset" class="summary-sig-name">get_struc_first_offset</a>(<span class="summary-sig-arg">sptr</span>)</span><br />
+      Get offset of first member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tid_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_id" class="summary-sig-name">get_struc_id</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Get struct id by name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uval_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_idx" class="summary-sig-name">get_struc_idx</a>(<span class="summary-sig-arg">id</span>)</span><br />
+      Get internal number of the structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_last_offset" class="summary-sig-name">get_struc_last_offset</a>(<span class="summary-sig-arg">sptr</span>)</span><br />
+      Get offset of last member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_name" class="summary-sig-name">get_struc_name</a>(<span class="summary-sig-arg">id</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get struct name by id</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_next_offset" class="summary-sig-name">get_struc_next_offset</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Get offset of member with smallest offset larger than 'offset'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_prev_offset" class="summary-sig-name">get_struc_prev_offset</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>)</span><br />
+      Get offset of member with largest offset less than 'offset'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_struc_qty"></a><span class="summary-sig-name">get_struc_qty</span>()</span><br />
+      Get number of known structures.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">asize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#get_struc_size" class="summary-sig-name">get_struc_size</a>(<span class="summary-sig-arg">sptr</span>)</span><br />
+      get_struc_size(id) -&gt; asize_t</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_anonymous_member_name" class="summary-sig-name">is_anonymous_member_name</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Is member name prefixed with &quot;anonymous&quot;?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_dummy_member_name" class="summary-sig-name">is_dummy_member_name</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Is member name an auto-generated name?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_member_id" class="summary-sig-name">is_member_id</a>(<span class="summary-sig-arg">mid</span>)</span><br />
+      Is a member id?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_special_member" class="summary-sig-name">is_special_member</a>(<span class="summary-sig-arg">id</span>)</span><br />
+      Is a special member with the name beginning with ' '?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_union" class="summary-sig-name">is_union</a>(<span class="summary-sig-arg">id</span>)</span><br />
+      Is a union?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_varmember" class="summary-sig-name">is_varmember</a>(<span class="summary-sig-arg">mptr</span>)</span><br />
+      Is variable size member?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#is_varstr" class="summary-sig-name">is_varstr</a>(<span class="summary-sig-arg">id</span>)</span><br />
+      Is variable size structure?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">opinfo_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#retrieve_member_info" class="summary-sig-name">retrieve_member_info</a>(<span class="summary-sig-arg">buf</span>,
+        <span class="summary-sig-arg">mptr</span>)</span><br />
+      Get operand type info for member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#save_struc" class="summary-sig-name">save_struc</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">may_update_ltypes</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Update struct information in the database (internal function)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_member_cmt" class="summary-sig-name">set_member_cmt</a>(<span class="summary-sig-arg">mptr</span>,
+        <span class="summary-sig-arg">cmt</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Set member comment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_member_name" class="summary-sig-name">set_member_name</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Set name of member at given offset.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">smt_code_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_member_tinfo" class="summary-sig-name">set_member_tinfo</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">mptr</span>,
+        <span class="summary-sig-arg">memoff</span>,
+        <span class="summary-sig-arg">tif</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Set tinfo for given member.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_member_type" class="summary-sig-name">set_member_type</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">flag</span>,
+        <span class="summary-sig-arg">mt</span>,
+        <span class="summary-sig-arg">nbytes</span>)</span><br />
+      Set type of member at given offset (also see 'add_struc_member()' )</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_align" class="summary-sig-name">set_struc_align</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">shift</span>)</span><br />
+      Set structure alignment ( 'SF_ALIGN' )</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_cmt" class="summary-sig-name">set_struc_cmt</a>(<span class="summary-sig-arg">id</span>,
+        <span class="summary-sig-arg">cmt</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Set structure comment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_hidden" class="summary-sig-name">set_struc_hidden</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">is_hidden</span>)</span><br />
+      Hide/unhide a struct type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_idx" class="summary-sig-name">set_struc_idx</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">idx</span>)</span><br />
+      Set internal number of struct.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_listed" class="summary-sig-name">set_struc_listed</a>(<span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">is_listed</span>)</span><br />
+      Add/remove a struct type from the struct list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#set_struc_name" class="summary-sig-name">set_struc_name</a>(<span class="summary-sig-arg">id</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Set structure name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#stroff_as_size" class="summary-sig-name">stroff_as_size</a>(<span class="summary-sig-arg">plen</span>,
+        <span class="summary-sig-arg">sptr</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Should display a structure offset expression as the structure size?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">flags_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_struct-module.html#visit_stroff_fields" class="summary-sig-name">visit_stroff_fields</a>(<span class="summary-sig-arg">sfv</span>,
+        <span class="summary-sig-arg">path</span>,
+        <span class="summary-sig-arg">disp</span>,
+        <span class="summary-sig-arg">appzero</span>)</span><br />
+      Visit structure fields in a stroff expression or in a reference to a 
+      struct data variable.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_BASECLASS"></a><span class="summary-name">MF_BASECLASS</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_BYTIL"></a><span class="summary-name">MF_BYTIL</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_DTOR"></a><span class="summary-name">MF_DTOR</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_DUPNAME"></a><span class="summary-name">MF_DUPNAME</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_HASTI"></a><span class="summary-name">MF_HASTI</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_HASUNI"></a><span class="summary-name">MF_HASUNI</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_OK"></a><span class="summary-name">MF_OK</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MF_UNIMEM"></a><span class="summary-name">MF_UNIMEM</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SET_MEMTI_BYTIL"></a><span class="summary-name">SET_MEMTI_BYTIL</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SET_MEMTI_COMPATIBLE"></a><span class="summary-name">SET_MEMTI_COMPATIBLE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SET_MEMTI_FUNCARG"></a><span class="summary-name">SET_MEMTI_FUNCARG</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SET_MEMTI_MAY_DESTROY"></a><span class="summary-name">SET_MEMTI_MAY_DESTROY</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SET_MEMTI_USERTI"></a><span class="summary-name">SET_MEMTI_USERTI</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_ALIGN"></a><span class="summary-name">SF_ALIGN</span> = <code title="3968">3968</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_FRAME"></a><span class="summary-name">SF_FRAME</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_GHOST"></a><span class="summary-name">SF_GHOST</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_HASUNI"></a><span class="summary-name">SF_HASUNI</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_HIDDEN"></a><span class="summary-name">SF_HIDDEN</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_NOLIST"></a><span class="summary-name">SF_NOLIST</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_TYPLIB"></a><span class="summary-name">SF_TYPLIB</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_UNION"></a><span class="summary-name">SF_UNION</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SF_VAR"></a><span class="summary-name">SF_VAR</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_ARRAY"></a><span class="summary-name">SMT_ARRAY</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_BADARG"></a><span class="summary-name">SMT_BADARG</span> = <code title="-6">-6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_FAILED"></a><span class="summary-name">SMT_FAILED</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_KEEP"></a><span class="summary-name">SMT_KEEP</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_NOCOMPAT"></a><span class="summary-name">SMT_NOCOMPAT</span> = <code title="-5">-5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_OK"></a><span class="summary-name">SMT_OK</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_OVERLAP"></a><span class="summary-name">SMT_OVERLAP</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_SIZE"></a><span class="summary-name">SMT_SIZE</span> = <code title="-3">-3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SMT_WORSE"></a><span class="summary-name">SMT_WORSE</span> = <code title="-4">-4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRNFL_REGEX"></a><span class="summary-name">STRNFL_REGEX</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_NAME"></a><span class="summary-name">STRUC_ERROR_MEMBER_NAME</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_NESTED"></a><span class="summary-name">STRUC_ERROR_MEMBER_NESTED</span> = <code title="-8">-8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_OFFSET"></a><span class="summary-name">STRUC_ERROR_MEMBER_OFFSET</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_OK"></a><span class="summary-name">STRUC_ERROR_MEMBER_OK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_SIZE"></a><span class="summary-name">STRUC_ERROR_MEMBER_SIZE</span> = <code title="-3">-3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_STRUCT"></a><span class="summary-name">STRUC_ERROR_MEMBER_STRUCT</span> = <code title="-5">-5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_TINFO"></a><span class="summary-name">STRUC_ERROR_MEMBER_TINFO</span> = <code title="-4">-4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_UNIVAR"></a><span class="summary-name">STRUC_ERROR_MEMBER_UNIVAR</span> = <code title="-6">-6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_ERROR_MEMBER_VARLAST"></a><span class="summary-name">STRUC_ERROR_MEMBER_VARLAST</span> = <code title="-7">-7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STRUC_SEPARATOR"></a><span class="summary-name">STRUC_SEPARATOR</span> = <code title="'.'"><code class="variable-quote">'</code><code class="variable-string">.</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="add_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_struc</span>(<span class="sig-arg">idx</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">is_union</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create a structure type. if idx== 'BADADDR' then add as the last idx. 
+  if name==NULL then a name will be generated &quot;struct_%d&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+        <li><strong class="pname"><code>is_union</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: tid_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_struc_member"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_struc_member</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">fieldname</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">flag</span>,
+        <span class="sig-arg">mt</span>,
+        <span class="sig-arg">nbytes</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add member to existing structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong> - structure to modify (C++: struc_t  *)</li>
+        <li><strong class="pname"><code>fieldname</code></strong> - if NULL, then &quot;anonymous_#&quot; name will be generated 
+          (C++: const char *)</li>
+        <li><strong class="pname"><code>offset</code></strong> - BADADDR  means add to the end of structure (C++: ea_t)</li>
+        <li><strong class="pname"><code>flag</code></strong> - type + representation bits (C++: flags_t)</li>
+        <li><strong class="pname"><code>mt</code></strong> - additional info about member type. must be present for structs, 
+          offsets, enums, strings, struct offsets. (C++: const  opinfo_t  
+          *)</li>
+        <li><strong class="pname"><code>nbytes</code></strong> - if == 0 then the structure will be a varstruct. in this case the 
+          member should be the last member in the structure (C++: asize_t)</li>
+    </ul></dd>
+    <dt>Returns: struc_error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_member_tinfo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_member_tinfo</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete tinfo for given member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_struc</span>(<span class="sig-arg">sptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete a structure type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_struc_member"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_struc_member</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete member at given offset.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_struc_members"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_struc_members</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">off1</span>,
+        <span class="sig-arg">off2</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete members which occupy range of offsets (off1..off2).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>off1</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>off2</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>number of deleted members or -1 on error</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="expand_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">expand_struc</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">delta</span>,
+        <span class="sig-arg">recalc</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Expand/Shrink structure type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>delta</code></strong>, <strong class="pname"><code>(C++</code></strong> - adiff_t)</li>
+        <li><strong class="pname"><code>recalc</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_best_fit_member"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_best_fit_member</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get member that is most likely referenced by the specified offset. 
+  Useful for offsets &gt; sizeof(struct).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: member_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_first_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_first_struc_idx</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get index of first structure.</p>
+  <dl class="fields">
+    <dt>Returns: uval_t</dt>
+        <dd>BADADDR  if no known structures, 0 otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_last_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_last_struc_idx</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get index of last structure.</p>
+  <dl class="fields">
+    <dt>Returns: uval_t</dt>
+        <dd>BADADDR  if no known structures,  get_struc_qty() -1 otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_max_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_max_offset</span>(<span class="sig-arg">sptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>For unions: returns number of members, for structs: returns size of 
+  structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get member at given offset.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: member_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_by_fullname"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_by_fullname</span>(<span class="sig-arg">fullname</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a member by its fully qualified name, 
+  &quot;struct.field&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>fullname</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: member_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_by_id"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_by_id</span>(<span class="sig-arg">mid</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Check if the specified member id points to a struct member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mid</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: member_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_by_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_by_name</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">membername</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a member by its name, like &quot;field44&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>membername</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: member_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_cmt</span>(<span class="sig-arg">mid</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get comment of structure member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mid</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+        <li><strong class="pname"><code>repeatable</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_fullname"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_fullname</span>(<span class="sig-arg">mid</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a member's fully qualified name, &quot;struct.field&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mid</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_id"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_id</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get member id at given offset.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: tid_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_name</span>(<span class="sig-arg">mid</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get name of structure member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mid</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_size</span>(<span class="sig-arg">nonnul_mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get size of structure member. May return 0 for the last member of 
+  varstruct. For union members, returns 'member_t::eoff' .</p>
+  <dl class="fields">
+    <dt>Returns: asize_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_struc</span>(<span class="sig-arg">fullname</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get containing structure of member by its full name 
+  &quot;struct.field&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>fullname</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: struc_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_member_tinfo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_member_tinfo</span>(<span class="sig-arg">tif</span>,
+        <span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get tinfo for given member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>tif</code></strong>, <strong class="pname"><code>(C++</code></strong> - tinfo_t  *)</li>
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_next_member_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_next_member_idx</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">off</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get the next member idx, if it does not exist, return -1.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>off</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: ssize_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_next_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_next_struc_idx</span>(<span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get next struct index.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+    </ul></dd>
+    <dt>Returns: uval_t</dt>
+        <dd>BADADDR  if resulting index is out of bounds, otherwise idx++</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_or_guess_member_tinfo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_or_guess_member_tinfo</span>(<span class="sig-arg">tif</span>,
+        <span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Try to get tinfo for given member - if failed, generate a tinfo using 
+  information about the member id from the disassembly</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>tif</code></strong>, <strong class="pname"><code>(C++</code></strong> - tinfo_t  *)</li>
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_prev_member_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_prev_member_idx</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">off</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get the prev member idx, if it does not exist, return -1.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>off</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: ssize_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_prev_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_prev_struc_idx</span>(<span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get previous struct index.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+    </ul></dd>
+    <dt>Returns: uval_t</dt>
+        <dd>BADADDR  if resulting index is negative, otherwise idx - 1</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_sptr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_sptr</span>(<span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get child struct if member is a struct.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: struc_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc</span>(<span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to struct type info.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: struc_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_by_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_by_idx</span>(<span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get struct id by struct number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+    </ul></dd>
+    <dt>Returns: tid_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_cmt</span>(<span class="sig-arg">id</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get struct comment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+        <li><strong class="pname"><code>repeatable</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_first_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_first_offset</span>(<span class="sig-arg">sptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset of first member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>BADADDR  if memqty == 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_id"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_id</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get struct id by name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: tid_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_idx</span>(<span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get internal number of the structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: uval_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_last_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_last_offset</span>(<span class="sig-arg">sptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset of last member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>BADADDR  if memqty == 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_name</span>(<span class="sig-arg">id</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get struct name by id</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong> - struct id (C++: tid_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Struct name flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_next_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_next_offset</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset of member with smallest offset larger than 'offset'.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>BADADDR  if no next offset</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_prev_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_prev_offset</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset of member with largest offset less than 'offset'.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>BADADDR  if no prev offset</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_struc_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_struc_size</span>(<span class="sig-arg">sptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>get_struc_size(id) -&gt; asize_t</p>
+  <p>Get struct size (also see 'get_struc_size(tid_t)' )</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+    </ul></dd>
+    <dt>Returns: asize_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_anonymous_member_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_anonymous_member_name</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is member name prefixed with &quot;anonymous&quot;?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_dummy_member_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_dummy_member_name</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is member name an auto-generated name?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_member_id"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_member_id</span>(<span class="sig-arg">mid</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a member id?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mid</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_special_member"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_special_member</span>(<span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a special member with the name beginning with ' '?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_union"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_union</span>(<span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a union?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_varmember"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_varmember</span>(<span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is variable size member?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_varstr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_varstr</span>(<span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is variable size structure?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="retrieve_member_info"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">retrieve_member_info</span>(<span class="sig-arg">buf</span>,
+        <span class="sig-arg">mptr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get operand type info for member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>buf</code></strong>, <strong class="pname"><code>(C++</code></strong> - opinfo_t  *)</li>
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  member_t  *)</li>
+    </ul></dd>
+    <dt>Returns: opinfo_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="save_struc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">save_struc</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">may_update_ltypes</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Update struct information in the database (internal function)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>may_update_ltypes</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_member_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_member_cmt</span>(<span class="sig-arg">mptr</span>,
+        <span class="sig-arg">cmt</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set member comment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - member_t  *)</li>
+        <li><strong class="pname"><code>cmt</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+        <li><strong class="pname"><code>repeatable</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_member_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_member_name</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set name of member at given offset.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_member_tinfo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_member_tinfo</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">mptr</span>,
+        <span class="sig-arg">memoff</span>,
+        <span class="sig-arg">tif</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set tinfo for given member.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong> - containing struct (C++: struc_t  *)</li>
+        <li><strong class="pname"><code>mptr</code></strong> - target member (C++: member_t  *)</li>
+        <li><strong class="pname"><code>memoff</code></strong> - offset within member (C++: uval_t)</li>
+        <li><strong class="pname"><code>tif</code></strong> - type info (C++: const  tinfo_t  &amp;)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Set member tinfo flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: smt_code_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_member_type"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_member_type</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">flag</span>,
+        <span class="sig-arg">mt</span>,
+        <span class="sig-arg">nbytes</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set type of member at given offset (also see 'add_struc_member()' 
+  )</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>flag</code></strong>, <strong class="pname"><code>(C++</code></strong> - flags_t)</li>
+        <li><strong class="pname"><code>mt</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  opinfo_t  *)</li>
+        <li><strong class="pname"><code>nbytes</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_align"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_align</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">shift</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set structure alignment ( 'SF_ALIGN' )</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>shift</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_cmt</span>(<span class="sig-arg">id</span>,
+        <span class="sig-arg">cmt</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set structure comment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+        <li><strong class="pname"><code>cmt</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+        <li><strong class="pname"><code>repeatable</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_hidden"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_hidden</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">is_hidden</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Hide/unhide a struct type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>is_hidden</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_idx</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set internal number of struct. Also see 'get_struc_idx()' , 
+  'get_struc_by_idx()' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_listed"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_listed</span>(<span class="sig-arg">sptr</span>,
+        <span class="sig-arg">is_listed</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add/remove a struct type from the struct list.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - struc_t  *)</li>
+        <li><strong class="pname"><code>is_listed</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_struc_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_struc_name</span>(<span class="sig-arg">id</span>,
+        <span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set structure name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>id</code></strong>, <strong class="pname"><code>(C++</code></strong> - tid_t)</li>
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="stroff_as_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">stroff_as_size</span>(<span class="sig-arg">plen</span>,
+        <span class="sig-arg">sptr</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Should display a structure offset expression as the structure 
+  size?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>plen</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>sptr</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  struc_t  *)</li>
+        <li><strong class="pname"><code>value</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="visit_stroff_fields"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">visit_stroff_fields</span>(<span class="sig-arg">sfv</span>,
+        <span class="sig-arg">path</span>,
+        <span class="sig-arg">disp</span>,
+        <span class="sig-arg">appzero</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Visit structure fields in a stroff expression or in a reference to a 
+  struct data variable. This function can be used to enumerate all 
+  components of an expression like 'a.b.c'.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sfv</code></strong> - visitor object (C++: struct_field_visitor_t  &amp;)</li>
+        <li><strong class="pname"><code>path</code></strong> - struct path (path[0] contains the initial struct id) (C++: const
+          tid_t  *)</li>
+        <li><strong class="pname"><code>disp</code></strong> - offset into structure (C++: adiff_t *)</li>
+        <li><strong class="pname"><code>appzero</code></strong> - should visit field at offset zero? (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: flags_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

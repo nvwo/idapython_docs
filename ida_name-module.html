@@ -1,0 +1,2625 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_name</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_name
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_name-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_name</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: name</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_name.NearestName-class.html" class="summary-name">NearestName</a><br />
+      Utility class to help find the nearest name in a given ea/name 
+        dictionary
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_name.ea_name_t-class.html" class="summary-name">ea_name_t</a><br />
+      Proxy of C++ ea_name_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_name.ea_name_vec_t-class.html" class="summary-name">ea_name_vec_t</a><br />
+      Proxy of C++ qvector&lt; ea_name_t &gt; class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#append_struct_fields" class="summary-sig-name">append_struct_fields</a>(<span class="summary-sig-arg">disp</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">path</span>,
+        <span class="summary-sig-arg">flags</span>,
+        <span class="summary-sig-arg">delta</span>,
+        <span class="summary-sig-arg">appzero</span>)</span><br />
+      Append names of struct fields to a name if the name is a struct name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#calc_gtn_flags" class="summary-sig-name">calc_gtn_flags</a>(<span class="summary-sig-arg">fromaddr</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Calculate flags for get_ea_name() function</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="cleanup_name"></a><span class="summary-sig-name">cleanup_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="del_debug_names"></a><span class="summary-sig-name">del_debug_names</span>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="del_global_name"></a><span class="summary-sig-name">del_global_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="del_local_name"></a><span class="summary-sig-name">del_local_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#demangle_name" class="summary-sig-name">demangle_name</a>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">disable_mask</span>,
+        <span class="summary-sig-arg">demreq</span>=<span class="summary-sig-default">DQT_FULL</span>)</span><br />
+      Demangle a name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#extract_name" class="summary-sig-name">extract_name</a>(<span class="summary-sig-arg">line</span>,
+        <span class="summary-sig-arg">x</span>)</span><br />
+      Extract a name or address from the specified string.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="force_name"></a><span class="summary-sig-name">force_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_colored_demangled_name"></a><span class="summary-sig-name">get_colored_demangled_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">inhibitor</span>,
+        <span class="summary-sig-arg">demform</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_colored_long_name"></a><span class="summary-sig-name">get_colored_long_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_colored_name"></a><span class="summary-sig-name">get_colored_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_colored_short_name"></a><span class="summary-sig-name">get_colored_short_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_cp_validity" class="summary-sig-name">get_cp_validity</a>(<span class="summary-sig-arg">kind</span>,
+        <span class="summary-sig-arg">cp</span>,
+        <span class="summary-sig-arg">endcp</span>=<span class="summary-sig-default">wchar32_t(-1)</span>)</span><br />
+      Is the given codepoint (or range) acceptable in the given context? If
+      'endcp' is not BADCP, it is considered to be the end of the range: 
+      [cp, endcp), and is not included in the range</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_debug_name"></a><span class="summary-sig-name">get_debug_name</span>(<span class="summary-sig-arg">ea_ptr</span>,
+        <span class="summary-sig-arg">how</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_debug_name_ea"></a><span class="summary-sig-name">get_debug_name_ea</span>(<span class="summary-sig-arg">name</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_debug_names"></a><span class="summary-sig-name">get_debug_names</span>(<span class="summary-sig-arg">names</span>,
+        <span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>)</span><br />
+      get_debug_names(ea1, ea2, return_list=False) -&gt; PyObject *</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_demangled_name"></a><span class="summary-sig-name">get_demangled_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">inhibitor</span>,
+        <span class="summary-sig-arg">demform</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_ea_name" class="summary-sig-name">get_ea_name</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get name at the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_long_name"></a><span class="summary-sig-name">get_long_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_name"></a><span class="summary-sig-name">get_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_name_base_ea" class="summary-sig-name">get_name_base_ea</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">to</span>)</span><br />
+      Get address of the name used in the expression for the address</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">color_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_name_color" class="summary-sig-name">get_name_color</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Calculate flags for 'get_ea_name()' function.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_name_ea" class="summary-sig-name">get_name_ea</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Get address of the name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_name_expr" class="summary-sig-name">get_name_expr</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">off</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0x0001</span>)</span><br />
+      Convert address to name expression (name with a displacement).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_name_value" class="summary-sig-name">get_name_value</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Get value of the name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_nice_colored_name" class="summary-sig-name">get_nice_colored_name</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get a nice colored name at the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_nlist_ea" class="summary-sig-name">get_nlist_ea</a>(<span class="summary-sig-arg">idx</span>)</span><br />
+      Get address from the list at 'idx'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_nlist_idx" class="summary-sig-name">get_nlist_idx</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get index of the name in the listreturns the closest match.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#get_nlist_name" class="summary-sig-name">get_nlist_name</a>(<span class="summary-sig-arg">idx</span>)</span><br />
+      Get name using idx.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_nlist_size"></a><span class="summary-sig-name">get_nlist_size</span>()</span><br />
+      Get number of names in the list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_short_name"></a><span class="summary-sig-name">get_short_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">qstring</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_visible_name"></a><span class="summary-sig-name">get_visible_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">gtn_flags</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#hide_name" class="summary-sig-name">hide_name</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Remove name from the list of names</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_ident" class="summary-sig-name">is_ident</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Is a valid name? (including ::MangleChars)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_ident_cp" class="summary-sig-name">is_ident_cp</a>(<span class="summary-sig-arg">cp</span>)</span><br />
+      Can a character appear in a name? (present in ::NameChars or 
+      ::MangleChars)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_in_nlist" class="summary-sig-name">is_in_nlist</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Is name included into names list?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_name_defined_locally" class="summary-sig-name">is_name_defined_locally</a>(<span class="summary-sig-arg">pfn</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">ignore_name_def</span>,
+        <span class="summary-sig-arg">ea1</span>=<span class="summary-sig-default">BADADDR</span>,
+        <span class="summary-sig-arg">ea2</span>=<span class="summary-sig-default">BADADDR</span>)</span><br />
+      Is the name defined locally in the specified function?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="is_public_name"></a><span class="summary-sig-name">is_public_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_strlit_cp" class="summary-sig-name">is_strlit_cp</a>(<span class="summary-sig-arg">cp</span>,
+        <span class="summary-sig-arg">specific_ranges</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Can a character appear in a string literal (present in ::StrlitChars)
+      If 'specific_ranges' are specified, those will be used instead of the
+      ones corresponding to the current culture (only if ::StrlitChars is 
+      configured to use the current culture)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_uname" class="summary-sig-name">is_uname</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Is valid user-specified name? (valid name &amp; !dummy prefix).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_valid_cp" class="summary-sig-name">is_valid_cp</a>(<span class="summary-sig-arg">cp</span>,
+        <span class="summary-sig-arg">kind</span>,
+        <span class="summary-sig-arg">data</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Is the given codepoint acceptable in the given context?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_valid_typename" class="summary-sig-name">is_valid_typename</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Is valid type name?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#is_visible_cp" class="summary-sig-name">is_visible_cp</a>(<span class="summary-sig-arg">cp</span>)</span><br />
+      Can a character be displayed in a name? (present in ::NameChars)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="is_weak_name"></a><span class="summary-sig-name">is_weak_name</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_auto"></a><span class="summary-sig-name">make_name_auto</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_non_public"></a><span class="summary-sig-name">make_name_non_public</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_non_weak"></a><span class="summary-sig-name">make_name_non_weak</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_public"></a><span class="summary-sig-name">make_name_public</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_user"></a><span class="summary-sig-name">make_name_user</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="make_name_weak"></a><span class="summary-sig-name">make_name_weak</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="rebuild_nlist"></a><span class="summary-sig-name">rebuild_nlist</span>()</span><br />
+      Rebuild names list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="reorder_dummy_names"></a><span class="summary-sig-name">reorder_dummy_names</span>()</span><br />
+      Renumber dummy names.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#set_cp_validity" class="summary-sig-name">set_cp_validity</a>(<span class="summary-sig-arg">kind</span>,
+        <span class="summary-sig-arg">cp</span>,
+        <span class="summary-sig-arg">endcp</span>=<span class="summary-sig-default">wchar32_t(-1)</span>,
+        <span class="summary-sig-arg">valid</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Mark the given codepoint (or range) as acceptable or unacceptable in 
+      the given context If 'endcp' is not BADCP, it is considered to be the
+      end of the range: [cp, endcp), and is not included in the range</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_debug_name"></a><span class="summary-sig-name">set_debug_name</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">name</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#set_dummy_name" class="summary-sig-name">set_dummy_name</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Give an autogenerated (dummy) name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#set_name" class="summary-sig-name">set_name</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Set or delete name of an item at the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#show_name" class="summary-sig-name">show_name</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Insert name to the list of names.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_name-module.html#validate_name" class="summary-sig-name">validate_name</a>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Validate a name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CN_KEEP_TRAILING__DIGITS"></a><span class="summary-name">CN_KEEP_TRAILING__DIGITS</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DEBNAME_EXACT"></a><span class="summary-name">DEBNAME_EXACT</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DEBNAME_LOWER"></a><span class="summary-name">DEBNAME_LOWER</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DEBNAME_NICE"></a><span class="summary-name">DEBNAME_NICE</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DEBNAME_UPPER"></a><span class="summary-name">DEBNAME_UPPER</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_COMPILER"></a><span class="summary-name">DQT_COMPILER</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_FULL"></a><span class="summary-name">DQT_FULL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_NAME_TYPE"></a><span class="summary-name">DQT_NAME_TYPE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_NPURGED_2"></a><span class="summary-name">DQT_NPURGED_2</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_NPURGED_4"></a><span class="summary-name">DQT_NPURGED_4</span> = <code title="-4">-4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DQT_NPURGED_8"></a><span class="summary-name">DQT_NPURGED_8</span> = <code title="-8">-8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FUNC_IMPORT_PREFIX"></a><span class="summary-name">FUNC_IMPORT_PREFIX</span> = <code title="'__imp_'"><code class="variable-quote">'</code><code class="variable-string">__imp_</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GETN_APPZERO"></a><span class="summary-name">GETN_APPZERO</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GETN_NODUMMY"></a><span class="summary-name">GETN_NODUMMY</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GETN_NOFIXUP"></a><span class="summary-name">GETN_NOFIXUP</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_NOCOLOR"></a><span class="summary-name">GNCN_NOCOLOR</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_NODBGNM"></a><span class="summary-name">GNCN_NODBGNM</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_NOFUNC"></a><span class="summary-name">GNCN_NOFUNC</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_NOLABEL"></a><span class="summary-name">GNCN_NOLABEL</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_NOSEG"></a><span class="summary-name">GNCN_NOSEG</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_PREFDBG"></a><span class="summary-name">GNCN_PREFDBG</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_REQFUNC"></a><span class="summary-name">GNCN_REQFUNC</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_REQNAME"></a><span class="summary-name">GNCN_REQNAME</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_SEGNUM"></a><span class="summary-name">GNCN_SEGNUM</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GNCN_SEG_FUNC"></a><span class="summary-name">GNCN_SEG_FUNC</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_COLORED"></a><span class="summary-name">GN_COLORED</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_DEMANGLED"></a><span class="summary-name">GN_DEMANGLED</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_ISRET"></a><span class="summary-name">GN_ISRET</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_LOCAL"></a><span class="summary-name">GN_LOCAL</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_LONG"></a><span class="summary-name">GN_LONG</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_NOT_DUMMY"></a><span class="summary-name">GN_NOT_DUMMY</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_NOT_ISRET"></a><span class="summary-name">GN_NOT_ISRET</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_SHORT"></a><span class="summary-name">GN_SHORT</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_STRICT"></a><span class="summary-name">GN_STRICT</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GN_VISIBLE"></a><span class="summary-name">GN_VISIBLE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAXNAMELEN"></a><span class="summary-name">MAXNAMELEN</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_ABS"></a><span class="summary-name">NT_ABS</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_BMASK"></a><span class="summary-name">NT_BMASK</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_BYTE"></a><span class="summary-name">NT_BYTE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_ENUM"></a><span class="summary-name">NT_ENUM</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_LOCAL"></a><span class="summary-name">NT_LOCAL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_NONE"></a><span class="summary-name">NT_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_REGVAR"></a><span class="summary-name">NT_REGVAR</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_SEG"></a><span class="summary-name">NT_SEG</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_STKVAR"></a><span class="summary-name">NT_STKVAR</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="NT_STROFF"></a><span class="summary-name">NT_STROFF</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_AUTO"></a><span class="summary-name">SN_AUTO</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_CHECK"></a><span class="summary-name">SN_CHECK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_DELTAIL"></a><span class="summary-name">SN_DELTAIL</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_FORCE"></a><span class="summary-name">SN_FORCE</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_IDBENC"></a><span class="summary-name">SN_IDBENC</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_LOCAL"></a><span class="summary-name">SN_LOCAL</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NOCHECK"></a><span class="summary-name">SN_NOCHECK</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NODUMMY"></a><span class="summary-name">SN_NODUMMY</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NOLIST"></a><span class="summary-name">SN_NOLIST</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NON_AUTO"></a><span class="summary-name">SN_NON_AUTO</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NON_PUBLIC"></a><span class="summary-name">SN_NON_PUBLIC</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NON_WEAK"></a><span class="summary-name">SN_NON_WEAK</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_NOWARN"></a><span class="summary-name">SN_NOWARN</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_PUBLIC"></a><span class="summary-name">SN_PUBLIC</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SN_WEAK"></a><span class="summary-name">SN_WEAK</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="URK_MangleChars"></a><span class="summary-name">URK_MangleChars</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="URK_NameChars"></a><span class="summary-name">URK_NameChars</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="URK_StrlitChars"></a><span class="summary-name">URK_StrlitChars</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="URK_TypeNameChars"></a><span class="summary-name">URK_TypeNameChars</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VNT_IDENT"></a><span class="summary-name">VNT_IDENT</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VNT_STRLIT"></a><span class="summary-name">VNT_STRLIT</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VNT_TYPE"></a><span class="summary-name">VNT_TYPE</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VNT_UDTMEM"></a><span class="summary-name">VNT_UDTMEM</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VNT_VISIBLE"></a><span class="summary-name">VNT_VISIBLE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cvar"></a><span class="summary-name">cvar</span> = <code title="??"><code class="variable-unknown">??</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ignore_glabel"></a><span class="summary-name">ignore_glabel</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ignore_llabel"></a><span class="summary-name">ignore_llabel</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ignore_none"></a><span class="summary-name">ignore_none</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ignore_regvar"></a><span class="summary-name">ignore_regvar</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ignore_stkvar"></a><span class="summary-name">ignore_stkvar</span> = <code title="3">3</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="append_struct_fields"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">append_struct_fields</span>(<span class="sig-arg">disp</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">path</span>,
+        <span class="sig-arg">flags</span>,
+        <span class="sig-arg">delta</span>,
+        <span class="sig-arg">appzero</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Append names of struct fields to a name if the name is a struct 
+  name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>disp</code></strong> - displacement from the name (C++: adiff_t *)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand n which the name appears (C++: int)</li>
+        <li><strong class="pname"><code>path</code></strong> - path in the struct. path is an array of id's. maximal length of 
+          array is  MAXSTRUCPATH . the first element of the array is the 
+          structure id. consecutive elements are id's of used union members
+          (if any). (C++: const  tid_t *)</li>
+        <li><strong class="pname"><code>flags</code></strong> - the input flags. they will be returned if the struct cannot be 
+          found. (C++: flags_t)</li>
+        <li><strong class="pname"><code>delta</code></strong> - delta to add to displacement (C++: adiff_t)</li>
+        <li><strong class="pname"><code>appzero</code></strong> - should append a struct field name if the displacement is zero? 
+          (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>flags of the innermost struct member or the input flags</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_gtn_flags"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_gtn_flags</span>(<span class="sig-arg">fromaddr</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Calculate flags for get_ea_name() function</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>fromaddr</code></strong> - the referring address. May be BADADDR.</li>
+        <li><strong class="pname"><code>ea</code></strong> - linear address</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>flags</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="demangle_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">demangle_name</span>(<span class="sig-arg">name</span>,
+        <span class="sig-arg">disable_mask</span>,
+        <span class="sig-arg">demreq</span>=<span class="sig-default">DQT_FULL</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Demangle a name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name to demangle (C++: const char *)</li>
+        <li><strong class="pname"><code>disable_mask</code></strong> - bits to inhibit parts of demangled name (see MNG_). by the 
+          M_COMPILER bits a specific compiler can be selected (see MT_). 
+          (C++: uint32)</li>
+        <li><strong class="pname"><code>demreq</code></strong>, <strong class="pname"><code>(C++</code></strong> - demreq_type_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>ME_... or MT__ bitmasks from  demangle.hpp</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="extract_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">extract_name</span>(<span class="sig-arg">line</span>,
+        <span class="sig-arg">x</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Extract a name or address from the specified string.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>line</code></strong> - input string (C++: const char *)</li>
+        <li><strong class="pname"><code>x</code></strong> - x coordinate of cursor (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>-1 if cannot extract. otherwise length of the name</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_cp_validity"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_cp_validity</span>(<span class="sig-arg">kind</span>,
+        <span class="sig-arg">cp</span>,
+        <span class="sig-arg">endcp</span>=<span class="sig-default">wchar32_t(-1)</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the given codepoint (or range) acceptable in the given context? If 
+  'endcp' is not BADCP, it is considered to be the end of the range: [cp, 
+  endcp), and is not included in the range</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>kind</code></strong>, <strong class="pname"><code>(C++</code></strong> - ucdr_kind_t)</li>
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+        <li><strong class="pname"><code>endcp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_ea_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_ea_name</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">gtn_flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get name at the specified address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+        <li><strong class="pname"><code>gtn_flags</code></strong> - how exactly the name should be retrieved. combination of  bits 
+          for get_ea_name() function. There is a convenience  bits (C++: 
+          int)</li>
+    </ul></dd>
+    <dt>Returns: qstring</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_name_base_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_name_base_ea</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">to</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get address of the name used in the expression for the address</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - address of the operand which references to the address (C++: 
+          ea_t)</li>
+        <li><strong class="pname"><code>to</code></strong> - the referenced address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>address of the name used to represent the operand</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_name_color"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_name_color</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Calculate flags for 'get_ea_name()' function.</p>
+  <p>Get name color.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - linear address where the name is used. if not applicable, then 
+          should be  BADADDR . The kernel returns a local name color if the
+          reference is within a function, i.e. 'from' and 'ea' belong to 
+          the same function. (C++: ea_t)</li>
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: color_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_name_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_name_ea</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get address of the name. Dummy names (like byte_xxxx where xxxx are 
+  hex digits) are parsed by this function to obtain the address. The 
+  database is not consulted for them. This function works only with regular
+  names.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - linear address where the name is used. if not applicable, then 
+          should be  BADADDR . (C++: ea_t)</li>
+        <li><strong class="pname"><code>name</code></strong> - any name in the program or NULL (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>address of the name or  BADADDR</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_name_expr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_name_expr</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">ea</span>,
+        <span class="sig-arg">off</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0x0001</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert address to name expression (name with a displacement). This 
+  function takes into account fixup information and returns a colored name 
+  expression (in the form &lt;name&gt; +/- &lt;offset&gt;). It also knows 
+  about structure members and arrays. If the specified address doesn't have
+  a name, a dummy name is generated.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - linear address of instruction operand or data referring to the 
+          name. This address will be used to get fixup information, so it 
+          should point to exact position of the operand in the instruction.
+          (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of referencing operand. for data items specify 0 (C++: 
+          int)</li>
+        <li><strong class="pname"><code>ea</code></strong> - address to convert to name expression (C++: ea_t)</li>
+        <li><strong class="pname"><code>off</code></strong> - the value of name expression. this parameter is used only to 
+          check that the name expression will have the wanted value. 'off' 
+          may be equal to BADADDR but this is discouraged because it 
+          prohibits checks. (C++: uval_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Name expression flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>&lt; 0 if address is not valid, no segment or other failure. 
+          otherwise the length of the name expression in characters.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_name_value"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_name_value</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get value of the name. This function knows about: regular names, 
+  enums, special segments, etc.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - linear address where the name is used if not applicable, then 
+          should be BADADDR (C++: ea_t)</li>
+        <li><strong class="pname"><code>name</code></strong> - any name in the program or NULL (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>Name value result codes</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_nice_colored_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_nice_colored_name</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a nice colored name at the specified address. Ex:segment:sub+offse
+  tsegment:sub:local_labelsegment:labelsegment:addresssegment:address+of 
+  fset</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>flags</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>the length of the generated name in bytes.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_nlist_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_nlist_ea</span>(<span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get address from the list at 'idx'.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - size_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_nlist_idx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_nlist_idx</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get index of the name in the listreturns the closest match. may return
+  idx &gt;= size.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: size_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_nlist_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_nlist_name</span>(<span class="sig-arg">idx</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get name using idx.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>idx</code></strong>, <strong class="pname"><code>(C++</code></strong> - size_t)</li>
+    </ul></dd>
+    <dt>Returns: char const *</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="hide_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">hide_name</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Remove name from the list of names</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address of the name (C++: ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_ident"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_ident</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a valid name? (including ::MangleChars)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_ident_cp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_ident_cp</span>(<span class="sig-arg">cp</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Can a character appear in a name? (present in ::NameChars or 
+  ::MangleChars)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_in_nlist"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_in_nlist</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is name included into names list?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_name_defined_locally"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_name_defined_locally</span>(<span class="sig-arg">pfn</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">ignore_name_def</span>,
+        <span class="sig-arg">ea1</span>=<span class="sig-default">BADADDR</span>,
+        <span class="sig-arg">ea2</span>=<span class="sig-default">BADADDR</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the name defined locally in the specified function?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>pfn</code></strong> - pointer to function (C++: func_t  *)</li>
+        <li><strong class="pname"><code>name</code></strong> - name to check (C++: const char *)</li>
+        <li><strong class="pname"><code>ignore_name_def</code></strong> - which names to ignore when checking (C++: ignore_name_def_t)</li>
+        <li><strong class="pname"><code>ea1</code></strong> - the starting address of the range inside the function (optional) 
+          (C++: ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong> - the ending address of the range inside the function (optional) 
+          (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>true if the name has been defined</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_strlit_cp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_strlit_cp</span>(<span class="sig-arg">cp</span>,
+        <span class="sig-arg">specific_ranges</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Can a character appear in a string literal (present in ::StrlitChars) 
+  If 'specific_ranges' are specified, those will be used instead of the 
+  ones corresponding to the current culture (only if ::StrlitChars is 
+  configured to use the current culture)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+        <li><strong class="pname"><code>specific_ranges</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  rangeset_crefvec_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_uname"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_uname</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is valid user-specified name? (valid name &amp; !dummy prefix).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name to test. may be NULL. (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_valid_cp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_valid_cp</span>(<span class="sig-arg">cp</span>,
+        <span class="sig-arg">kind</span>,
+        <span class="sig-arg">data</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the given codepoint acceptable in the given context?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+        <li><strong class="pname"><code>kind</code></strong>, <strong class="pname"><code>(C++</code></strong> - nametype_t)</li>
+        <li><strong class="pname"><code>data</code></strong>, <strong class="pname"><code>(C++</code></strong> - void *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_valid_typename"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_valid_typename</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is valid type name?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name to test. may be NULL. (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_visible_cp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_visible_cp</span>(<span class="sig-arg">cp</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Can a character be displayed in a name? (present in ::NameChars)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_cp_validity"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_cp_validity</span>(<span class="sig-arg">kind</span>,
+        <span class="sig-arg">cp</span>,
+        <span class="sig-arg">endcp</span>=<span class="sig-default">wchar32_t(-1)</span>,
+        <span class="sig-arg">valid</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Mark the given codepoint (or range) as acceptable or unacceptable in 
+  the given context If 'endcp' is not BADCP, it is considered to be the end
+  of the range: [cp, endcp), and is not included in the range</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>kind</code></strong>, <strong class="pname"><code>(C++</code></strong> - ucdr_kind_t)</li>
+        <li><strong class="pname"><code>cp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+        <li><strong class="pname"><code>endcp</code></strong>, <strong class="pname"><code>(C++</code></strong> - wchar32_t)</li>
+        <li><strong class="pname"><code>valid</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_dummy_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_dummy_name</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Give an autogenerated (dummy) name. Autogenerated names have special 
+  prefixes (loc_...).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong> - linear address of the operand which references to the address 
+          (C++: ea_t)</li>
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_name</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set or delete name of an item at the specified address. An item can be
+  anything: instruction, function, data byte, word, string, structure, 
+  etc... Include name into the list of names.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address. do nothing if ea is not valid (return 0). tail 
+          bytes can't have names. (C++: ea_t)</li>
+        <li><strong class="pname"><code>name</code></strong> - new name.   NULL: do nothing (return 0).   &quot;&quot; : delete 
+          name.   otherwise this is a new name. (C++: const char *)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Set name flags . If a bit is not specified, then the 
+          corresponding action is not performed and the name will retain 
+          the same bits as before calling this function. For new names, 
+          default is: non-public, non-weak, non- auto. (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="show_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">show_name</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Insert name to the list of names.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="validate_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">validate_name</span>(<span class="sig-arg">name</span>,
+        <span class="sig-arg">type</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Validate a name. This function replaces all invalid characters in the 
+  name with SUBSTCHAR. However, it will return false if name is valid but 
+  not allowed to be an identifier (is a register name).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - ptr to name. the name will be modified (C++: qstring  *)</li>
+        <li><strong class="pname"><code>type</code></strong> - the type of name we want to validate (C++: nametype_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - see SN_* . Only SN_IDBENC is currently considered (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

@@ -1,0 +1,3739 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_idp</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_idp
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_idp-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_idp</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: idp</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idp.IDB_Hooks-class.html" class="summary-name">IDB_Hooks</a><br />
+      Proxy of C++ IDB_Hooks class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idp.IDP_Hooks-class.html" class="summary-name">IDP_Hooks</a><br />
+      Proxy of C++ IDP_Hooks class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idp.asm_t-class.html" class="summary-name">asm_t</a><br />
+      Proxy of C++ asm_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idp.processor_t-class.html" class="summary-name">processor_t</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_idp.reg_info_t-class.html" class="summary-name">reg_info_t</a><br />
+      Proxy of C++ reg_info_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#AssembleLine" class="summary-sig-name">AssembleLine</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">cs</span>,
+        <span class="summary-sig-arg">ip</span>,
+        <span class="summary-sig-arg">use32</span>,
+        <span class="summary-sig-arg">nonnul_line</span>)</span><br />
+      Assemble an instruction to a string (display a warning if an error is
+      found)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#assemble" class="summary-sig-name">assemble</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">cs</span>,
+        <span class="summary-sig-arg">ip</span>,
+        <span class="summary-sig-arg">use32</span>,
+        <span class="summary-sig-arg">line</span>)</span><br />
+      Assemble an instruction into the database (display a warning if an 
+      error is found)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="cfg_get_cc_header_path"></a><span class="summary-sig-name">cfg_get_cc_header_path</span>(<span class="summary-sig-arg">compid</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="cfg_get_cc_parm"></a><span class="summary-sig-name">cfg_get_cc_parm</span>(<span class="summary-sig-arg">compid</span>,
+        <span class="summary-sig-arg">name</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="cfg_get_cc_predefined_macros"></a><span class="summary-sig-name">cfg_get_cc_predefined_macros</span>(<span class="summary-sig-arg">compid</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#delay_slot_insn" class="summary-sig-name">delay_slot_insn</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">bexec</span>,
+        <span class="summary-sig-arg">fexec</span>)</span><br />
+      Helper function to get the delay slot instruction.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#gen_idb_event" class="summary-sig-name">gen_idb_event</a>(<span class="summary-sig-arg">code</span>)</span><br />
+      the kernel will use this function to generate idb_events</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_idb_notifier_addr"></a><span class="summary-sig-name">get_idb_notifier_addr</span>(<span class="summary-sig-arg">arg1</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_idb_notifier_ud_addr"></a><span class="summary-sig-name">get_idb_notifier_ud_addr</span>(<span class="summary-sig-arg">hooks</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#get_idp_name" class="summary-sig-name">get_idp_name</a>()</span><br />
+      Get name of the current processor module.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_idp_notifier_addr"></a><span class="summary-sig-name">get_idp_notifier_addr</span>(<span class="summary-sig-arg">arg1</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_idp_notifier_ud_addr"></a><span class="summary-sig-name">get_idp_notifier_ud_addr</span>(<span class="summary-sig-arg">hooks</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#get_reg_info" class="summary-sig-name">get_reg_info</a>(<span class="summary-sig-arg">regname</span>,
+        <span class="summary-sig-arg">bitrange</span>)</span><br />
+      Get register information - useful for registers like al, ah, dil, 
+      etc.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#get_reg_name" class="summary-sig-name">get_reg_name</a>(<span class="summary-sig-arg">reg</span>,
+        <span class="summary-sig-arg">width</span>,
+        <span class="summary-sig-arg">reghi</span>=<span class="summary-sig-default">-1</span>)</span><br />
+      Get text representation of a register.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#has_cf_chg" class="summary-sig-name">has_cf_chg</a>(<span class="summary-sig-arg">feature</span>,
+        <span class="summary-sig-arg">opnum</span>)</span><br />
+      Does an instruction with the specified feature modify the i-th 
+      operand?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#has_cf_use" class="summary-sig-name">has_cf_use</a>(<span class="summary-sig-arg">feature</span>,
+        <span class="summary-sig-arg">opnum</span>)</span><br />
+      Does an instruction with the specified feature use a value of the 
+      i-th operand?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#has_insn_feature" class="summary-sig-name">has_insn_feature</a>(<span class="summary-sig-arg">icode</span>,
+        <span class="summary-sig-arg">bit</span>)</span><br />
+      Does the specified instruction have the specified feature?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#is_align_insn" class="summary-sig-name">is_align_insn</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      If the instruction at 'ea' looks like an alignment instruction, 
+      return its length in bytes.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#is_basic_block_end" class="summary-sig-name">is_basic_block_end</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">call_insn_stops_block</span>)</span><br />
+      Is the instruction the end of a basic block?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#is_call_insn" class="summary-sig-name">is_call_insn</a>(<span class="summary-sig-arg">insn</span>)</span><br />
+      Is the instruction a &quot;call&quot;?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#is_indirect_jump_insn" class="summary-sig-name">is_indirect_jump_insn</a>(<span class="summary-sig-arg">insn</span>)</span><br />
+      Is the instruction an indirect jump?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#is_ret_insn" class="summary-sig-name">is_ret_insn</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">strict</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Is the instruction a &quot;return&quot;?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#parse_reg_name" class="summary-sig-name">parse_reg_name</a>(<span class="summary-sig-arg">ri</span>,
+        <span class="summary-sig-arg">regname</span>)</span><br />
+      Get register info by name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_calcrel"></a><span class="summary-sig-name">ph_calcrel</span>(<span class="summary-sig-arg">ea</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_find_op_value"></a><span class="summary-sig-name">ph_find_op_value</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">op</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_find_reg_value"></a><span class="summary-sig-name">ph_find_reg_value</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">reg</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_cnbits"></a><span class="summary-sig-name">ph_get_cnbits</span>()</span><br />
+      Returns the 'ph.cnbits'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_dnbits"></a><span class="summary-sig-name">ph_get_dnbits</span>()</span><br />
+      Returns the 'ph.dnbits'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_flag"></a><span class="summary-sig-name">ph_get_flag</span>()</span><br />
+      Returns the 'ph.flag'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_icode_return"></a><span class="summary-sig-name">ph_get_icode_return</span>()</span><br />
+      Returns the 'ph.icode_return'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_id"></a><span class="summary-sig-name">ph_get_id</span>()</span><br />
+      Returns the 'ph.id' field</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_instruc"></a><span class="summary-sig-name">ph_get_instruc</span>()</span><br />
+      Returns a list of tuples (instruction_name, instruction_feature) 
+      containing the instructions list as defined in he processor module</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_instruc_end"></a><span class="summary-sig-name">ph_get_instruc_end</span>()</span><br />
+      Returns the 'ph.instruc_end'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_instruc_start"></a><span class="summary-sig-name">ph_get_instruc_start</span>()</span><br />
+      Returns the 'ph.instruc_start'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#ph_get_operand_info" class="summary-sig-name">ph_get_operand_info</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Returns the operand information given an ea and operand number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_reg_code_sreg"></a><span class="summary-sig-name">ph_get_reg_code_sreg</span>()</span><br />
+      Returns the 'ph.reg_code_sreg'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_reg_data_sreg"></a><span class="summary-sig-name">ph_get_reg_data_sreg</span>()</span><br />
+      Returns the 'ph.reg_data_sreg'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_reg_first_sreg"></a><span class="summary-sig-name">ph_get_reg_first_sreg</span>()</span><br />
+      Returns the 'ph.reg_first_sreg'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_reg_last_sreg"></a><span class="summary-sig-name">ph_get_reg_last_sreg</span>()</span><br />
+      Returns the 'ph.reg_last_sreg'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_regnames"></a><span class="summary-sig-name">ph_get_regnames</span>()</span><br />
+      Returns the list of register names as defined in the processor module</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_segreg_size"></a><span class="summary-sig-name">ph_get_segreg_size</span>()</span><br />
+      Returns the 'ph.segreg_size'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_tbyte_size"></a><span class="summary-sig-name">ph_get_tbyte_size</span>()</span><br />
+      Returns the 'ph.tbyte_size' field as defined in he processor module</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ph_get_version"></a><span class="summary-sig-name">ph_get_version</span>()</span><br />
+      Returns the 'ph.version'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#set_processor_type" class="summary-sig-name">set_processor_type</a>(<span class="summary-sig-arg">procname</span>,
+        <span class="summary-sig-arg">level</span>)</span><br />
+      Set target processor type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#set_target_assembler" class="summary-sig-name">set_target_assembler</a>(<span class="summary-sig-arg">asmnum</span>)</span><br />
+      Set target assembler.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="sizeof_ldbl"></a><span class="summary-sig-name">sizeof_ldbl</span>()</span><br />
+      Get size of long double.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_idp-module.html#str2reg" class="summary-sig-name">str2reg</a>(<span class="summary-sig-arg">p</span>)</span><br />
+      Get any reg number (-1 on error)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_BRACE"></a><span class="summary-name">AS2_BRACE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_BYTE1CHAR"></a><span class="summary-name">AS2_BYTE1CHAR</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_COLONSUF"></a><span class="summary-name">AS2_COLONSUF</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_IDEALDSCR"></a><span class="summary-name">AS2_IDEALDSCR</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_STRINV"></a><span class="summary-name">AS2_STRINV</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_TERSESTR"></a><span class="summary-name">AS2_TERSESTR</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS2_YWORD"></a><span class="summary-name">AS2_YWORD</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF0"></a><span class="summary-name">ASB_BINF0</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF1"></a><span class="summary-name">ASB_BINF1</span> = <code title="131072">131072</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF2"></a><span class="summary-name">ASB_BINF2</span> = <code title="262144">262144</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF3"></a><span class="summary-name">ASB_BINF3</span> = <code title="393216">393216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF4"></a><span class="summary-name">ASB_BINF4</span> = <code title="524288">524288</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASB_BINF5"></a><span class="summary-name">ASB_BINF5</span> = <code title="655360">655360</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASD_DECF0"></a><span class="summary-name">ASD_DECF0</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASD_DECF1"></a><span class="summary-name">ASD_DECF1</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASD_DECF2"></a><span class="summary-name">ASD_DECF2</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASD_DECF3"></a><span class="summary-name">ASD_DECF3</span> = <code title="12288">12288</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF0"></a><span class="summary-name">ASH_HEXF0</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF1"></a><span class="summary-name">ASH_HEXF1</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF2"></a><span class="summary-name">ASH_HEXF2</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF3"></a><span class="summary-name">ASH_HEXF3</span> = <code title="1536">1536</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF4"></a><span class="summary-name">ASH_HEXF4</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASH_HEXF5"></a><span class="summary-name">ASH_HEXF5</span> = <code title="2560">2560</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF0"></a><span class="summary-name">ASO_OCTF0</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF1"></a><span class="summary-name">ASO_OCTF1</span> = <code title="16384">16384</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF2"></a><span class="summary-name">ASO_OCTF2</span> = <code title="32768">32768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF3"></a><span class="summary-name">ASO_OCTF3</span> = <code title="49152">49152</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF4"></a><span class="summary-name">ASO_OCTF4</span> = <code title="65536">65536</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF5"></a><span class="summary-name">ASO_OCTF5</span> = <code title="81920">81920</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF6"></a><span class="summary-name">ASO_OCTF6</span> = <code title="98304">98304</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ASO_OCTF7"></a><span class="summary-name">ASO_OCTF7</span> = <code title="114688">114688</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_1TEXT"></a><span class="summary-name">AS_1TEXT</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_2CHRE"></a><span class="summary-name">AS_2CHRE</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_ALIGN2"></a><span class="summary-name">AS_ALIGN2</span> = <code title="536870912">536870912</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_ASCIIC"></a><span class="summary-name">AS_ASCIIC</span> = <code title="1073741824">1073741824</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_ASCIIZ"></a><span class="summary-name">AS_ASCIIZ</span> = <code title="2147483648">2147483648</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_BINFM"></a><span class="summary-name">AS_BINFM</span> = <code title="917504">917504</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_COLON"></a><span class="summary-name">AS_COLON</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_DECFM"></a><span class="summary-name">AS_DECFM</span> = <code title="12288">12288</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_HEXFM"></a><span class="summary-name">AS_HEXFM</span> = <code title="3584">3584</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_LALIGN"></a><span class="summary-name">AS_LALIGN</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_N2CHR"></a><span class="summary-name">AS_N2CHR</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NCHRE"></a><span class="summary-name">AS_NCHRE</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NCMAS"></a><span class="summary-name">AS_NCMAS</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NHIAS"></a><span class="summary-name">AS_NHIAS</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NOCODECLN"></a><span class="summary-name">AS_NOCODECLN</span> = <code title="67108864">67108864</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NOSPACE"></a><span class="summary-name">AS_NOSPACE</span> = <code title="268435456">268435456</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_NOXRF"></a><span class="summary-name">AS_NOXRF</span> = <code title="4194304">4194304</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_OCTFM"></a><span class="summary-name">AS_OCTFM</span> = <code title="114688">114688</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_OFFST"></a><span class="summary-name">AS_OFFST</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_ONEDUP"></a><span class="summary-name">AS_ONEDUP</span> = <code title="2097152">2097152</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_RELSUP"></a><span class="summary-name">AS_RELSUP</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_UDATA"></a><span class="summary-name">AS_UDATA</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_UNEQU"></a><span class="summary-name">AS_UNEQU</span> = <code title="1048576">1048576</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AS_XTRNTYPE"></a><span class="summary-name">AS_XTRNTYPE</span> = <code title="8388608">8388608</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CALL"></a><span class="summary-name">CF_CALL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG1"></a><span class="summary-name">CF_CHG1</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG2"></a><span class="summary-name">CF_CHG2</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG3"></a><span class="summary-name">CF_CHG3</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG4"></a><span class="summary-name">CF_CHG4</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG5"></a><span class="summary-name">CF_CHG5</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_CHG6"></a><span class="summary-name">CF_CHG6</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_HLL"></a><span class="summary-name">CF_HLL</span> = <code title="65536">65536</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_JUMP"></a><span class="summary-name">CF_JUMP</span> = <code title="16384">16384</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_SHFT"></a><span class="summary-name">CF_SHFT</span> = <code title="32768">32768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_STOP"></a><span class="summary-name">CF_STOP</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE1"></a><span class="summary-name">CF_USE1</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE2"></a><span class="summary-name">CF_USE2</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE3"></a><span class="summary-name">CF_USE3</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE4"></a><span class="summary-name">CF_USE4</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE5"></a><span class="summary-name">CF_USE5</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CF_USE6"></a><span class="summary-name">CF_USE6</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CUSTOM_INSN_ITYPE"></a><span class="summary-name">CUSTOM_INSN_ITYPE</span> = <code title="32768">32768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BADKEY"></a><span class="summary-name">IDPOPT_BADKEY</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BADTYPE"></a><span class="summary-name">IDPOPT_BADTYPE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BADVALUE"></a><span class="summary-name">IDPOPT_BADVALUE</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BIT"></a><span class="summary-name">IDPOPT_BIT</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BIT_BOOL"></a><span class="summary-name">IDPOPT_BIT_BOOL</span> = <code title="50331648">50331648</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BIT_UCHAR"></a><span class="summary-name">IDPOPT_BIT_UCHAR</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BIT_UINT"></a><span class="summary-name">IDPOPT_BIT_UINT</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_BIT_USHORT"></a><span class="summary-name">IDPOPT_BIT_USHORT</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_CST"></a><span class="summary-name">IDPOPT_CST</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_CST_PARAMS"></a><span class="summary-name">IDPOPT_CST_PARAMS</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_FLT"></a><span class="summary-name">IDPOPT_FLT</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_I64"></a><span class="summary-name">IDPOPT_I64</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_I64_RANGES"></a><span class="summary-name">IDPOPT_I64_RANGES</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_I64_UNS"></a><span class="summary-name">IDPOPT_I64_UNS</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM"></a><span class="summary-name">IDPOPT_NUM</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM_CHAR"></a><span class="summary-name">IDPOPT_NUM_CHAR</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM_INT"></a><span class="summary-name">IDPOPT_NUM_INT</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM_RANGE"></a><span class="summary-name">IDPOPT_NUM_RANGE</span> = <code title="67108864">67108864</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM_SHORT"></a><span class="summary-name">IDPOPT_NUM_SHORT</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_NUM_UNS"></a><span class="summary-name">IDPOPT_NUM_UNS</span> = <code title="134217728">134217728</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_OK"></a><span class="summary-name">IDPOPT_OK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_PRI_DEFAULT"></a><span class="summary-name">IDPOPT_PRI_DEFAULT</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_PRI_HIGH"></a><span class="summary-name">IDPOPT_PRI_HIGH</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_STR"></a><span class="summary-name">IDPOPT_STR</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_STR_LONG"></a><span class="summary-name">IDPOPT_STR_LONG</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDPOPT_STR_QSTRING"></a><span class="summary-name">IDPOPT_STR_QSTRING</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDP_INTERFACE_VERSION"></a><span class="summary-name">IDP_INTERFACE_VERSION</span> = <code title="700">700</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OP_FP_BASED"></a><span class="summary-name">OP_FP_BASED</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OP_SP_ADD"></a><span class="summary-name">OP_SP_ADD</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OP_SP_BASED"></a><span class="summary-name">OP_SP_BASED</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OP_SP_SUB"></a><span class="summary-name">OP_SP_SUB</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_386"></a><span class="summary-name">PLFM_386</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_6502"></a><span class="summary-name">PLFM_6502</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_65C816"></a><span class="summary-name">PLFM_65C816</span> = <code title="61">61</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_6800"></a><span class="summary-name">PLFM_6800</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_68K"></a><span class="summary-name">PLFM_68K</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_80196"></a><span class="summary-name">PLFM_80196</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_8051"></a><span class="summary-name">PLFM_8051</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_AD2106X"></a><span class="summary-name">PLFM_AD2106X</span> = <code title="68">68</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_AD218X"></a><span class="summary-name">PLFM_AD218X</span> = <code title="48">48</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ALPHA"></a><span class="summary-name">PLFM_ALPHA</span> = <code title="24">24</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ARC"></a><span class="summary-name">PLFM_ARC</span> = <code title="63">63</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ARM"></a><span class="summary-name">PLFM_ARM</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_AVR"></a><span class="summary-name">PLFM_AVR</span> = <code title="20">20</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_C166"></a><span class="summary-name">PLFM_C166</span> = <code title="29">29</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_C39"></a><span class="summary-name">PLFM_C39</span> = <code title="51">51</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_CR16"></a><span class="summary-name">PLFM_CR16</span> = <code title="52">52</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_DALVIK"></a><span class="summary-name">PLFM_DALVIK</span> = <code title="60">60</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_DSP56K"></a><span class="summary-name">PLFM_DSP56K</span> = <code title="28">28</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_DSP96K"></a><span class="summary-name">PLFM_DSP96K</span> = <code title="66">66</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_EBC"></a><span class="summary-name">PLFM_EBC</span> = <code title="57">57</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_F2MC"></a><span class="summary-name">PLFM_F2MC</span> = <code title="33">33</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_FR"></a><span class="summary-name">PLFM_FR</span> = <code title="43">43</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_H8"></a><span class="summary-name">PLFM_H8</span> = <code title="21">21</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_H8500"></a><span class="summary-name">PLFM_H8500</span> = <code title="26">26</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_HPPA"></a><span class="summary-name">PLFM_HPPA</span> = <code title="25">25</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_I860"></a><span class="summary-name">PLFM_I860</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_I960"></a><span class="summary-name">PLFM_I960</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_IA64"></a><span class="summary-name">PLFM_IA64</span> = <code title="31">31</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_JAVA"></a><span class="summary-name">PLFM_JAVA</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_KR1878"></a><span class="summary-name">PLFM_KR1878</span> = <code title="47">47</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_M16C"></a><span class="summary-name">PLFM_M16C</span> = <code title="62">62</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_M32R"></a><span class="summary-name">PLFM_M32R</span> = <code title="37">37</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_M740"></a><span class="summary-name">PLFM_M740</span> = <code title="40">40</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_M7700"></a><span class="summary-name">PLFM_M7700</span> = <code title="41">41</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_M7900"></a><span class="summary-name">PLFM_M7900</span> = <code title="45">45</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_MC6812"></a><span class="summary-name">PLFM_MC6812</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_MC6816"></a><span class="summary-name">PLFM_MC6816</span> = <code title="44">44</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_MIPS"></a><span class="summary-name">PLFM_MIPS</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_MN102L00"></a><span class="summary-name">PLFM_MN102L00</span> = <code title="53">53</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_MSP430"></a><span class="summary-name">PLFM_MSP430</span> = <code title="58">58</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_NEC_78K0"></a><span class="summary-name">PLFM_NEC_78K0</span> = <code title="38">38</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_NEC_78K0S"></a><span class="summary-name">PLFM_NEC_78K0S</span> = <code title="39">39</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_NEC_V850X"></a><span class="summary-name">PLFM_NEC_V850X</span> = <code title="55">55</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_NET"></a><span class="summary-name">PLFM_NET</span> = <code title="19">19</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_OAKDSP"></a><span class="summary-name">PLFM_OAKDSP</span> = <code title="49">49</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_PDP"></a><span class="summary-name">PLFM_PDP</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_PIC"></a><span class="summary-name">PLFM_PIC</span> = <code title="22">22</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_PIC16"></a><span class="summary-name">PLFM_PIC16</span> = <code title="69">69</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_PPC"></a><span class="summary-name">PLFM_PPC</span> = <code title="15">15</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_S390"></a><span class="summary-name">PLFM_S390</span> = <code title="70">70</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_SCR_ADPT"></a><span class="summary-name">PLFM_SCR_ADPT</span> = <code title="56">56</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_SH"></a><span class="summary-name">PLFM_SH</span> = <code title="18">18</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_SPARC"></a><span class="summary-name">PLFM_SPARC</span> = <code title="23">23</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_SPC700"></a><span class="summary-name">PLFM_SPC700</span> = <code title="67">67</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_SPU"></a><span class="summary-name">PLFM_SPU</span> = <code title="59">59</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ST20"></a><span class="summary-name">PLFM_ST20</span> = <code title="30">30</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ST7"></a><span class="summary-name">PLFM_ST7</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_ST9"></a><span class="summary-name">PLFM_ST9</span> = <code title="42">42</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TLCS900"></a><span class="summary-name">PLFM_TLCS900</span> = <code title="50">50</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS"></a><span class="summary-name">PLFM_TMS</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS320C1X"></a><span class="summary-name">PLFM_TMS320C1X</span> = <code title="54">54</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS320C28"></a><span class="summary-name">PLFM_TMS320C28</span> = <code title="65">65</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS320C3"></a><span class="summary-name">PLFM_TMS320C3</span> = <code title="46">46</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS320C54"></a><span class="summary-name">PLFM_TMS320C54</span> = <code title="34">34</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMS320C55"></a><span class="summary-name">PLFM_TMS320C55</span> = <code title="35">35</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TMSC6"></a><span class="summary-name">PLFM_TMSC6</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TRICORE"></a><span class="summary-name">PLFM_TRICORE</span> = <code title="27">27</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_TRIMEDIA"></a><span class="summary-name">PLFM_TRIMEDIA</span> = <code title="36">36</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_UNSP"></a><span class="summary-name">PLFM_UNSP</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_Z8"></a><span class="summary-name">PLFM_Z8</span> = <code title="17">17</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PLFM_Z80"></a><span class="summary-name">PLFM_Z80</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PRN_BIN"></a><span class="summary-name">PRN_BIN</span> = <code title="192">192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PRN_DEC"></a><span class="summary-name">PRN_DEC</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PRN_HEX"></a><span class="summary-name">PRN_HEX</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PRN_OCT"></a><span class="summary-name">PRN_OCT</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_ADJSEGS"></a><span class="summary-name">PR_ADJSEGS</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_ALIGN"></a><span class="summary-name">PR_ALIGN</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_ALIGN_INSN"></a><span class="summary-name">PR_ALIGN_INSN</span> = <code title="16777216">16777216</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_ASSEMBLE"></a><span class="summary-name">PR_ASSEMBLE</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_BINMEM"></a><span class="summary-name">PR_BINMEM</span> = <code title="65536">65536</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_CHK_XREF"></a><span class="summary-name">PR_CHK_XREF</span> = <code title="262144">262144</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_CNDINSNS"></a><span class="summary-name">PR_CNDINSNS</span> = <code title="67108864">67108864</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_DEFNUM"></a><span class="summary-name">PR_DEFNUM</span> = <code title="192">192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_DEFSEG32"></a><span class="summary-name">PR_DEFSEG32</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_DEFSEG64"></a><span class="summary-name">PR_DEFSEG64</span> = <code title="268435456">268435456</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_DELAYED"></a><span class="summary-name">PR_DELAYED</span> = <code title="8388608">8388608</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_NOCHANGE"></a><span class="summary-name">PR_NOCHANGE</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_NO_SEGMOVE"></a><span class="summary-name">PR_NO_SEGMOVE</span> = <code title="524288">524288</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_PURGING"></a><span class="summary-name">PR_PURGING</span> = <code title="33554432">33554432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_RNAMESOK"></a><span class="summary-name">PR_RNAMESOK</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_SCALE_STKVARS"></a><span class="summary-name">PR_SCALE_STKVARS</span> = <code title="4194304">4194304</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_SEGS"></a><span class="summary-name">PR_SEGS</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_SEGTRANS"></a><span class="summary-name">PR_SEGTRANS</span> = <code title="131072">131072</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_SGROTHER"></a><span class="summary-name">PR_SGROTHER</span> = <code title="16384">16384</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_STACK_UP"></a><span class="summary-name">PR_STACK_UP</span> = <code title="32768">32768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_TYPEINFO"></a><span class="summary-name">PR_TYPEINFO</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_USE32"></a><span class="summary-name">PR_USE32</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_USE64"></a><span class="summary-name">PR_USE64</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_USE_ARG_TYPES"></a><span class="summary-name">PR_USE_ARG_TYPES</span> = <code title="2097152">2097152</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_USE_TBYTE"></a><span class="summary-name">PR_USE_TBYTE</span> = <code title="134217728">134217728</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PR_WORD_INS"></a><span class="summary-name">PR_WORD_INS</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="REAL_ERROR_BADDATA"></a><span class="summary-name">REAL_ERROR_BADDATA</span> = <code title="-3">-3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="REAL_ERROR_FORMAT"></a><span class="summary-name">REAL_ERROR_FORMAT</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="REAL_ERROR_RANGE"></a><span class="summary-name">REAL_ERROR_RANGE</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="REG_SPOIL"></a><span class="summary-name">REG_SPOIL</span> = <code title="2147483648">2147483648</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SETPROC_IDB"></a><span class="summary-name">SETPROC_IDB</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SETPROC_LOADER"></a><span class="summary-name">SETPROC_LOADER</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SETPROC_LOADER_NON_FATAL"></a><span class="summary-name">SETPROC_LOADER_NON_FATAL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SETPROC_USER"></a><span class="summary-name">SETPROC_USER</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="allsegs_moved"></a><span class="summary-name">allsegs_moved</span> = <code title="62">62</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="auto_empty"></a><span class="summary-name">auto_empty</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="auto_empty_finally"></a><span class="summary-name">auto_empty_finally</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="bookmark_changed"></a><span class="summary-name">bookmark_changed</span> = <code title="92">92</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="byte_patched"></a><span class="summary-name">byte_patched</span> = <code title="84">84</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="callee_addr_changed"></a><span class="summary-name">callee_addr_changed</span> = <code title="91">91</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_cmt"></a><span class="summary-name">changing_cmt</span> = <code title="85">85</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_enum_bf"></a><span class="summary-name">changing_enum_bf</span> = <code title="24">24</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_enum_cmt"></a><span class="summary-name">changing_enum_cmt</span> = <code title="26">26</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_op_ti"></a><span class="summary-name">changing_op_ti</span> = <code title="15">15</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_op_type"></a><span class="summary-name">changing_op_type</span> = <code title="17">17</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_range_cmt"></a><span class="summary-name">changing_range_cmt</span> = <code title="87">87</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_segm_class"></a><span class="summary-name">changing_segm_class</span> = <code title="58">58</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_segm_end"></a><span class="summary-name">changing_segm_end</span> = <code title="54">54</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_segm_name"></a><span class="summary-name">changing_segm_name</span> = <code title="56">56</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_segm_start"></a><span class="summary-name">changing_segm_start</span> = <code title="52">52</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_struc_align"></a><span class="summary-name">changing_struc_align</span> = <code title="34">34</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_struc_cmt"></a><span class="summary-name">changing_struc_cmt</span> = <code title="47">47</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_struc_member"></a><span class="summary-name">changing_struc_member</span> = <code title="45">45</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="changing_ti"></a><span class="summary-name">changing_ti</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="closebase"></a><span class="summary-name">closebase</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cmt_changed"></a><span class="summary-name">cmt_changed</span> = <code title="86">86</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="compiler_changed"></a><span class="summary-name">compiler_changed</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cvar"></a><span class="summary-name">cvar</span> = <code title="??"><code class="variable-unknown">??</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_enum"></a><span class="summary-name">deleting_enum</span> = <code title="20">20</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_enum_member"></a><span class="summary-name">deleting_enum_member</span> = <code title="29">29</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_func"></a><span class="summary-name">deleting_func</span> = <code title="67">67</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_func_tail"></a><span class="summary-name">deleting_func_tail</span> = <code title="71">71</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_segm"></a><span class="summary-name">deleting_segm</span> = <code title="50">50</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_struc"></a><span class="summary-name">deleting_struc</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_struc_member"></a><span class="summary-name">deleting_struc_member</span> = <code title="41">41</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="deleting_tryblks"></a><span class="summary-name">deleting_tryblks</span> = <code title="78">78</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="destroyed_items"></a><span class="summary-name">destroyed_items</span> = <code title="82">82</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="determined_main"></a><span class="summary-name">determined_main</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_bf_changed"></a><span class="summary-name">enum_bf_changed</span> = <code title="25">25</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_cmt_changed"></a><span class="summary-name">enum_cmt_changed</span> = <code title="27">27</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_created"></a><span class="summary-name">enum_created</span> = <code title="19">19</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_deleted"></a><span class="summary-name">enum_deleted</span> = <code title="21">21</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_member_created"></a><span class="summary-name">enum_member_created</span> = <code title="28">28</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_member_deleted"></a><span class="summary-name">enum_member_deleted</span> = <code title="30">30</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="enum_renamed"></a><span class="summary-name">enum_renamed</span> = <code title="23">23</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="expanding_struc"></a><span class="summary-name">expanding_struc</span> = <code title="38">38</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="extlang_changed"></a><span class="summary-name">extlang_changed</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="extra_cmt_changed"></a><span class="summary-name">extra_cmt_changed</span> = <code title="89">89</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="flow_chart_created"></a><span class="summary-name">flow_chart_created</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="frame_deleted"></a><span class="summary-name">frame_deleted</span> = <code title="68">68</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="func_added"></a><span class="summary-name">func_added</span> = <code title="63">63</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="func_noret_changed"></a><span class="summary-name">func_noret_changed</span> = <code title="74">74</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="func_tail_appended"></a><span class="summary-name">func_tail_appended</span> = <code title="70">70</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="func_tail_deleted"></a><span class="summary-name">func_tail_deleted</span> = <code title="72">72</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="func_updated"></a><span class="summary-name">func_updated</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="idasgn_loaded"></a><span class="summary-name">idasgn_loaded</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="item_color_changed"></a><span class="summary-name">item_color_changed</span> = <code title="90">90</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="kernel_config_loaded"></a><span class="summary-name">kernel_config_loaded</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="loader_finished"></a><span class="summary-name">loader_finished</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="local_types_changed"></a><span class="summary-name">local_types_changed</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="make_code"></a><span class="summary-name">make_code</span> = <code title="80">80</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="make_data"></a><span class="summary-name">make_data</span> = <code title="81">81</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="op_ti_changed"></a><span class="summary-name">op_ti_changed</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="op_type_changed"></a><span class="summary-name">op_type_changed</span> = <code title="18">18</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ph"></a><span class="summary-name">ph</span> = <code title="&lt;ida_idp.__ph object&gt;">&lt;ida_idp.__ph object&gt;</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="range_cmt_changed"></a><span class="summary-name">range_cmt_changed</span> = <code title="88">88</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="renamed"></a><span class="summary-name">renamed</span> = <code title="83">83</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="renaming_enum"></a><span class="summary-name">renaming_enum</span> = <code title="22">22</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="renaming_struc"></a><span class="summary-name">renaming_struc</span> = <code title="36">36</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="renaming_struc_member"></a><span class="summary-name">renaming_struc_member</span> = <code title="43">43</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="savebase"></a><span class="summary-name">savebase</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_added"></a><span class="summary-name">segm_added</span> = <code title="49">49</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_attrs_updated"></a><span class="summary-name">segm_attrs_updated</span> = <code title="60">60</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_class_changed"></a><span class="summary-name">segm_class_changed</span> = <code title="59">59</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_deleted"></a><span class="summary-name">segm_deleted</span> = <code title="51">51</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_end_changed"></a><span class="summary-name">segm_end_changed</span> = <code title="55">55</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_moved"></a><span class="summary-name">segm_moved</span> = <code title="61">61</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_name_changed"></a><span class="summary-name">segm_name_changed</span> = <code title="57">57</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="segm_start_changed"></a><span class="summary-name">segm_start_changed</span> = <code title="53">53</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="set_func_end"></a><span class="summary-name">set_func_end</span> = <code title="66">66</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="set_func_start"></a><span class="summary-name">set_func_start</span> = <code title="65">65</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="sgr_changed"></a><span class="summary-name">sgr_changed</span> = <code title="79">79</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="sgr_deleted"></a><span class="summary-name">sgr_deleted</span> = <code title="93">93</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="stkpnts_changed"></a><span class="summary-name">stkpnts_changed</span> = <code title="75">75</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_align_changed"></a><span class="summary-name">struc_align_changed</span> = <code title="35">35</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_cmt_changed"></a><span class="summary-name">struc_cmt_changed</span> = <code title="48">48</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_created"></a><span class="summary-name">struc_created</span> = <code title="31">31</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_deleted"></a><span class="summary-name">struc_deleted</span> = <code title="33">33</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_expanded"></a><span class="summary-name">struc_expanded</span> = <code title="39">39</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_member_changed"></a><span class="summary-name">struc_member_changed</span> = <code title="46">46</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_member_created"></a><span class="summary-name">struc_member_created</span> = <code title="40">40</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_member_deleted"></a><span class="summary-name">struc_member_deleted</span> = <code title="42">42</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_member_renamed"></a><span class="summary-name">struc_member_renamed</span> = <code title="44">44</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="struc_renamed"></a><span class="summary-name">struc_renamed</span> = <code title="37">37</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="tail_owner_changed"></a><span class="summary-name">tail_owner_changed</span> = <code title="73">73</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="thunk_func_created"></a><span class="summary-name">thunk_func_created</span> = <code title="69">69</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ti_changed"></a><span class="summary-name">ti_changed</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="tryblks_updated"></a><span class="summary-name">tryblks_updated</span> = <code title="77">77</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="updating_tryblks"></a><span class="summary-name">updating_tryblks</span> = <code title="76">76</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="upgraded"></a><span class="summary-name">upgraded</span> = <code title="2">2</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="AssembleLine"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">AssembleLine</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">cs</span>,
+        <span class="sig-arg">ip</span>,
+        <span class="sig-arg">use32</span>,
+        <span class="sig-arg">nonnul_line</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Assemble an instruction to a string (display a warning if an error is 
+  found)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of instruction</li>
+        <li><strong class="pname"><code>cs</code></strong> - cs of instruction</li>
+        <li><strong class="pname"><code>ip</code></strong> - ip of instruction</li>
+        <li><strong class="pname"><code>use32</code></strong> - is 32bit segment</li>
+        <li><strong class="pname"><code>line</code></strong> - line to assemble</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd><ul>
+            <li>
+              None on failure
+            </li>
+            <li>
+              or a string containing the assembled instruction
+            </li>
+          </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="assemble"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">assemble</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">cs</span>,
+        <span class="sig-arg">ip</span>,
+        <span class="sig-arg">use32</span>,
+        <span class="sig-arg">line</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Assemble an instruction into the database (display a warning if an 
+  error is found)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of instruction</li>
+        <li><strong class="pname"><code>cs</code></strong> - cs of instruction</li>
+        <li><strong class="pname"><code>ip</code></strong> - ip of instruction</li>
+        <li><strong class="pname"><code>use32</code></strong> - is 32bit segment?</li>
+        <li><strong class="pname"><code>line</code></strong> - line to assemble</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>Boolean. True on success.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="delay_slot_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">delay_slot_insn</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">bexec</span>,
+        <span class="sig-arg">fexec</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Helper function to get the delay slot instruction.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t *)</li>
+        <li><strong class="pname"><code>bexec</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool *)</li>
+        <li><strong class="pname"><code>fexec</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="gen_idb_event"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">gen_idb_event</span>(<span class="sig-arg">code</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>the kernel will use this function to generate idb_events</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>code</code></strong>, <strong class="pname"><code>(C++</code></strong> - idb_event::event_code_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_idp_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_idp_name</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get name of the current processor module. The name is derived from the
+  file name. For example, for IBM PC the module is named &quot;pc.w32&quot;
+  (windows version), then the module name is &quot;PC&quot; (uppercase). If
+  no processor module is loaded, this function will return NULL</p>
+  <dl class="fields">
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_reg_info"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_reg_info</span>(<span class="sig-arg">regname</span>,
+        <span class="sig-arg">bitrange</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get register information - useful for registers like al, ah, dil, 
+  etc.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>regname</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+        <li><strong class="pname"><code>bitrange</code></strong>, <strong class="pname"><code>(C++</code></strong> - bitrange_t  *)</li>
+    </ul></dd>
+    <dt>Returns: char const *</dt>
+        <dd>NULL no such register</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_reg_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_reg_name</span>(<span class="sig-arg">reg</span>,
+        <span class="sig-arg">width</span>,
+        <span class="sig-arg">reghi</span>=<span class="sig-default">-1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get text representation of a register. For most processors this 
+  function will just return \ph{reg_names}[reg]. If the processor module 
+  has implemented processor_t::get_reg_name, it will be used instead</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>reg</code></strong> - internal register number as defined in the processor module (C++:
+          int)</li>
+        <li><strong class="pname"><code>width</code></strong> - register width in bytes (C++: size_t)</li>
+        <li><strong class="pname"><code>reghi</code></strong> - if specified, then this function will return the register pair 
+          (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>length of register name in bytes or -1 if failure</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="has_cf_chg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">has_cf_chg</span>(<span class="sig-arg">feature</span>,
+        <span class="sig-arg">opnum</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Does an instruction with the specified feature modify the i-th 
+  operand?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>feature</code></strong>, <strong class="pname"><code>(C++</code></strong> - uint32)</li>
+        <li><strong class="pname"><code>opnum</code></strong>, <strong class="pname"><code>(C++</code></strong> - uint)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="has_cf_use"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">has_cf_use</span>(<span class="sig-arg">feature</span>,
+        <span class="sig-arg">opnum</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Does an instruction with the specified feature use a value of the i-th
+  operand?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>feature</code></strong>, <strong class="pname"><code>(C++</code></strong> - uint32)</li>
+        <li><strong class="pname"><code>opnum</code></strong>, <strong class="pname"><code>(C++</code></strong> - uint)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="has_insn_feature"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">has_insn_feature</span>(<span class="sig-arg">icode</span>,
+        <span class="sig-arg">bit</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Does the specified instruction have the specified feature?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>icode</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>bit</code></strong>, <strong class="pname"><code>(C++</code></strong> - uint32)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_align_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_align_insn</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>If the instruction at 'ea' looks like an alignment instruction, return
+  its length in bytes. Otherwise return 0.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_basic_block_end"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_basic_block_end</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">call_insn_stops_block</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the instruction the end of a basic block?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>call_insn_stops_block</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_call_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_call_insn</span>(<span class="sig-arg">insn</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the instruction a &quot;call&quot;?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_indirect_jump_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_indirect_jump_insn</span>(<span class="sig-arg">insn</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the instruction an indirect jump?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_ret_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_ret_insn</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">strict</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the instruction a &quot;return&quot;?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>strict</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_reg_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_reg_name</span>(<span class="sig-arg">ri</span>,
+        <span class="sig-arg">regname</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get register info by name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ri</code></strong> - result (C++: reg_info_t  *)</li>
+        <li><strong class="pname"><code>regname</code></strong> - name of register (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="ph_get_operand_info"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">ph_get_operand_info</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns the operand information given an ea and operand number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address</li>
+        <li><strong class="pname"><code>n</code></strong> - operand number</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd>Returns an idd_opinfo_t as a tuple: (modified, ea, reg_ival, 
+          regidx, value_size). Please refer to idd_opinfo_t structure in 
+          the SDK.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_processor_type"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_processor_type</span>(<span class="sig-arg">procname</span>,
+        <span class="sig-arg">level</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set target processor type. Once a processor module is loaded, it 
+  cannot be replaced until we close the idb.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>procname</code></strong> - name of processor type (one of names present in \ph{psnames}) 
+          (C++: const char *)</li>
+        <li><strong class="pname"><code>level</code></strong> - SETPROC_ (C++: setproc_level_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_target_assembler"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_target_assembler</span>(<span class="sig-arg">asmnum</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set target assembler.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>asmnum</code></strong> - number of assembler in the current processor module (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="str2reg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">str2reg</span>(<span class="sig-arg">p</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get any reg number (-1 on error)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>p</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

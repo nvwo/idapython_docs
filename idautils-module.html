@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>idautils</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;idautils
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="idautils-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module idautils</h1><p class="nomargin-top"></p>
+<p>idautils.py - High level utility functions for IDA</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="idautils.Strings-class.html" class="summary-name">Strings</a><br />
+      Allows iterating over the string list.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="idautils.peutils_t-class.html" class="summary-name">peutils_t</a><br />
+      PE utility class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="refs"></a><span class="summary-sig-name">refs</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">funcfirst</span>,
+        <span class="summary-sig-arg">funcnext</span>)</span><br />
+      Generic reference collector - INTERNAL USE ONLY.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#CodeRefsTo" class="summary-sig-name">CodeRefsTo</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flow</span>)</span><br />
+      Get a list of code references to 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#CodeRefsFrom" class="summary-sig-name">CodeRefsFrom</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flow</span>)</span><br />
+      Get a list of code references from 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#DataRefsTo" class="summary-sig-name">DataRefsTo</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get a list of data references to 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#DataRefsFrom" class="summary-sig-name">DataRefsFrom</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get a list of data references from 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#XrefTypeName" class="summary-sig-name">XrefTypeName</a>(<span class="summary-sig-arg">typecode</span>)</span><br />
+      Convert cross-reference type codes to readable names</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#XrefsFrom" class="summary-sig-name">XrefsFrom</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Return all references from address 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#XrefsTo" class="summary-sig-name">XrefsTo</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Return all references to address 'ea'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="Threads"></a><span class="summary-sig-name">Threads</span>()</span><br />
+      Returns all thread IDs for the current debugee</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Heads" class="summary-sig-name">Heads</a>(<span class="summary-sig-arg">start</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">end</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Get a list of heads (instructions or data items)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Functions" class="summary-sig-name">Functions</a>(<span class="summary-sig-arg">start</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">end</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Get a list of functions</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Chunks" class="summary-sig-name">Chunks</a>(<span class="summary-sig-arg">start</span>)</span><br />
+      Get a list of function chunks</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="Modules"></a><span class="summary-sig-name">Modules</span>()</span><br />
+      Returns a list of module objects with name,size,base and the 
+      rebase_to attributes</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Names" class="summary-sig-name">Names</a>()</span><br />
+      Returns a list of names</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Segments" class="summary-sig-name">Segments</a>()</span><br />
+      Get list of segments (sections) in the binary image</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Entries" class="summary-sig-name">Entries</a>()</span><br />
+      Returns a list of entry points (exports)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#FuncItems" class="summary-sig-name">FuncItems</a>(<span class="summary-sig-arg">start</span>)</span><br />
+      Get a list of function items (instruction or data items inside 
+      function boundaries)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Structs" class="summary-sig-name">Structs</a>()</span><br />
+      Get a list of structures</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#StructMembers" class="summary-sig-name">StructMembers</a>(<span class="summary-sig-arg">sid</span>)</span><br />
+      Get a list of structure members information (or stack vars if given a
+      frame).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#DecodePrecedingInstruction" class="summary-sig-name">DecodePrecedingInstruction</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Decode preceding instruction in the execution flow.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#DecodePreviousInstruction" class="summary-sig-name">DecodePreviousInstruction</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Decodes the previous instruction and returns an insn_t like class</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#DecodeInstruction" class="summary-sig-name">DecodeInstruction</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Decodes an instruction and returns an insn_t like class</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="GetDataList"></a><span class="summary-sig-name">GetDataList</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">count</span>,
+        <span class="summary-sig-arg">itemsize</span>=<span class="summary-sig-default">1</span>)</span><br />
+      Get data list - INTERNAL USE ONLY</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="PutDataList"></a><span class="summary-sig-name">PutDataList</span>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">datalist</span>,
+        <span class="summary-sig-arg">itemsize</span>=<span class="summary-sig-default">1</span>)</span><br />
+      Put data list - INTERNAL USE ONLY</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#MapDataList" class="summary-sig-name">MapDataList</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">length</span>,
+        <span class="summary-sig-arg">func</span>,
+        <span class="summary-sig-arg">wordsize</span>=<span class="summary-sig-default">1</span>)</span><br />
+      Map through a list of data words in the database</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#GetInputFileMD5" class="summary-sig-name">GetInputFileMD5</a>()</span><br />
+      Return the MD5 hash of the input binary file</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#GetIdbDir" class="summary-sig-name">GetIdbDir</a>()</span><br />
+      Get IDB directory</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="GetRegisterList"></a><span class="summary-sig-name">GetRegisterList</span>()</span><br />
+      Returns the register list</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="GetInstructionList"></a><span class="summary-sig-name">GetInstructionList</span>()</span><br />
+      Returns the instruction list of the current processor module</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#Assemble" class="summary-sig-name">Assemble</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">line</span>)</span><br />
+      Assembles one or more lines (does not display an message dialogs) If 
+      line is a list then this function will attempt to assemble all the 
+      lines This function will turn on batch mode temporarily so that no 
+      messages are displayed on the screen</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="idautils-module.html#ProcessUiActions" class="summary-sig-name">ProcessUiActions</a>(<span class="summary-sig-arg">actions</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Returns:
+      Boolean.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="idautils-module.html#cpu" class="summary-name">cpu</a> = <code title="&lt;idautils._cpu object&gt;">&lt;idautils._cpu object&gt;</code><br />
+      This is a special class instance used to access the registers as if they were attributes of this object.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="idautils-module.html#procregs" class="summary-name">procregs</a> = <code title="&lt;idautils._procregs object&gt;">&lt;idautils._procregs object&gt;</code><br />
+      This object is used to access the processor registers.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="CodeRefsTo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">CodeRefsTo</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flow</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of code references to 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Target address</li>
+        <li><strong class="pname"><code>flow</code></strong> (Boolean (0/1, False/True)) - Follow normal code flow or not</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of references (may be empty list)
+          <p>Example:</p>
+<pre class="literalblock">   for ref in CodeRefsTo(get_screen_ea(), 1):
+       print(ref)
+</pre></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="CodeRefsFrom"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">CodeRefsFrom</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flow</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of code references from 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Target address</li>
+        <li><strong class="pname"><code>flow</code></strong> (Boolean (0/1, False/True)) - Follow normal code flow or not</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of references (may be empty list)
+          <p>Example:</p>
+<pre class="literalblock">   for ref in CodeRefsFrom(get_screen_ea(), 1):
+       print(ref)
+</pre></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="DataRefsTo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">DataRefsTo</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of data references to 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Target address</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of references (may be empty list)
+          <p>Example:</p>
+<pre class="literalblock">   for ref in DataRefsTo(get_screen_ea()):
+       print(ref)
+</pre></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="DataRefsFrom"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">DataRefsFrom</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of data references from 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Target address</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of references (may be empty list)
+          <p>Example:</p>
+<pre class="literalblock">   for ref in DataRefsFrom(get_screen_ea()):
+       print(ref)
+</pre></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="XrefTypeName"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">XrefTypeName</span>(<span class="sig-arg">typecode</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert cross-reference type codes to readable names</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>typecode</code></strong> - cross-reference type code</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="XrefsFrom"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">XrefsFrom</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return all references from address 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Reference address</li>
+        <li><strong class="pname"><code>flags</code></strong> - one of ida_xref.XREF_ALL (default), ida_xref.XREF_FAR, 
+          ida_xref.XREF_DATA
+          <p>Example:</p>
+<pre class="literalblock">      for xref in XrefsFrom(here(), 0):
+          print(xref.type, XrefTypeName(xref.type),                          'from', hex(xref.frm), 'to', hex(xref.to))
+</pre></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="XrefsTo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">XrefsTo</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return all references to address 'ea'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - Reference address</li>
+        <li><strong class="pname"><code>flags</code></strong> - one of ida_xref.XREF_ALL (default), ida_xref.XREF_FAR, 
+          ida_xref.XREF_DATA
+          <p>Example:</p>
+<pre class="literalblock">      for xref in XrefsTo(here(), 0):
+          print(xref.type, XrefTypeName(xref.type),                          'from', hex(xref.frm), 'to', hex(xref.to))
+</pre></li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Heads"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Heads</span>(<span class="sig-arg">start</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">end</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of heads (instructions or data items)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong> - start address (default: inf.min_ea)</li>
+        <li><strong class="pname"><code>end</code></strong> - end address (default: inf.max_ea)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of heads between start and end</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Functions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Functions</span>(<span class="sig-arg">start</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">end</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of functions</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong> - start address (default: inf.min_ea)</li>
+        <li><strong class="pname"><code>end</code></strong> - end address (default: inf.max_ea)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of function entrypoints between start and end</dd>
+  </dl>
+<div class="fields">      <p><strong>Note:</strong>
+        The last function that starts before 'end' is included even if it 
+        extends beyond 'end'. Any function that has its chunks scattered in
+        multiple segments will be reported multiple times, once in each 
+        segment as they are listed.
+      </p>
+</div></td></tr></table>
+</div>
+<a name="Chunks"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Chunks</span>(<span class="sig-arg">start</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of function chunks</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong> - address of the function</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>list of funcion chunks (tuples of the form (start_ea, end_ea)) 
+          belonging to the function</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Names"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Names</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of names</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>List of tuples (ea, name)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Segments"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Segments</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get list of segments (sections) in the binary image</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>List of segment start addresses.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Entries"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Entries</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of entry points (exports)</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>List of tuples (index, ordinal, ea, name)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="FuncItems"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">FuncItems</span>(<span class="sig-arg">start</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of function items (instruction or data items inside 
+  function boundaries)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong> - address of the function</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>ea of each item in the function</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Structs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Structs</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of structures</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>List of tuples (idx, sid, name)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="StructMembers"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">StructMembers</span>(<span class="sig-arg">sid</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get a list of structure members information (or stack vars if given a 
+  frame).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sid</code></strong> - ID of the structure.</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>List of tuples (offset, name, size)</dd>
+  </dl>
+<div class="fields">      <strong>Notes:</strong>
+      <ul class="nomargin-top">
+        <li>
+        If 'sid' does not refer to a valid structure, an exception will be 
+        raised.
+        </li>
+        <li>
+        This will not return 'holes' in structures/stack frames; it only 
+        returns defined structure members.
+        </li>
+      </ul>
+</div></td></tr></table>
+</div>
+<a name="DecodePrecedingInstruction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">DecodePrecedingInstruction</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decode preceding instruction in the execution flow.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address to decode</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>(None or the decode instruction, farref) farref will contain 
+          'true' if followed an xref, false otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="DecodePreviousInstruction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">DecodePreviousInstruction</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decodes the previous instruction and returns an insn_t like class</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address to decode</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>None or a new insn_t instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="DecodeInstruction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">DecodeInstruction</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decodes an instruction and returns an insn_t like class</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address to decode</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>None or a new insn_t instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="MapDataList"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">MapDataList</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">length</span>,
+        <span class="sig-arg">func</span>,
+        <span class="sig-arg">wordsize</span>=<span class="sig-default">1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Map through a list of data words in the database</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - start address</li>
+        <li><strong class="pname"><code>length</code></strong> - number of words to map</li>
+        <li><strong class="pname"><code>func</code></strong> - mapping function</li>
+        <li><strong class="pname"><code>wordsize</code></strong> - size of words to map [default: 1 byte]</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>None</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="GetInputFileMD5"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">GetInputFileMD5</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return the MD5 hash of the input binary file</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>MD5 string or None on error</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="GetIdbDir"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">GetIdbDir</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get IDB directory</p>
+  <p>This function returns directory path of the current IDB database</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="Assemble"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Assemble</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">line</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Assembles one or more lines (does not display an message dialogs) If 
+  line is a list then this function will attempt to assemble all the lines 
+  This function will turn on batch mode temporarily so that no messages are
+  displayed on the screen</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - start address</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>(False, &quot;Error message&quot;) or (True, asm_buf) or (True, 
+          [asm_buf1, asm_buf2, asm_buf3])</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="ProcessUiActions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">ProcessUiActions</span>(<span class="sig-arg">actions</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>actions</code></strong> - A string containing a list of actions separated by semicolon, a 
+          list or a tuple</li>
+        <li><strong class="pname"><code>flags</code></strong> - flags to be passed to process_ui_action()</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>Boolean. Returns False if the action list was empty or 
+          execute_ui_requests() failed.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== VARIABLES DETAILS ==================== -->
+<a name="section-VariablesDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables Details</span></td>
+</tr>
+</table>
+<a name="cpu"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">cpu</h3>
+  <pre class="literalblock">This is a special class instance used to access the registers as if they were attributes of this object.
+For example to access the EAX register:
+    print(&quot;%x&quot; % cpu.Eax)
+
+</pre>
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">&lt;idautils._cpu object&gt;
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="procregs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">procregs</h3>
+  <pre class="literalblock">This object is used to access the processor registers. It is useful when decoding instructions and you want to see which instruction is which.
+For example:
+    x = idautils.DecodeInstruction(here())
+    if x[0] == procregs.Esp:
+        print(&quot;This operand is the register ESP)
+
+</pre>
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">&lt;idautils._procregs object&gt;
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

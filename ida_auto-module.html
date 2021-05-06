@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_auto</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_auto
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_auto-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_auto</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: auto</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_auto.auto_display_t-class.html" class="summary-name">auto_display_t</a><br />
+      Proxy of C++ auto_display_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_apply_tail" class="summary-sig-name">auto_apply_tail</a>(<span class="summary-sig-arg">tail_ea</span>,
+        <span class="summary-sig-arg">parent_ea</span>)</span><br />
+      Plan to apply the tail_ea chunk to the parent</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_apply_type" class="summary-sig-name">auto_apply_type</a>(<span class="summary-sig-arg">caller</span>,
+        <span class="summary-sig-arg">callee</span>)</span><br />
+      Plan to apply the callee's type to the calling point.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_cancel" class="summary-sig-name">auto_cancel</a>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>)</span><br />
+      Remove an address range (ea1..ea2) from queues 'AU_CODE' , 'AU_PROC' 
+      , 'AU_USED' .</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_get" class="summary-sig-name">auto_get</a>(<span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">lowEA</span>,
+        <span class="summary-sig-arg">highEA</span>)</span><br />
+      Retrieve an address from queues regarding their priority.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_is_ok" class="summary-sig-name">auto_is_ok</a>()</span><br />
+      Are all queues empty? (i.e.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_make_code" class="summary-sig-name">auto_make_code</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Plan to make code.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_make_proc" class="summary-sig-name">auto_make_proc</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Plan to make code&amp;function.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_mark" class="summary-sig-name">auto_mark</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">type</span>)</span><br />
+      Put single address into a queue.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_mark_range" class="summary-sig-name">auto_mark_range</a>(<span class="summary-sig-arg">start</span>,
+        <span class="summary-sig-arg">end</span>,
+        <span class="summary-sig-arg">type</span>)</span><br />
+      Put range of addresses into a queue.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_recreate_insn" class="summary-sig-name">auto_recreate_insn</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Try to create instruction</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_unmark" class="summary-sig-name">auto_unmark</a>(<span class="summary-sig-arg">start</span>,
+        <span class="summary-sig-arg">end</span>,
+        <span class="summary-sig-arg">type</span>)</span><br />
+      Remove range of addresses from a queue.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_wait" class="summary-sig-name">auto_wait</a>()</span><br />
+      Process everything in the queues and return true.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#auto_wait_range" class="summary-sig-name">auto_wait_range</a>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>)</span><br />
+      Process everything in the specified range and return true.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#enable_auto" class="summary-sig-name">enable_auto</a>(<span class="summary-sig-arg">enable</span>)</span><br />
+      Temporarily enable/disable autoanalyzer.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#get_auto_display" class="summary-sig-name">get_auto_display</a>(<span class="summary-sig-arg">auto_display</span>)</span><br />
+      Get structure which holds the autoanalysis indicator contents.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">atype_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#get_auto_state" class="summary-sig-name">get_auto_state</a>()</span><br />
+      Get current state of autoanalyzer.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="is_auto_enabled"></a><span class="summary-sig-name">is_auto_enabled</span>()</span><br />
+      Get autoanalyzer state.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#may_create_stkvars" class="summary-sig-name">may_create_stkvars</a>()</span><br />
+      Is it allowed to create stack variables automatically?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#may_trace_sp" class="summary-sig-name">may_trace_sp</a>()</span><br />
+      Is it allowed to trace stack pointer automatically?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#peek_auto_queue" class="summary-sig-name">peek_auto_queue</a>(<span class="summary-sig-arg">low_ea</span>,
+        <span class="summary-sig-arg">type</span>)</span><br />
+      Peek into a queue 'type' for an address not lower than 'low_ea'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#plan_and_wait" class="summary-sig-name">plan_and_wait</a>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>,
+        <span class="summary-sig-arg">final_pass</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Analyze the specified range.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#plan_ea" class="summary-sig-name">plan_ea</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Plan to perform reanalysis.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#plan_range" class="summary-sig-name">plan_range</a>(<span class="summary-sig-arg">sEA</span>,
+        <span class="summary-sig-arg">eEA</span>)</span><br />
+      Plan to perform reanalysis.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#reanalyze_callers" class="summary-sig-name">reanalyze_callers</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">noret</span>)</span><br />
+      Plan to reanalyze callers of the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#revert_ida_decisions" class="summary-sig-name">revert_ida_decisions</a>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>)</span><br />
+      Delete all analysis info that IDA generated for for the given range.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">atype_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#set_auto_state" class="summary-sig-name">set_auto_state</a>(<span class="summary-sig-arg">new_state</span>)</span><br />
+      Set current state of autoanalyzer.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idastate_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#set_ida_state" class="summary-sig-name">set_ida_state</a>(<span class="summary-sig-arg">st</span>)</span><br />
+      Change IDA status indicator value</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#show_addr" class="summary-sig-name">show_addr</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Show an address on the autoanalysis indicator.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_auto-module.html#show_auto" class="summary-sig-name">show_auto</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">type</span>=<span class="summary-sig-default">AU_NONE</span>)</span><br />
+      Change autoanalysis indicator value.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_CHLB"></a><span class="summary-name">AU_CHLB</span> = <code title="90">90</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_CODE"></a><span class="summary-name">AU_CODE</span> = <code title="20">20</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_FCHUNK"></a><span class="summary-name">AU_FCHUNK</span> = <code title="38">38</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_FINAL"></a><span class="summary-name">AU_FINAL</span> = <code title="200">200</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_LBF2"></a><span class="summary-name">AU_LBF2</span> = <code title="70">70</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_LBF3"></a><span class="summary-name">AU_LBF3</span> = <code title="80">80</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_LIBF"></a><span class="summary-name">AU_LIBF</span> = <code title="60">60</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_NONE"></a><span class="summary-name">AU_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_PROC"></a><span class="summary-name">AU_PROC</span> = <code title="30">30</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_TAIL"></a><span class="summary-name">AU_TAIL</span> = <code title="35">35</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_TYPE"></a><span class="summary-name">AU_TYPE</span> = <code title="50">50</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_UNK"></a><span class="summary-name">AU_UNK</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_USED"></a><span class="summary-name">AU_USED</span> = <code title="40">40</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="AU_WEAK"></a><span class="summary-name">AU_WEAK</span> = <code title="25">25</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cvar"></a><span class="summary-name">cvar</span> = <code title="??"><code class="variable-unknown">??</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="st_Ready"></a><span class="summary-name">st_Ready</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="st_Think"></a><span class="summary-name">st_Think</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="st_Waiting"></a><span class="summary-name">st_Waiting</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="st_Work"></a><span class="summary-name">st_Work</span> = <code title="3">3</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="auto_apply_tail"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_apply_tail</span>(<span class="sig-arg">tail_ea</span>,
+        <span class="sig-arg">parent_ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to apply the tail_ea chunk to the parent</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>tail_ea</code></strong> - linear address of start of tail (C++: ea_t)</li>
+        <li><strong class="pname"><code>parent_ea</code></strong> - linear address within parent. If BADADDR, automatically try to 
+          find parent via xrefs. (C++: ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_apply_type"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_apply_type</span>(<span class="sig-arg">caller</span>,
+        <span class="sig-arg">callee</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to apply the callee's type to the calling point.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>caller</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>callee</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_cancel"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_cancel</span>(<span class="sig-arg">ea1</span>,
+        <span class="sig-arg">ea2</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Remove an address range (ea1..ea2) from queues 'AU_CODE' , 'AU_PROC' ,
+  'AU_USED' . To remove an address range from other queues use 
+  'auto_unmark()' function. 'ea1' may be higher than 'ea2', the kernel will
+  swap them in this case. 'ea2' doesn't belong to the range.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea1</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_get"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_get</span>(<span class="sig-arg">type</span>,
+        <span class="sig-arg">lowEA</span>,
+        <span class="sig-arg">highEA</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Retrieve an address from queues regarding their priority. Returns 
+  'BADADDR' if no addresses not lower than 'lowEA' and less than 'highEA' 
+  are found in the queues. Otherwise *type will have queue type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - atype_t  *)</li>
+        <li><strong class="pname"><code>lowEA</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>highEA</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_is_ok"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_is_ok</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Are all queues empty? (i.e. has autoanalysis finished?).</p>
+  <dl class="fields">
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_make_code"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_make_code</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to make code.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_make_proc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_make_proc</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to make code&amp;function.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_mark"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_mark</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Put single address into a queue. Queues keep addresses sorted.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - atype_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_mark_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_mark_range</span>(<span class="sig-arg">start</span>,
+        <span class="sig-arg">end</span>,
+        <span class="sig-arg">type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Put range of addresses into a queue. 'start' may be higher than 'end',
+  the kernel will swap them in this case. 'end' doesn't belong to the 
+  range.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>end</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - atype_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_recreate_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_recreate_insn</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Try to create instruction</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of callee (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>the length of the instruction or 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_unmark"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_unmark</span>(<span class="sig-arg">start</span>,
+        <span class="sig-arg">end</span>,
+        <span class="sig-arg">type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Remove range of addresses from a queue. 'start' may be higher than 
+  'end', the kernel will swap them in this case. 'end' doesn't belong to 
+  the range.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>start</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>end</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - atype_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_wait"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_wait</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Process everything in the queues and return true.</p>
+  <dl class="fields">
+    <dt>Returns: bool</dt>
+        <dd>false if the user clicked cancel. (the wait box must be displayed
+          by the caller if desired)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="auto_wait_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">auto_wait_range</span>(<span class="sig-arg">ea1</span>,
+        <span class="sig-arg">ea2</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Process everything in the specified range and return true.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea1</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ssize_t</dt>
+        <dd>number of autoanalysis steps made. -1 if the user clicked cancel.
+          (the wait box must be displayed by the caller if desired)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="enable_auto"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">enable_auto</span>(<span class="sig-arg">enable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Temporarily enable/disable autoanalyzer. Not user-facing, but rather 
+  because IDA sometimes need to turn AA on/off regardless of 
+  inf.s_genflags:INFFL_AUTO</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>enable</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>old state</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_auto_display"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_auto_display</span>(<span class="sig-arg">auto_display</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get structure which holds the autoanalysis indicator contents.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>auto_display</code></strong>, <strong class="pname"><code>(C++</code></strong> - auto_display_t  *)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_auto_state"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_auto_state</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get current state of autoanalyzer. If auto_state == 'AU_NONE' , IDA is
+  currently not running the analysis (it could be temporarily interrupted 
+  to perform the user's requests, for example).</p>
+  <dl class="fields">
+    <dt>Returns: atype_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="may_create_stkvars"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">may_create_stkvars</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is it allowed to create stack variables automatically?. This function 
+  should be used by IDP modules before creating stack vars.</p>
+  <dl class="fields">
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="may_trace_sp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">may_trace_sp</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is it allowed to trace stack pointer automatically?. This function 
+  should be used by IDP modules before tracing sp.</p>
+  <dl class="fields">
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="peek_auto_queue"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">peek_auto_queue</span>(<span class="sig-arg">low_ea</span>,
+        <span class="sig-arg">type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Peek into a queue 'type' for an address not lower than 'low_ea'. Do 
+  not remove address from the queue.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>low_ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - atype_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>the address or  BADADDR</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="plan_and_wait"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">plan_and_wait</span>(<span class="sig-arg">ea1</span>,
+        <span class="sig-arg">ea2</span>,
+        <span class="sig-arg">final_pass</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Analyze the specified range. Try to create instructions where 
+  possible. Make the final pass over the specified range if specified. This
+  function doesn't return until the range is analyzed.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea1</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>final_pass</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="plan_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">plan_ea</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to perform reanalysis.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="plan_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">plan_range</span>(<span class="sig-arg">sEA</span>,
+        <span class="sig-arg">eEA</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to perform reanalysis.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sEA</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>eEA</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="reanalyze_callers"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">reanalyze_callers</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">noret</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Plan to reanalyze callers of the specified address. This function will
+  add to 'AU_USED' queue all instructions that call (not jump to) the 
+  specified address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of callee (C++: ea_t)</li>
+        <li><strong class="pname"><code>noret</code></strong> - !=0: the callee doesn't return, mark to undefine subsequent 
+          instructions in the caller. 0: do nothing. (C++: bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="revert_ida_decisions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">revert_ida_decisions</span>(<span class="sig-arg">ea1</span>,
+        <span class="sig-arg">ea2</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete all analysis info that IDA generated for for the given 
+  range.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea1</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_auto_state"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_auto_state</span>(<span class="sig-arg">new_state</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set current state of autoanalyzer.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>new_state</code></strong> - new state of autoanalyzer (C++: atype_t)</li>
+    </ul></dd>
+    <dt>Returns: atype_t</dt>
+        <dd>previous state</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_ida_state"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_ida_state</span>(<span class="sig-arg">st</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Change IDA status indicator value</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>st</code></strong> - - new indicator status (C++: idastate_t)</li>
+    </ul></dd>
+    <dt>Returns: idastate_t</dt>
+        <dd>old indicator status</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="show_addr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">show_addr</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Show an address on the autoanalysis indicator. The address is 
+  displayed in the form &quot; @:12345678&quot;.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - - linear address to display (C++: ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="show_auto"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">show_auto</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">type</span>=<span class="sig-default">AU_NONE</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Change autoanalysis indicator value.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address being analyzed (C++: ea_t)</li>
+        <li><strong class="pname"><code>type</code></strong> - autoanalysis type (see  Autoanalysis queues ) (C++: atype_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

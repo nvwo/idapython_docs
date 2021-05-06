@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_ua</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_ua
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_ua-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_ua</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: ua</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_ua.insn_t-class.html" class="summary-name">insn_t</a><br />
+      Proxy of C++ insn_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_ua.op_t-class.html" class="summary-name">op_t</a><br />
+      Proxy of C++ op_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_ua.operands_array-class.html" class="summary-name">operands_array</a><br />
+      Proxy of C++ wrapped_array_t&lt; op_t,8 &gt; class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_ua.outctx_base_t-class.html" class="summary-name">outctx_base_t</a><br />
+      Proxy of C++ outctx_base_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_ua.outctx_t-class.html" class="summary-name">outctx_t</a><br />
+      Proxy of C++ outctx_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#calc_dataseg" class="summary-sig-name">calc_dataseg</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">-1</span>,
+        <span class="summary-sig-arg">rgnum</span>=<span class="summary-sig-default">-1</span>)</span><br />
+      Get data segment for the instruction operand.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#can_decode" class="summary-sig-name">can_decode</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Can the bytes at address 'ea' be decoded as instruction?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="construct_macro"></a><span class="summary-sig-name">construct_macro</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">enable</span>,
+        <span class="summary-sig-arg">build_macro</span>)</span><br />
+      See ua.hpp's construct_macro().</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#create_insn" class="summary-sig-name">create_insn</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">out</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Create an instruction at the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">outctx_base_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#create_outctx" class="summary-sig-name">create_outctx</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">F</span>=<span class="summary-sig-default">0</span>,
+        <span class="summary-sig-arg">suspop</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Create a new output context.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#decode_insn" class="summary-sig-name">decode_insn</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Analyze the specified address and fill 'out'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#decode_preceding_insn" class="summary-sig-name">decode_preceding_insn</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Decodes the preceding instruction.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#decode_prev_insn" class="summary-sig-name">decode_prev_insn</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Decode previous instruction if it exists, fill 'out'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_dtype_by_size" class="summary-sig-name">get_dtype_by_size</a>(<span class="summary-sig-arg">size</span>)</span><br />
+      Get 'op_t::dtype' from size.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">flags_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_dtype_flag" class="summary-sig-name">get_dtype_flag</a>(<span class="summary-sig-arg">dtype</span>)</span><br />
+      Get flags for 'op_t::dtype' field.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_dtype_size" class="summary-sig-name">get_dtype_size</a>(<span class="summary-sig-arg">dtype</span>)</span><br />
+      Get size of opt_::dtype field.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_immvals" class="summary-sig-name">get_immvals</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">F</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get immediate values at the specified address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_lookback" class="summary-sig-name">get_lookback</a>()</span><br />
+      Number of instructions to look back.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">PyObject *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#get_printable_immvals" class="summary-sig-name">get_printable_immvals</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">F</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get immediate ready-to-print values at the specified address</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#guess_table_address" class="summary-sig-name">guess_table_address</a>(<span class="summary-sig-arg">insn</span>)</span><br />
+      Guess the jump table address (ibm pc specific)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">asize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#guess_table_size" class="summary-sig-name">guess_table_size</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">jump_table</span>)</span><br />
+      Guess the jump table size.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="insn_add_cref"></a><span class="summary-sig-name">insn_add_cref</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">to</span>,
+        <span class="summary-sig-arg">opoff</span>,
+        <span class="summary-sig-arg">type</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="insn_add_dref"></a><span class="summary-sig-name">insn_add_dref</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">to</span>,
+        <span class="summary-sig-arg">opoff</span>,
+        <span class="summary-sig-arg">type</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="insn_add_off_drefs"></a><span class="summary-sig-name">insn_add_off_drefs</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">outf</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="insn_create_stkvar"></a><span class="summary-sig-name">insn_create_stkvar</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">flags</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">insn_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="insn_t__from_ptrval__"></a><span class="summary-sig-name">insn_t__from_ptrval__</span>(<span class="summary-sig-arg">ptrval</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#is_floating_dtype" class="summary-sig-name">is_floating_dtype</a>(<span class="summary-sig-arg">dtype</span>)</span><br />
+      Is a floating type operand?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#map_code_ea" class="summary-sig-name">map_code_ea</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">addr</span>,
+        <span class="summary-sig-arg">opnum</span>)</span><br />
+      map_code_ea(insn, op) -&gt; ea_t</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#map_data_ea" class="summary-sig-name">map_data_ea</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">addr</span>,
+        <span class="summary-sig-arg">opnum</span>=<span class="summary-sig-default">-1</span>)</span><br />
+      map_data_ea(insn, op) -&gt; ea_t</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="map_ea"></a><span class="summary-sig-name">map_ea</span>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">op</span>,
+        <span class="summary-sig-arg">iscode</span>)</span><br />
+      map_ea(insn, addr, opnum, iscode) -&gt; ea_t</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">op_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="op_t__from_ptrval__"></a><span class="summary-sig-name">op_t__from_ptrval__</span>(<span class="summary-sig-arg">ptrval</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">outctx_base_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="outctx_base_t__from_ptrval__"></a><span class="summary-sig-name">outctx_base_t__from_ptrval__</span>(<span class="summary-sig-arg">ptrval</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">outctx_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="outctx_t__from_ptrval__"></a><span class="summary-sig-name">outctx_t__from_ptrval__</span>(<span class="summary-sig-arg">ptrval</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#print_insn_mnem" class="summary-sig-name">print_insn_mnem</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Print instruction mnemonics.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#print_operand" class="summary-sig-name">print_operand</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">getn_flags</span>=<span class="summary-sig-default">0</span>,
+        <span class="summary-sig-arg">newtype</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Generate text representation for operand #n.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_ua-module.html#ua_mnem" class="summary-sig-name">ua_mnem</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Print instruction mnemonics.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BINOPSTATE_DONE"></a><span class="summary-name">BINOPSTATE_DONE</span> = <code title="524288">524288</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BINOPSTATE_GO"></a><span class="summary-name">BINOPSTATE_GO</span> = <code title="262144">262144</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="BINOPSTATE_NONE"></a><span class="summary-name">BINOPSTATE_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="COMMSTATE_DONE"></a><span class="summary-name">COMMSTATE_DONE</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="COMMSTATE_GO"></a><span class="summary-name">COMMSTATE_GO</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="COMMSTATE_NONE"></a><span class="summary-name">COMMSTATE_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_BINOP_STATE"></a><span class="summary-name">CTXF_BINOP_STATE</span> = <code title="786432">786432</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_CMT_STATE"></a><span class="summary-name">CTXF_CMT_STATE</span> = <code title="768">768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_CODE"></a><span class="summary-name">CTXF_CODE</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_DBLIND_OPND"></a><span class="summary-name">CTXF_DBLIND_OPND</span> = <code title="131072">131072</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_DEMANGLED_LABEL"></a><span class="summary-name">CTXF_DEMANGLED_LABEL</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_DEMANGLED_OK"></a><span class="summary-name">CTXF_DEMANGLED_OK</span> = <code title="16384">16384</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_GEN_CMT"></a><span class="summary-name">CTXF_GEN_CMT</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_GEN_XREFS"></a><span class="summary-name">CTXF_GEN_XREFS</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_LABEL_OK"></a><span class="summary-name">CTXF_LABEL_OK</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_MAIN"></a><span class="summary-name">CTXF_MAIN</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_MULTI"></a><span class="summary-name">CTXF_MULTI</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_NORMAL_LABEL"></a><span class="summary-name">CTXF_NORMAL_LABEL</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_OUTCTX_T"></a><span class="summary-name">CTXF_OUTCTX_T</span> = <code title="65536">65536</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_OVSTORE_PRNT"></a><span class="summary-name">CTXF_OVSTORE_PRNT</span> = <code title="32768">32768</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_STACK"></a><span class="summary-name">CTXF_STACK</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_VOIDS"></a><span class="summary-name">CTXF_VOIDS</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CTXF_XREF_STATE"></a><span class="summary-name">CTXF_XREF_STATE</span> = <code title="96">96</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="DEFAULT_INDENT"></a><span class="summary-name">DEFAULT_INDENT</span> = <code title="65535">65535</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FCBF_CONT"></a><span class="summary-name">FCBF_CONT</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FCBF_DELIM"></a><span class="summary-name">FCBF_DELIM</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FCBF_ERR_REPL"></a><span class="summary-name">FCBF_ERR_REPL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FCBF_FF_LIT"></a><span class="summary-name">FCBF_FF_LIT</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_BYTESEX_HAS_HIGHBYTE"></a><span class="summary-name">GH_BYTESEX_HAS_HIGHBYTE</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_ALL"></a><span class="summary-name">GH_PRINT_ALL</span> = <code title="15">15</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_ALL_BUT_BYTESEX"></a><span class="summary-name">GH_PRINT_ALL_BUT_BYTESEX</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_ASM"></a><span class="summary-name">GH_PRINT_ASM</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_BYTESEX"></a><span class="summary-name">GH_PRINT_BYTESEX</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_HEADER"></a><span class="summary-name">GH_PRINT_HEADER</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_PROC"></a><span class="summary-name">GH_PRINT_PROC</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_PROC_AND_ASM"></a><span class="summary-name">GH_PRINT_PROC_AND_ASM</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="GH_PRINT_PROC_ASM_AND_BYTESEX"></a><span class="summary-name">GH_PRINT_PROC_ASM_AND_BYTESEX</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="INSN_64BIT"></a><span class="summary-name">INSN_64BIT</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="INSN_MACRO"></a><span class="summary-name">INSN_MACRO</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="INSN_MODMAC"></a><span class="summary-name">INSN_MODMAC</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAKELINE_BINPREF"></a><span class="summary-name">MAKELINE_BINPREF</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAKELINE_NONE"></a><span class="summary-name">MAKELINE_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAKELINE_STACK"></a><span class="summary-name">MAKELINE_STACK</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAKELINE_VOID"></a><span class="summary-name">MAKELINE_VOID</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OF_NO_BASE_DISP"></a><span class="summary-name">OF_NO_BASE_DISP</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OF_NUMBER"></a><span class="summary-name">OF_NUMBER</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OF_OUTER_DISP"></a><span class="summary-name">OF_OUTER_DISP</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OF_SHOW"></a><span class="summary-name">OF_SHOW</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFS_IFSIGN"></a><span class="summary-name">OOFS_IFSIGN</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFS_NEEDSIGN"></a><span class="summary-name">OOFS_NEEDSIGN</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFS_NOSIGN"></a><span class="summary-name">OOFS_NOSIGN</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_16"></a><span class="summary-name">OOFW_16</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_24"></a><span class="summary-name">OOFW_24</span> = <code title="48">48</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_32"></a><span class="summary-name">OOFW_32</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_64"></a><span class="summary-name">OOFW_64</span> = <code title="80">80</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_8"></a><span class="summary-name">OOFW_8</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOFW_IMM"></a><span class="summary-name">OOFW_IMM</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_ADDR"></a><span class="summary-name">OOF_ADDR</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_ANYSERIAL"></a><span class="summary-name">OOF_ANYSERIAL</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_NOBNOT"></a><span class="summary-name">OOF_NOBNOT</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_NUMBER"></a><span class="summary-name">OOF_NUMBER</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_OUTER"></a><span class="summary-name">OOF_OUTER</span> = <code title="256">256</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_SIGNED"></a><span class="summary-name">OOF_SIGNED</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_SIGNMASK"></a><span class="summary-name">OOF_SIGNMASK</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_SPACES"></a><span class="summary-name">OOF_SPACES</span> = <code title="2048">2048</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_WIDTHMASK"></a><span class="summary-name">OOF_WIDTHMASK</span> = <code title="112">112</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="OOF_ZSTROFF"></a><span class="summary-name">OOF_ZSTROFF</span> = <code title="512">512</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PACK_FORM_DEF"></a><span class="summary-name">PACK_FORM_DEF</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STKVAR_VALID_SIZE"></a><span class="summary-name">STKVAR_VALID_SIZE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="XREFSTATE_DONE"></a><span class="summary-name">XREFSTATE_DONE</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="XREFSTATE_GO"></a><span class="summary-name">XREFSTATE_GO</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="XREFSTATE_NONE"></a><span class="summary-name">XREFSTATE_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cvar"></a><span class="summary-name">cvar</span> = <code title="??"><code class="variable-unknown">??</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_bitfild"></a><span class="summary-name">dt_bitfild</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_byte"></a><span class="summary-name">dt_byte</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_byte16"></a><span class="summary-name">dt_byte16</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_byte32"></a><span class="summary-name">dt_byte32</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_byte64"></a><span class="summary-name">dt_byte64</span> = <code title="17">17</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_code"></a><span class="summary-name">dt_code</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_double"></a><span class="summary-name">dt_double</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_dword"></a><span class="summary-name">dt_dword</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_float"></a><span class="summary-name">dt_float</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_fword"></a><span class="summary-name">dt_fword</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_half"></a><span class="summary-name">dt_half</span> = <code title="18">18</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_ldbl"></a><span class="summary-name">dt_ldbl</span> = <code title="15">15</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_packreal"></a><span class="summary-name">dt_packreal</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_qword"></a><span class="summary-name">dt_qword</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_string"></a><span class="summary-name">dt_string</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_tbyte"></a><span class="summary-name">dt_tbyte</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_unicode"></a><span class="summary-name">dt_unicode</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_void"></a><span class="summary-name">dt_void</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="dt_word"></a><span class="summary-name">dt_word</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_displ"></a><span class="summary-name">o_displ</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_far"></a><span class="summary-name">o_far</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec0"></a><span class="summary-name">o_idpspec0</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec1"></a><span class="summary-name">o_idpspec1</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec2"></a><span class="summary-name">o_idpspec2</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec3"></a><span class="summary-name">o_idpspec3</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec4"></a><span class="summary-name">o_idpspec4</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_idpspec5"></a><span class="summary-name">o_idpspec5</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_imm"></a><span class="summary-name">o_imm</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_mem"></a><span class="summary-name">o_mem</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_near"></a><span class="summary-name">o_near</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_phrase"></a><span class="summary-name">o_phrase</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_reg"></a><span class="summary-name">o_reg</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="o_void"></a><span class="summary-name">o_void</span> = <code title="0">0</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="calc_dataseg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_dataseg</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">n</span>=<span class="sig-default">-1</span>,
+        <span class="sig-arg">rgnum</span>=<span class="sig-default">-1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get data segment for the instruction operand. 'opnum' and 'rgnum' are 
+  meaningful only if the processor has segment registers.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>n</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>rgnum</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="can_decode"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">can_decode</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Can the bytes at address 'ea' be decoded as instruction?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>whether or not the contents at that address could be a valid 
+          instruction</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="create_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">create_insn</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">out</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create an instruction at the specified address. This function checks 
+  if an instruction is present at the specified address and will try to 
+  create one if there is none. It will fail if there is a data item or 
+  other items hindering the creation of the new instruction. This function 
+  will also fill the 'out' structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+        <li><strong class="pname"><code>out</code></strong> - the resulting instruction (C++: insn_t  *)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>the length of the instruction or 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="create_outctx"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">create_outctx</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">F</span>=<span class="sig-default">0</span>,
+        <span class="sig-arg">suspop</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create a new output context. To delete it, just use &quot;delete 
+  pctx&quot;</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>F</code></strong>, <strong class="pname"><code>(C++</code></strong> - flags_t)</li>
+        <li><strong class="pname"><code>suspop</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: outctx_base_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="decode_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">decode_insn</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Analyze the specified address and fill 'out'. This function does not 
+  modify the database. It just tries to interpret the specified address as 
+  an instruction and fills the 'out' structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>out</code></strong> - the resulting instruction (C++: insn_t  *)</li>
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>the length of the (possible) instruction or 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="decode_preceding_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">decode_preceding_insn</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decodes the preceding instruction. Please check ua.hpp / 
+  decode_preceding_insn()</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - current ea</li>
+        <li><strong class="pname"><code>out</code></strong> - instruction storage</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd>tuple(preceeding_ea or BADADDR, farref = Boolean)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="decode_prev_insn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">decode_prev_insn</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Decode previous instruction if it exists, fill 'out'.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>out</code></strong> - the resulting instruction (C++: insn_t  *)</li>
+        <li><strong class="pname"><code>ea</code></strong> - the address to decode the previous instruction from (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>the previous instruction address ( BADADDR -no such insn)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_dtype_by_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_dtype_by_size</span>(<span class="sig-arg">size</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get 'op_t::dtype' from size.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>size</code></strong>, <strong class="pname"><code>(C++</code></strong> - asize_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_dtype_flag"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_dtype_flag</span>(<span class="sig-arg">dtype</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get flags for 'op_t::dtype' field.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dtype</code></strong>, <strong class="pname"><code>(C++</code></strong> - op_dtype_t)</li>
+    </ul></dd>
+    <dt>Returns: flags_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_dtype_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_dtype_size</span>(<span class="sig-arg">dtype</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get size of opt_::dtype field.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dtype</code></strong>, <strong class="pname"><code>(C++</code></strong> - op_dtype_t)</li>
+    </ul></dd>
+    <dt>Returns: size_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_immvals"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_immvals</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">F</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get immediate values at the specified address. This function decodes 
+  instruction at the specified address or inspects the data item. It finds 
+  immediate values and copies them to 'out'. This function will store the 
+  original value of the operands in 'out', unless the last bits of 'F' are 
+  &quot;...0 11111111&quot;, in which case the transformed values (as 
+  needed for printing) will be stored instead.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address to analyze (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand (0.. UA_MAXOP -1), -1 means all operands (C++: 
+          int)</li>
+        <li><strong class="pname"><code>F</code></strong> - flags for the specified address (C++: flags_t)</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd>number of immediate values (0..2* UA_MAXOP )</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_lookback"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_lookback</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Number of instructions to look back. This variable is not used by the 
+  kernel. Its value may be specified in ida.cfg: LOOKBACK = &lt;number&gt;.
+  IDP may use it as you like it. (TMS module uses it)</p>
+  <dl class="fields">
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_printable_immvals"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_printable_immvals</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">F</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get immediate ready-to-print values at the specified address</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - address to analyze (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand (0.. UA_MAXOP -1), -1 means all operands (C++: 
+          int)</li>
+        <li><strong class="pname"><code>F</code></strong> - flags for the specified address (C++: flags_t)</li>
+    </ul></dd>
+    <dt>Returns: PyObject *</dt>
+        <dd>number of immediate values (0..2* UA_MAXOP )</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="guess_table_address"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">guess_table_address</span>(<span class="sig-arg">insn</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Guess the jump table address (ibm pc specific)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="guess_table_size"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">guess_table_size</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">jump_table</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Guess the jump table size.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>jump_table</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: asize_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_floating_dtype"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_floating_dtype</span>(<span class="sig-arg">dtype</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a floating type operand?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dtype</code></strong>, <strong class="pname"><code>(C++</code></strong> - op_dtype_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="map_code_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">map_code_ea</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">addr</span>,
+        <span class="sig-arg">opnum</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>map_code_ea(insn, op) -&gt; ea_t</p>
+  <p>Map a code address. This function takes into account the segment 
+  translations.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong> - the current instruction (C++: const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>addr</code></strong> - the referenced address to map (C++: ea_t)</li>
+        <li><strong class="pname"><code>opnum</code></strong> - operand number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="map_data_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">map_data_ea</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">addr</span>,
+        <span class="sig-arg">opnum</span>=<span class="sig-default">-1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>map_data_ea(insn, op) -&gt; ea_t</p>
+  <p>Map a data address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong> - the current instruction (C++: const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>addr</code></strong> - the referenced address to map (C++: ea_t)</li>
+        <li><strong class="pname"><code>opnum</code></strong> - operand number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="print_insn_mnem"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">print_insn_mnem</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Print instruction mnemonics.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of the instruction (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="print_operand"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">print_operand</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">getn_flags</span>=<span class="sig-default">0</span>,
+        <span class="sig-arg">newtype</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generate text representation for operand #n. This function will 
+  generate the text representation of the specified operand (includes color
+  codes.)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - the item address (instruction or data) (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - operand number (0,1,2...). meaningful only for instructions (C++:
+          int)</li>
+        <li><strong class="pname"><code>getn_flags</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>newtype</code></strong> - if specified, print the operand using the specified type (C++: 
+          struct  printop_t  *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="ua_mnem"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">ua_mnem</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Print instruction mnemonics.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address of the instruction (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

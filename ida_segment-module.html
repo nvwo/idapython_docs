@@ -1,0 +1,3515 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_segment</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_segment
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_segment-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_segment</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: segment</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_segment.lock_segment-class.html" class="summary-name">lock_segment</a><br />
+      Proxy of C++ lock_segment class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_segment.segment_t-class.html" class="summary-name">segment_t</a><br />
+      Proxy of C++ segment_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#add_segm" class="summary-sig-name">add_segm</a>(<span class="summary-sig-arg">para</span>,
+        <span class="summary-sig-arg">start</span>,
+        <span class="summary-sig-arg">end</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">sclass</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Add a new segment, second form.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#add_segm_ex" class="summary-sig-name">add_segm_ex</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">sclass</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Add a new segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#add_segment_translation" class="summary-sig-name">add_segment_translation</a>(<span class="summary-sig-arg">segstart</span>,
+        <span class="summary-sig-arg">mappedseg</span>)</span><br />
+      Add segment translation.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#allocate_selector" class="summary-sig-name">allocate_selector</a>(<span class="summary-sig-arg">segbase</span>)</span><br />
+      Allocate a selector for a segment unconditionally.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#change_segment_status" class="summary-sig-name">change_segment_status</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">is_deb_segm</span>)</span><br />
+      Convert a debugger segment to a regular segment and vice versa.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#del_segm" class="summary-sig-name">del_segm</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Delete a segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#del_segment_translations" class="summary-sig-name">del_segment_translations</a>(<span class="summary-sig-arg">segstart</span>)</span><br />
+      Delete the translation list</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#del_selector" class="summary-sig-name">del_selector</a>(<span class="summary-sig-arg">selector</span>)</span><br />
+      Delete mapping of a selector.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#find_free_selector" class="summary-sig-name">find_free_selector</a>()</span><br />
+      Find first unused selector.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#find_selector" class="summary-sig-name">find_selector</a>(<span class="summary-sig-arg">base</span>)</span><br />
+      Find a selector that has mapping to the specified paragraph.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_defsr"></a><span class="summary-sig-name">get_defsr</span>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">reg</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_first_seg"></a><span class="summary-sig-name">get_first_seg</span>()</span><br />
+      Get pointer to the first segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_group_selector" class="summary-sig-name">get_group_selector</a>(<span class="summary-sig-arg">grpsel</span>)</span><br />
+      Get common selector for a group of segments.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_last_seg"></a><span class="summary-sig-name">get_last_seg</span>()</span><br />
+      Get pointer to the last segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_next_seg" class="summary-sig-name">get_next_seg</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get pointer to the next segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_prev_seg" class="summary-sig-name">get_prev_seg</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get pointer to the previous segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_base" class="summary-sig-name">get_segm_base</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      Get segment base linear address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_by_name" class="summary-sig-name">get_segm_by_name</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Get pointer to segment by its name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_by_sel" class="summary-sig-name">get_segm_by_sel</a>(<span class="summary-sig-arg">selector</span>)</span><br />
+      Get pointer to segment structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_class" class="summary-sig-name">get_segm_class</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      Get segment class.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_name" class="summary-sig-name">get_segm_name</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get true segment name by pointer to segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_num" class="summary-sig-name">get_segm_num</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get number of segment by address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segm_para" class="summary-sig-name">get_segm_para</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      Get segment base paragraph.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_segm_qty"></a><span class="summary-sig-name">get_segm_qty</span>()</span><br />
+      Get number of segments.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segment_alignment" class="summary-sig-name">get_segment_alignment</a>(<span class="summary-sig-arg">align</span>)</span><br />
+      Get text representation of segment alignment code.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segment_cmt" class="summary-sig-name">get_segment_cmt</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Get segment comment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segment_combination" class="summary-sig-name">get_segment_combination</a>(<span class="summary-sig-arg">comb</span>)</span><br />
+      Get text representation of segment combination code.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ssize_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_segment_translations" class="summary-sig-name">get_segment_translations</a>(<span class="summary-sig-arg">transmap</span>,
+        <span class="summary-sig-arg">segstart</span>)</span><br />
+      Get segment translation list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_selector_qty"></a><span class="summary-sig-name">get_selector_qty</span>()</span><br />
+      Get number of defined selectors.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#get_visible_segm_name" class="summary-sig-name">get_visible_segm_name</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      Get segment name by pointer to segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#getn_selector" class="summary-sig-name">getn_selector</a>(<span class="summary-sig-arg">n</span>)</span><br />
+      Get description of selector (0..</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#getnseg" class="summary-sig-name">getnseg</a>(<span class="summary-sig-arg">n</span>)</span><br />
+      Get pointer to segment by its number.Obsoleted because it can slow 
+      down the debugger (it has to refresh the whole memory segmentation to
+      calculate the correct answer)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">segment_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#getseg" class="summary-sig-name">getseg</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get pointer to segment by linear address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_finally_visible_segm" class="summary-sig-name">is_finally_visible_segm</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      See 'SFL_HIDDEN' , 'SCF_SHHID_SEGM' .</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_miniidb" class="summary-sig-name">is_miniidb</a>()</span><br />
+      Is the database a miniidb created by the debugger?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_segm_locked" class="summary-sig-name">is_segm_locked</a>(<span class="summary-sig-arg">segm</span>)</span><br />
+      Is a segment pointer locked?</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_spec_ea" class="summary-sig-name">is_spec_ea</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Does the address belong to a segment with a special type?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_spec_segm" class="summary-sig-name">is_spec_segm</a>(<span class="summary-sig-arg">seg_type</span>)</span><br />
+      Has segment a special type?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#is_visible_segm" class="summary-sig-name">is_visible_segm</a>(<span class="summary-sig-arg">s</span>)</span><br />
+      See 'SFL_HIDDEN' .</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#lock_segm" class="summary-sig-name">lock_segm</a>(<span class="summary-sig-arg">segm</span>,
+        <span class="summary-sig-arg">lock</span>)</span><br />
+      Lock segment pointer Locked pointers are guaranteed to remain valid 
+      until they are unlocked.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#move_segm" class="summary-sig-name">move_segm</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">to</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Move a segment to a new address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#move_segm_start" class="summary-sig-name">move_segm_start</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">newstart</span>,
+        <span class="summary-sig-arg">mode</span>)</span><br />
+      Move segment start.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#rebase_program" class="summary-sig-name">rebase_program</a>(<span class="summary-sig-arg">delta</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Rebase the whole program by 'delta' bytes.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">adiff_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#segm_adjust_diff" class="summary-sig-name">segm_adjust_diff</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">delta</span>)</span><br />
+      Truncate and sign extend a delta depending on the segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#segm_adjust_ea" class="summary-sig-name">segm_adjust_ea</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">ea</span>)</span><br />
+      Truncate an address depending on the segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">uchar</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#segtype" class="summary-sig-name">segtype</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get segment type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#sel2ea" class="summary-sig-name">sel2ea</a>(<span class="summary-sig-arg">selector</span>)</span><br />
+      Get mapping of a selector as a linear address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#sel2para" class="summary-sig-name">sel2para</a>(<span class="summary-sig-arg">selector</span>)</span><br />
+      Get mapping of a selector.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_defsr"></a><span class="summary-sig-name">set_defsr</span>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">reg</span>,
+        <span class="summary-sig-arg">value</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_group_selector" class="summary-sig-name">set_group_selector</a>(<span class="summary-sig-arg">grp</span>,
+        <span class="summary-sig-arg">sel</span>)</span><br />
+      Initialize groups.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_addressing" class="summary-sig-name">set_segm_addressing</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">bitness</span>)</span><br />
+      Change segment addressing mode (16, 32, 64 bits).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_base" class="summary-sig-name">set_segm_base</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">newbase</span>)</span><br />
+      Internal function.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_class" class="summary-sig-name">set_segm_class</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">sclass</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Set segment class.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_end" class="summary-sig-name">set_segm_end</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">newend</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Set segment end address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_name" class="summary-sig-name">set_segm_name</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Rename segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segm_start" class="summary-sig-name">set_segm_start</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">newstart</span>,
+        <span class="summary-sig-arg">flags</span>)</span><br />
+      Set segment start address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segment_cmt" class="summary-sig-name">set_segment_cmt</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">cmt</span>,
+        <span class="summary-sig-arg">repeatable</span>)</span><br />
+      Set segment comment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_segment_translations" class="summary-sig-name">set_segment_translations</a>(<span class="summary-sig-arg">segstart</span>,
+        <span class="summary-sig-arg">transmap</span>)</span><br />
+      Set new translation list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_selector" class="summary-sig-name">set_selector</a>(<span class="summary-sig-arg">selector</span>,
+        <span class="summary-sig-arg">paragraph</span>)</span><br />
+      Set mapping of selector to a paragraph.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#set_visible_segm" class="summary-sig-name">set_visible_segm</a>(<span class="summary-sig-arg">s</span>,
+        <span class="summary-sig-arg">visible</span>)</span><br />
+      See 'SFL_HIDDEN' .</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#setup_selector" class="summary-sig-name">setup_selector</a>(<span class="summary-sig-arg">segbase</span>)</span><br />
+      Allocate a selector for a segment if necessary.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#std_out_segm_footer" class="summary-sig-name">std_out_segm_footer</a>(<span class="summary-sig-arg">ctx</span>,
+        <span class="summary-sig-arg">seg</span>)</span><br />
+      Generate segment footer line as a comment line.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segment-module.html#take_memory_snapshot" class="summary-sig-name">take_memory_snapshot</a>(<span class="summary-sig-arg">only_loader_segs</span>)</span><br />
+      Take a memory snapshot of the running process.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="update_segm"></a><span class="summary-sig-name">update_segm</span>(<span class="summary-sig-arg">s</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_FILLGAP"></a><span class="summary-name">ADDSEG_FILLGAP</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_IDBENC"></a><span class="summary-name">ADDSEG_IDBENC</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_NOAA"></a><span class="summary-name">ADDSEG_NOAA</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_NOSREG"></a><span class="summary-name">ADDSEG_NOSREG</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_NOTRUNC"></a><span class="summary-name">ADDSEG_NOTRUNC</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_OR_DIE"></a><span class="summary-name">ADDSEG_OR_DIE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_QUIET"></a><span class="summary-name">ADDSEG_QUIET</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="ADDSEG_SPARSE"></a><span class="summary-name">ADDSEG_SPARSE</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CSS_BREAK"></a><span class="summary-name">CSS_BREAK</span> = <code title="-4">-4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CSS_NODBG"></a><span class="summary-name">CSS_NODBG</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CSS_NOMEM"></a><span class="summary-name">CSS_NOMEM</span> = <code title="-3">-3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CSS_NORANGE"></a><span class="summary-name">CSS_NORANGE</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CSS_OK"></a><span class="summary-name">CSS_OK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAX_GROUPS"></a><span class="summary-name">MAX_GROUPS</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MAX_SEGM_TRANSLATIONS"></a><span class="summary-name">MAX_SEGM_TRANSLATIONS</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_CHUNK"></a><span class="summary-name">MOVE_SEGM_CHUNK</span> = <code title="-4">-4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_DEBUG"></a><span class="summary-name">MOVE_SEGM_DEBUG</span> = <code title="-8">-8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_IDP"></a><span class="summary-name">MOVE_SEGM_IDP</span> = <code title="-3">-3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_LOADER"></a><span class="summary-name">MOVE_SEGM_LOADER</span> = <code title="-5">-5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_ODD"></a><span class="summary-name">MOVE_SEGM_ODD</span> = <code title="-6">-6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_OK"></a><span class="summary-name">MOVE_SEGM_OK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_ORPHAN"></a><span class="summary-name">MOVE_SEGM_ORPHAN</span> = <code title="-7">-7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_PARAM"></a><span class="summary-name">MOVE_SEGM_PARAM</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MOVE_SEGM_ROOM"></a><span class="summary-name">MOVE_SEGM_ROOM</span> = <code title="-2">-2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_FIXONCE"></a><span class="summary-name">MSF_FIXONCE</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_LDKEEP"></a><span class="summary-name">MSF_LDKEEP</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_NETNODES"></a><span class="summary-name">MSF_NETNODES</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_NOFIX"></a><span class="summary-name">MSF_NOFIX</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_PRIORITY"></a><span class="summary-name">MSF_PRIORITY</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="MSF_SILENT"></a><span class="summary-name">MSF_SILENT</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_KEEP"></a><span class="summary-name">SEGMOD_KEEP</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_KEEP0"></a><span class="summary-name">SEGMOD_KEEP0</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_KEEPSEL"></a><span class="summary-name">SEGMOD_KEEPSEL</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_KILL"></a><span class="summary-name">SEGMOD_KILL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_NOMOVE"></a><span class="summary-name">SEGMOD_NOMOVE</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_SILENT"></a><span class="summary-name">SEGMOD_SILENT</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGMOD_SPARSE"></a><span class="summary-name">SEGMOD_SPARSE</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGPERM_EXEC"></a><span class="summary-name">SEGPERM_EXEC</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGPERM_MAXVAL"></a><span class="summary-name">SEGPERM_MAXVAL</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGPERM_READ"></a><span class="summary-name">SEGPERM_READ</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEGPERM_WRITE"></a><span class="summary-name">SEGPERM_WRITE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_ABSSYM"></a><span class="summary-name">SEG_ABSSYM</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_BSS"></a><span class="summary-name">SEG_BSS</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_CODE"></a><span class="summary-name">SEG_CODE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_COMM"></a><span class="summary-name">SEG_COMM</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_DATA"></a><span class="summary-name">SEG_DATA</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_GRP"></a><span class="summary-name">SEG_GRP</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_IMEM"></a><span class="summary-name">SEG_IMEM</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_IMP"></a><span class="summary-name">SEG_IMP</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_MAX_BITNESS_CODE"></a><span class="summary-name">SEG_MAX_BITNESS_CODE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_MAX_SEGTYPE_CODE"></a><span class="summary-name">SEG_MAX_SEGTYPE_CODE</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_NORM"></a><span class="summary-name">SEG_NORM</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_NULL"></a><span class="summary-name">SEG_NULL</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_UNDF"></a><span class="summary-name">SEG_UNDF</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SEG_XTRN"></a><span class="summary-name">SEG_XTRN</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_COMORG"></a><span class="summary-name">SFL_COMORG</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_DEBUG"></a><span class="summary-name">SFL_DEBUG</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_HEADER"></a><span class="summary-name">SFL_HEADER</span> = <code title="64">64</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_HIDDEN"></a><span class="summary-name">SFL_HIDDEN</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_HIDETYPE"></a><span class="summary-name">SFL_HIDETYPE</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_LOADER"></a><span class="summary-name">SFL_LOADER</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SFL_OBOK"></a><span class="summary-name">SFL_OBOK</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SREG_NUM"></a><span class="summary-name">SREG_NUM</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saAbs"></a><span class="summary-name">saAbs</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saGroup"></a><span class="summary-name">saGroup</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel1024Bytes"></a><span class="summary-name">saRel1024Bytes</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel128Bytes"></a><span class="summary-name">saRel128Bytes</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel2048Bytes"></a><span class="summary-name">saRel2048Bytes</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel32Bytes"></a><span class="summary-name">saRel32Bytes</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel4K"></a><span class="summary-name">saRel4K</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel512Bytes"></a><span class="summary-name">saRel512Bytes</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel64Bytes"></a><span class="summary-name">saRel64Bytes</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelByte"></a><span class="summary-name">saRelByte</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelDble"></a><span class="summary-name">saRelDble</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelPage"></a><span class="summary-name">saRelPage</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelPara"></a><span class="summary-name">saRelPara</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelQword"></a><span class="summary-name">saRelQword</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRelWord"></a><span class="summary-name">saRelWord</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="saRel_MAX_ALIGN_CODE"></a><span class="summary-name">saRel_MAX_ALIGN_CODE</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scCommon"></a><span class="summary-name">scCommon</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scGroup"></a><span class="summary-name">scGroup</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scPriv"></a><span class="summary-name">scPriv</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scPub"></a><span class="summary-name">scPub</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scPub2"></a><span class="summary-name">scPub2</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scPub3"></a><span class="summary-name">scPub3</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="scStack"></a><span class="summary-name">scStack</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="sc_MAX_COMB_CODE"></a><span class="summary-name">sc_MAX_COMB_CODE</span> = <code title="7">7</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="add_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_segm</span>(<span class="sig-arg">para</span>,
+        <span class="sig-arg">start</span>,
+        <span class="sig-arg">end</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">sclass</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add a new segment, second form. Segment alignment is set to 
+  'saRelByte' . Segment combination is &quot;public&quot; or 
+  &quot;stack&quot; (if segment class is &quot;STACK&quot;). Addressing 
+  mode of segment is taken as default (16bit or 32bit). Default segment 
+  registers are set to 'BADSEL' . If a segment already exists at the 
+  specified range of addresses, this segment will be truncated. 
+  Instructions and data in the old segment will be deleted if the new 
+  segment has another addressing mode or another segment base address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>para</code></strong> - segment base paragraph. if paragraph can't fit in 16bit, then a 
+          new selector is allocated and mapped to the paragraph. (C++: 
+          ea_t)</li>
+        <li><strong class="pname"><code>start</code></strong> - start address of the segment. if start== BADADDR  then start 
+          &lt;- to_ea(para,0). (C++: ea_t)</li>
+        <li><strong class="pname"><code>end</code></strong> - end address of the segment. end address should be higher than 
+          start address. For emulate empty segments, use SEG_NULL  segment 
+          type. If the end address is lower than start address, then fail. 
+          If end== BADADDR , then a segment up to the next segment will be 
+          created (if the next segment doesn't exist, then 1 byte segment 
+          will be created). If 'end' is too high and the new segment would 
+          overlap the next segment, 'end' is adjusted properly. (C++: ea_t)</li>
+        <li><strong class="pname"><code>name</code></strong> - name of new segment. may be NULL (C++: const char *)</li>
+        <li><strong class="pname"><code>sclass</code></strong> - class of the segment. may be NULL. type of the new segment is 
+          modified if class is one of predefined names:   &quot;CODE&quot; 
+          -&gt;  SEG_CODE   &quot;DATA&quot; -&gt;  SEG_DATA 
+          &quot;CONST&quot; -&gt;  SEG_DATA   &quot;STACK&quot; -&gt;  
+          SEG_BSS   &quot;BSS&quot; -&gt; SEG_BSS   &quot;XTRN&quot; -&gt;
+          SEG_XTRN   &quot;COMM&quot; -&gt;  SEG_COMM &quot;ABS&quot; -&gt;
+          SEG_ABSSYM (C++: const char *)</li>
+        <li><strong class="pname"><code>flags</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_segm_ex"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_segm_ex</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">sclass</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add a new segment. If a segment already exists at the specified range 
+  of addresses, this segment will be truncated. Instructions and data in 
+  the old segment will be deleted if the new segment has another addressing
+  mode or another segment base address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to filled segment structure. segment selector should have
+          proper mapping (see  set_selector() ).   if s.start_ea== BADADDR
+          then s.start_ea &lt;- get_segm_base(&amp;s) if s.end_ea== BADADDR
+          , then a segment up to the next segment will be created (if the 
+          next segment doesn't exist, then 1 byte segment will be created).
+          if the s.end_ea &lt; s.start_ea, then fail.   if s.end_ea is too 
+          high and the new segment would overlap the next segment, s.end_ea
+          is adjusted properly. (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>name</code></strong> - name of new segment. may be NULL. if specified, the segment is 
+          immediately renamed (C++: const char *)</li>
+        <li><strong class="pname"><code>sclass</code></strong> - class of the segment. may be NULL. if specified, the segment 
+          class is immediately changed (C++: const char *)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Add segment flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_segment_translation"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_segment_translation</span>(<span class="sig-arg">segstart</span>,
+        <span class="sig-arg">mappedseg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add segment translation.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segstart</code></strong> - start address of the segment to add translation to (C++: ea_t)</li>
+        <li><strong class="pname"><code>mappedseg</code></strong> - start address of the overlayed segment (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="allocate_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">allocate_selector</span>(<span class="sig-arg">segbase</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Allocate a selector for a segment unconditionally. You must call this 
+  function before calling 'add_segm_ex()' . 'add_segm()' calls this 
+  function itself, so you don't need to allocate a selector. This function 
+  will allocate a new free selector and setup its mapping using 
+  'find_free_selector()' and 'set_selector()' functions.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segbase</code></strong> - a new segment base paragraph (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: sel_t</dt>
+        <dd>the allocated selector number</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="change_segment_status"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">change_segment_status</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">is_deb_segm</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert a debugger segment to a regular segment and vice versa. When 
+  converting debug-&gt;regular, the memory contents will be copied to the 
+  database.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - segment to modify (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>is_deb_segm</code></strong> - new status of the segment (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>Change segment status result codes</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_segm</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete a segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any address belonging to the segment (C++: ea_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Segment modification flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_segment_translations"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_segment_translations</span>(<span class="sig-arg">segstart</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete the translation list</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segstart</code></strong> - start address of the segment to delete translation list (C++: 
+          ea_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_selector</span>(<span class="sig-arg">selector</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete mapping of a selector. Be wary of deleting selectors that are 
+  being used in the program, this can make a mess in the segments.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>selector</code></strong> - number of selector to remove from the translation table (C++: 
+          sel_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="find_free_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">find_free_selector</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Find first unused selector.</p>
+  <dl class="fields">
+    <dt>Returns: sel_t</dt>
+        <dd>a number &gt;= 1</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="find_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">find_selector</span>(<span class="sig-arg">base</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Find a selector that has mapping to the specified paragraph.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>base</code></strong> - paragraph to search in the translation table (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: sel_t</dt>
+        <dd>selector value or base</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_group_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_group_selector</span>(<span class="sig-arg">grpsel</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get common selector for a group of segments.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>grpsel</code></strong> - selector of group segment (C++: sel_t)</li>
+    </ul></dd>
+    <dt>Returns: sel_t</dt>
+        <dd>common selector of the group or 'grpsel' if no such group is 
+          found</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_next_seg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_next_seg</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to the next segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_prev_seg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_prev_seg</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to the previous segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_base"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_base</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment base linear address. Segment base linear address is used 
+  to calculate virtual addresses. The virtual address of the first byte of 
+  the segment will be (start address of segment - segment base linear 
+  address)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: const  segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>0 if s == NULL, otherwise segment base linear address</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_by_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_by_name</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to segment by its name. If there are several segments with
+  the same name, returns the first of them.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - segment name. may be NULL. (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+        <dd>NULL or pointer to segment structure</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_by_sel"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_by_sel</span>(<span class="sig-arg">selector</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to segment structure. This function finds a segment by its
+  selector. If there are several segments with the same selectors, the last
+  one will be returned.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>selector</code></strong> - a segment with the specified selector will be returned (C++: 
+          sel_t)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+        <dd>pointer to segment or NULL</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_class"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_class</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment class. Segment class is arbitrary text (max 8 
+  characters).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: const  segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>size of segment class (-1 if s==NULL or bufsize&lt;=0)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_name</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get true segment name by pointer to segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: const  segment_t  *)</li>
+        <li><strong class="pname"><code>flags</code></strong> - 0-return name as is; 1-substitute bad symbols with _ 1 
+          corresponds to GN_VISIBLE (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>size of segment name (-1 if s==NULL)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_num"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_num</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get number of segment by address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address belonging to the segment (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>-1 if no segment occupies the specified address. otherwise 
+          returns number of the specified segment (0.. get_segm_qty() -1)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segm_para"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segm_para</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment base paragraph. Segment base paragraph may be converted to
+  segment base linear address using 'to_ea()' function. In fact, 
+  to_ea(get_segm_para(s), 0) == get_segm_base(s).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: const  segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>0 if s == NULL, the segment base paragraph</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segment_alignment"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segment_alignment</span>(<span class="sig-arg">align</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get text representation of segment alignment code.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>align</code></strong>, <strong class="pname"><code>(C++</code></strong> - uchar)</li>
+    </ul></dd>
+    <dt>Returns: char const *</dt>
+        <dd>text digestable by IBM PC assembler.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segment_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segment_cmt</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment comment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment structure (C++: const  segment_t  *)</li>
+        <li><strong class="pname"><code>repeatable</code></strong> - 0: get regular comment. 1: get repeatable comment. (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>size of comment or -1</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segment_combination"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segment_combination</span>(<span class="sig-arg">comb</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get text representation of segment combination code.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>comb</code></strong>, <strong class="pname"><code>(C++</code></strong> - uchar)</li>
+    </ul></dd>
+    <dt>Returns: char const *</dt>
+        <dd>text digestable by IBM PC assembler.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_segment_translations"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_segment_translations</span>(<span class="sig-arg">transmap</span>,
+        <span class="sig-arg">segstart</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment translation list.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>transmap</code></strong> - vector of segment start addresses for the translation list (C++: 
+          eavec_t  *)</li>
+        <li><strong class="pname"><code>segstart</code></strong> - start address of the segment to get information about (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ssize_t</dt>
+        <dd>-1 if no translation list or bad segstart. otherwise returns size
+          of translation list.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_visible_segm_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_visible_segm_name</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment name by pointer to segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: const  segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>size of segment name (-1 if s==NULL)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getn_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getn_selector</span>(<span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get description of selector (0.. 'get_selector_qty()' -1)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getnseg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getnseg</span>(<span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to segment by its number.Obsoleted because it can slow 
+  down the debugger (it has to refresh the whole memory segmentation to 
+  calculate the correct answer)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>n</code></strong> - segment number in the range (0.. get_segm_qty() -1) (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+        <dd>NULL or pointer to segment structure</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getseg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getseg</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get pointer to segment by linear address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address belonging to the segment (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: segment_t</dt>
+        <dd>NULL or pointer to segment structure</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_finally_visible_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_finally_visible_segm</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>See 'SFL_HIDDEN' , 'SCF_SHHID_SEGM' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_miniidb"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_miniidb</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is the database a miniidb created by the debugger?.</p>
+  <dl class="fields">
+    <dt>Returns: bool</dt>
+        <dd>true if the database contains no segments or only debugger 
+          segments</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_segm_locked"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_segm_locked</span>(<span class="sig-arg">segm</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Is a segment pointer locked?</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segm</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_spec_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_spec_ea</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Does the address belong to a segment with a special type?. ( 
+  'SEG_XTRN' , 'SEG_GRP' , 'SEG_ABSSYM' , 'SEG_COMM' )</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_spec_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_spec_segm</span>(<span class="sig-arg">seg_type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Has segment a special type?. ( 'SEG_XTRN' , 'SEG_GRP' , 'SEG_ABSSYM' ,
+  'SEG_COMM' )</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>seg_type</code></strong>, <strong class="pname"><code>(C++</code></strong> - uchar)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="is_visible_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">is_visible_segm</span>(<span class="sig-arg">s</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>See 'SFL_HIDDEN' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - segment_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="lock_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">lock_segm</span>(<span class="sig-arg">segm</span>,
+        <span class="sig-arg">lock</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Lock segment pointer Locked pointers are guaranteed to remain valid 
+  until they are unlocked. Ranges with locked pointers cannot be deleted or
+  moved.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segm</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  segment_t  *)</li>
+        <li><strong class="pname"><code>lock</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="move_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">move_segm</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">to</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Move a segment to a new address. This function moves all information 
+  to the new address. It fixes up address sensitive information in the 
+  kernel. The total effect is equal to reloading the segment to the target 
+  address. For the file format dependent address sensitive information, 
+  'loader_t::move_segm' is called. Also IDB notification event 
+  'idb_event::segm_moved' is called.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - segment to move (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>to</code></strong> - new segment start address (C++: ea_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Move segment flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>Move segment result codes</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="move_segm_start"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">move_segm_start</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">newstart</span>,
+        <span class="sig-arg">mode</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Move segment start. The main difference between this function and 
+  'set_segm_start()' is that this function may expand the previous segment 
+  while 'set_segm_start()' never does it. So, this function allows to 
+  change bounds of two segments simultaneously. If the previous segment and
+  the specified segment have the same addressing mode and segment base, 
+  then instructions and data are not destroyed - they simply move from one 
+  segment to another. Otherwise all instructions/data which migrate from 
+  one segment to another are destroyed.this function never disables 
+  addresses.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any address belonging to the segment (C++: ea_t)</li>
+        <li><strong class="pname"><code>newstart</code></strong> - new start address of the segment note that segment start address 
+          should be higher than segment base linear address. (C++: ea_t)</li>
+        <li><strong class="pname"><code>mode</code></strong> - policy for destroying defined items   0: if it is necessary to 
+          destroy defined items, display a dialog box and ask confirmation
+          1: if it is necessary to destroy defined items, just destroy them
+          without asking the user -1: if it is necessary to destroy defined
+          items, don't destroy them (i.e. function will fail)   -2: don't 
+          destroy defined items (function will succeed) (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="rebase_program"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">rebase_program</span>(<span class="sig-arg">delta</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Rebase the whole program by 'delta' bytes.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>delta</code></strong> - number of bytes to move the program (C++: adiff_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Move segment flags  it is recommended to use MSF_FIXONCE  so that
+          the loader takes care of global variables it stored in the 
+          database (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>Move segment result codes</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="segm_adjust_diff"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">segm_adjust_diff</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">delta</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Truncate and sign extend a delta depending on the segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  segment_t  *)</li>
+        <li><strong class="pname"><code>delta</code></strong>, <strong class="pname"><code>(C++</code></strong> - adiff_t)</li>
+    </ul></dd>
+    <dt>Returns: adiff_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="segm_adjust_ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">segm_adjust_ea</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Truncate an address depending on the segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  segment_t  *)</li>
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="segtype"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">segtype</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any linear address within the segment (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: uchar</dt>
+        <dd>Segment types ,  SEG_UNDF  if no segment found at 'ea'</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="sel2ea"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">sel2ea</span>(<span class="sig-arg">selector</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get mapping of a selector as a linear address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>selector</code></strong> - number of selector to translate to linear address (C++: sel_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>linear address the specified selector is mapped to. if there is 
+          no mapping, returns to_ea(selector,0);</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="sel2para"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">sel2para</span>(<span class="sig-arg">selector</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get mapping of a selector.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>selector</code></strong> - number of selector to translate (C++: sel_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>paragraph the specified selector is mapped to. if there is no 
+          mapping, returns 'selector'.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_group_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_group_selector</span>(<span class="sig-arg">grp</span>,
+        <span class="sig-arg">sel</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Initialize groups. The kernel calls this function at the start of 
+  work.Create a new group of segments (used OMF files).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>grp</code></strong> - selector of group segment (segment type is  SEG_GRP ) You should 
+          create an 'empty' (1 byte) group segment It won't contain 
+          anything and will be used to redirect references to the group of 
+          segments to the common selector. (C++: sel_t)</li>
+        <li><strong class="pname"><code>sel</code></strong> - common selector of all segments belonging to the segment You 
+          should create all segments within the group with the same 
+          selector value. (C++: sel_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>1 ok</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_addressing"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_addressing</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">bitness</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Change segment addressing mode (16, 32, 64 bits). You must use this 
+  function to change segment addressing, never change the 'bitness' field 
+  directly. This function will delete all instructions, comments and names 
+  in the segment</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>bitness</code></strong> - new addressing mode of segment   2: 64bit segment   1: 32bit 
+          segment   0: 16bit segment (C++: size_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_base"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_base</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">newbase</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Internal function.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - segment_t  *)</li>
+        <li><strong class="pname"><code>newbase</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_class"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_class</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">sclass</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set segment class.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (may be NULL) (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>sclass</code></strong> - segment class (may be NULL). If segment type is SEG_NORM  and 
+          segment class is one of predefined names, then segment type is 
+          changed to:   &quot;CODE&quot; -&gt;  SEG_CODE &quot;DATA&quot; 
+          -&gt;  SEG_DATA   &quot;STACK&quot; -&gt;  SEG_BSS   
+          &quot;BSS&quot; -&gt; SEG_BSS   if &quot;UNK&quot; then segment 
+          type is reset to SEG_NORM . (C++: const char *)</li>
+        <li><strong class="pname"><code>flags</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_end"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_end</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">newend</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set segment end address. The next segment is shrinked to allow 
+  expansion of the specified segment. The kernel might even delete the next
+  segment if necessary. The kernel will ask the user for a permission to 
+  destroy instructions or data going out of segment scope if such 
+  instructions exist.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any address belonging to the segment (C++: ea_t)</li>
+        <li><strong class="pname"><code>newend</code></strong> - new end address of the segment (C++: ea_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Segment modification flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_name</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">name</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Rename segment. The new name is validated (see validate_name). A 
+  segment always has a name. If you hadn't specified a name, the kernel 
+  will assign it &quot;seg###&quot; name where ### is segment number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment (may be NULL) (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>name</code></strong> - new segment name (C++: const char *)</li>
+        <li><strong class="pname"><code>flags</code></strong> - ADDSEG_IDBENC or 0 (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segm_start"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segm_start</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">newstart</span>,
+        <span class="sig-arg">flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set segment start address. The previous segment is trimmed to allow 
+  expansion of the specified segment. The kernel might even delete the 
+  previous segment if necessary. The kernel will ask the user for a 
+  permission to destroy instructions or data going out of segment scope if 
+  such instructions exist.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any address belonging to the segment (C++: ea_t)</li>
+        <li><strong class="pname"><code>newstart</code></strong> - new start address of the segment note that segment start address 
+          should be higher than segment base linear address. (C++: ea_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - Segment modification flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segment_cmt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segment_cmt</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">cmt</span>,
+        <span class="sig-arg">repeatable</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set segment comment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong> - pointer to segment structure (C++: const  segment_t  *)</li>
+        <li><strong class="pname"><code>cmt</code></strong> - comment string, may be multiline (with '  '). maximal size is 
+          4096 bytes. Use empty str (&quot;&quot;) to delete comment (C++: 
+          const char *)</li>
+        <li><strong class="pname"><code>repeatable</code></strong> - 0: set regular comment. 1: set repeatable comment. (C++: bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_segment_translations"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_segment_translations</span>(<span class="sig-arg">segstart</span>,
+        <span class="sig-arg">transmap</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set new translation list.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segstart</code></strong> - start address of the segment to add translation to (C++: ea_t)</li>
+        <li><strong class="pname"><code>transmap</code></strong> - vector of segment start addresses for the translation list. If 
+          transmap is empty, the translation list is deleted. (C++: const  
+          eavec_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_selector</span>(<span class="sig-arg">selector</span>,
+        <span class="sig-arg">paragraph</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set mapping of selector to a paragraph. You should call this 
+  functionbeforecreating a segment which uses the selector, otherwise the 
+  creation of the segment will fail.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>selector</code></strong> - number of selector to map   if selector ==  BADSEL , then return 
+          0 (fail)   if the selector has had a mapping, old mapping is 
+          destroyed   if the selector number is equal to paragraph value, 
+          then the mapping is destroyed because we don't need to keep 
+          trivial mappings. (C++: sel_t)</li>
+        <li><strong class="pname"><code>paragraph</code></strong> - paragraph to map selector (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_visible_segm"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_visible_segm</span>(<span class="sig-arg">s</span>,
+        <span class="sig-arg">visible</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>See 'SFL_HIDDEN' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>s</code></strong>, <strong class="pname"><code>(C++</code></strong> - segment_t  *)</li>
+        <li><strong class="pname"><code>visible</code></strong>, <strong class="pname"><code>(C++</code></strong> - bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="setup_selector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setup_selector</span>(<span class="sig-arg">segbase</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Allocate a selector for a segment if necessary. You must call this 
+  function before calling 'add_segm_ex()' . 'add_segm()' calls this 
+  function itself, so you don't need to allocate a selector. This function 
+  will allocate a selector if 'segbase' requires more than 16 bits and the 
+  current processor is IBM PC. Otherwise it will return the segbase 
+  value.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>segbase</code></strong> - a new segment base paragraph (C++: ea_t)</li>
+    </ul></dd>
+    <dt>Returns: sel_t</dt>
+        <dd>the allocated selector number</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="std_out_segm_footer"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">std_out_segm_footer</span>(<span class="sig-arg">ctx</span>,
+        <span class="sig-arg">seg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generate segment footer line as a comment line. This function may be 
+  used in IDP modules to generate segment footer if the target assembler 
+  doesn't have 'ends' directive.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ctx</code></strong>, <strong class="pname"><code>(C++</code></strong> - struct  outctx_t  &amp;)</li>
+        <li><strong class="pname"><code>seg</code></strong>, <strong class="pname"><code>(C++</code></strong> - segment_t  *)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="take_memory_snapshot"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">take_memory_snapshot</span>(<span class="sig-arg">only_loader_segs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Take a memory snapshot of the running process.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>only_loader_segs</code></strong> - only is_loader_segm() segments will be affected (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

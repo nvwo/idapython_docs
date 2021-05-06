@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_offset</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_offset
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_offset-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_offset</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: offset</p>
+
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#add_refinfo_dref" class="summary-sig-name">add_refinfo_dref</a>(<span class="summary-sig-arg">insn</span>,
+        <span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">ri</span>,
+        <span class="summary-sig-arg">opval</span>,
+        <span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">opoff</span>)</span><br />
+      Add xrefs for a reference from the given instruction (\insn_t{ea}).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#calc_basevalue" class="summary-sig-name">calc_basevalue</a>(<span class="summary-sig-arg">target</span>,
+        <span class="summary-sig-arg">base</span>)</span><br />
+      Calculate the value of the reference base.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#calc_offset_base" class="summary-sig-name">calc_offset_base</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Try to calculate the offset base This function takes into account the
+      fixup information, current ds and cs values.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#calc_probable_base_by_value" class="summary-sig-name">calc_probable_base_by_value</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">off</span>)</span><br />
+      Try to calculate the offset base.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#calc_reference_data" class="summary-sig-name">calc_reference_data</a>(<span class="summary-sig-arg">target</span>,
+        <span class="summary-sig-arg">base</span>,
+        <span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">ri</span>,
+        <span class="summary-sig-arg">opval</span>)</span><br />
+      Calculate the target and base addresses of an offset expression.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#calc_target" class="summary-sig-name">calc_target</a>(<span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">opval</span>,
+        <span class="summary-sig-arg">ri</span>)</span><br />
+      calc_target(_from, ea, n, opval) -&gt; ea_t</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#can_be_off32" class="summary-sig-name">can_be_off32</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Does the specified address contain a valid OFF32 value?.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">reftype_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#get_default_reftype" class="summary-sig-name">get_default_reftype</a>(<span class="summary-sig-arg">ea</span>)</span><br />
+      Get default reference type depending on the segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ea_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#get_offbase" class="summary-sig-name">get_offbase</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Get offset base value</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#get_offset_expr" class="summary-sig-name">get_offset_expr</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">ri</span>,
+        <span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">getn_flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      See 'get_offset_expression()'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#get_offset_expression" class="summary-sig-name">get_offset_expression</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">_from</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">getn_flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get offset expression (in the form &quot;offset name+displ&quot;).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#op_offset" class="summary-sig-name">op_offset</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">type</span>,
+        <span class="summary-sig-arg">target</span>=<span class="summary-sig-default">BADADDR</span>,
+        <span class="summary-sig-arg">base</span>=<span class="summary-sig-default">0</span>,
+        <span class="summary-sig-arg">tdelta</span>=<span class="summary-sig-default">0</span>)</span><br />
+      See 'op_offset_ex()'</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#op_offset_ex" class="summary-sig-name">op_offset_ex</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">ri</span>)</span><br />
+      Convert operand to a reference.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_offset-module.html#op_plain_offset" class="summary-sig-name">op_plain_offset</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">n</span>,
+        <span class="summary-sig-arg">base</span>)</span><br />
+      Convert operand to a reference with the default reference type.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="add_refinfo_dref"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_refinfo_dref</span>(<span class="sig-arg">insn</span>,
+        <span class="sig-arg">_from</span>,
+        <span class="sig-arg">ri</span>,
+        <span class="sig-arg">opval</span>,
+        <span class="sig-arg">type</span>,
+        <span class="sig-arg">opoff</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add xrefs for a reference from the given instruction (\insn_t{ea}). 
+  This function creates a cross references to the target and the base. 
+  'insn_t::add_off_drefs()' calls this function to create xrefs for 
+  'offset' operand.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>insn</code></strong> - the referencing instruction (C++: const  insn_t  &amp;)</li>
+        <li><strong class="pname"><code>_from</code></strong> - the referencing instruction/data address (C++: ea_t)</li>
+        <li><strong class="pname"><code>ri</code></strong> - reference info block from the database (C++: const refinfo_t  
+          &amp;)</li>
+        <li><strong class="pname"><code>opval</code></strong> - operand value (usually  op_t::value  or  op_t::addr ) (C++: 
+          adiff_t)</li>
+        <li><strong class="pname"><code>type</code></strong> - type of xref (C++: dref_t)</li>
+        <li><strong class="pname"><code>opoff</code></strong> - offset of the operand from the start of instruction (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>the target address of the reference</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_basevalue"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_basevalue</span>(<span class="sig-arg">target</span>,
+        <span class="sig-arg">base</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Calculate the value of the reference base.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>target</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>base</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_offset_base"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_offset_base</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Try to calculate the offset base This function takes into account the 
+  fixup information, current ds and cs values.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - the referencing instruction/data address (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - operand number   0: first operand   1: other operand (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>output base address or  BADADDR</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_probable_base_by_value"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_probable_base_by_value</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">off</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Try to calculate the offset base. 2 bases are checked: current ds and 
+  cs. If fails, return 'BADADDR'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>off</code></strong>, <strong class="pname"><code>(C++</code></strong> - uval_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_reference_data"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_reference_data</span>(<span class="sig-arg">target</span>,
+        <span class="sig-arg">base</span>,
+        <span class="sig-arg">_from</span>,
+        <span class="sig-arg">ri</span>,
+        <span class="sig-arg">opval</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Calculate the target and base addresses of an offset expression. The 
+  calculated target and base addresses are returned in the locations 
+  pointed by 'base' and 'target'. In case 'ri.base' is 'BADADDR' , the 
+  function calculates the offset base address from the referencing 
+  instruction/data address. The target address is copied from ri.target. If
+  ri.target is 'BADADDR' then the target is calculated using the base 
+  address and 'opval'. This function also checks if 'opval' matches the 
+  full value of the reference and takes in account the memory-mapping.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>target</code></strong> - output target address (C++: ea_t *)</li>
+        <li><strong class="pname"><code>base</code></strong> - output base address (C++: ea_t *)</li>
+        <li><strong class="pname"><code>_from</code></strong> - the referencing instruction/data address (C++: ea_t)</li>
+        <li><strong class="pname"><code>ri</code></strong> - reference info block from the database (C++: const refinfo_t  
+          &amp;)</li>
+        <li><strong class="pname"><code>opval</code></strong> - operand value (usually  op_t::value  or  op_t::addr ) (C++: 
+          adiff_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_target"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_target</span>(<span class="sig-arg">_from</span>,
+        <span class="sig-arg">opval</span>,
+        <span class="sig-arg">ri</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>calc_target(_from, ea, n, opval) -&gt; ea_t</p>
+  <p>Calculates the target, using the provided 'refinfo_t' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>_from</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>opval</code></strong>, <strong class="pname"><code>(C++</code></strong> - adiff_t)</li>
+        <li><strong class="pname"><code>ri</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  refinfo_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="can_be_off32"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">can_be_off32</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Does the specified address contain a valid OFF32 value?. For symbols 
+  in special segments the displacement is not taken into account. If yes, 
+  then the target address of OFF32 will be returned. If not, then 'BADADDR'
+  is returned.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_default_reftype"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_default_reftype</span>(<span class="sig-arg">ea</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get default reference type depending on the segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: reftype_t</dt>
+        <dd>one of  REF_OFF8 , REF_OFF16 , REF_OFF32</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_offbase"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_offbase</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset base value</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: ea_t</dt>
+        <dd>offset base or  BADADDR</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_offset_expr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_offset_expr</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">ri</span>,
+        <span class="sig-arg">_from</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">getn_flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>See 'get_offset_expression()'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>ri</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  refinfo_t  &amp;)</li>
+        <li><strong class="pname"><code>_from</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>offset</code></strong>, <strong class="pname"><code>(C++</code></strong> - adiff_t)</li>
+        <li><strong class="pname"><code>getn_flags</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_offset_expression"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_offset_expression</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">_from</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">getn_flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get offset expression (in the form &quot;offset name+displ&quot;). 
+  This function uses offset translation function (\ph{translate}) if your 
+  IDP module has such a function. Translation function is used to map 
+  linear addresses in the program (only for offsets).Example: suppose we 
+  have instruction at linear address 0x00011000: \v{mov ax, [bx+7422h]} and
+  at ds:7422h: \v{array dw ...} We want to represent the second operand 
+  with an offset expression, so then we call: \v{ 
+  get_offset_expresion(0x001100, 1, 0x001102, 0x7422, buf); | | | | | | | |
+  | +output buffer | | | +value of offset expression | | +address offset 
+  value in the instruction | +the second operand +address of instruction } 
+  and the function will return a colored string: \v{offset array}</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - start of instruction or data with the offset expression (C++: 
+          ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand (may be ORed with  OPND_OUTER )   0: first 
+          operand   1: second operand (C++: int)</li>
+        <li><strong class="pname"><code>_from</code></strong> - linear address of instruction operand or data referring to the 
+          name. This address will be used to get fixup information, so it 
+          should point to exact position of operand in the instruction. 
+          (C++: ea_t)</li>
+        <li><strong class="pname"><code>offset</code></strong> - value of operand or its part. The function will return text 
+          representation of this value as offset expression. (C++: adiff_t)</li>
+        <li><strong class="pname"><code>getn_flags</code></strong> - combination of:   GETN_APPZERO : meaningful only if the name 
+          refers to a structure. appends the struct field name if the field
+          offset is zero GETN_NODUMMY : do not generate dummy names for the
+          expression but pretend they already exist (useful to verify that 
+          the offset expression can be represented) (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="op_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">op_offset</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">type</span>,
+        <span class="sig-arg">target</span>=<span class="sig-default">BADADDR</span>,
+        <span class="sig-arg">base</span>=<span class="sig-default">0</span>,
+        <span class="sig-arg">tdelta</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>See 'op_offset_ex()'</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>type</code></strong>, <strong class="pname"><code>(C++</code></strong> - reftype_t)</li>
+        <li><strong class="pname"><code>target</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>base</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>tdelta</code></strong>, <strong class="pname"><code>(C++</code></strong> - adiff_t)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="op_offset_ex"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">op_offset_ex</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">ri</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert operand to a reference. To delete an offset, use 
+  'clr_op_type()' function.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address. if 'ea' has unexplored bytes, try to convert them
+          to   no segment: fail   16bit segment: to 16bit word data   32bit
+          segment: to dword (C++: ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of operand (may be ORed with  OPND_OUTER )   0: first 1: 
+          second   2: third   OPND_MASK : all operands (C++: int)</li>
+        <li><strong class="pname"><code>ri</code></strong> - reference information (C++: const  refinfo_t  *)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="op_plain_offset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">op_plain_offset</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">n</span>,
+        <span class="sig-arg">base</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert operand to a reference with the default reference type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+        <li><strong class="pname"><code>n</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+        <li><strong class="pname"><code>base</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

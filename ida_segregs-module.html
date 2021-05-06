@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_segregs</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_segregs
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_segregs-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_segregs</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: segregs</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_segregs.sreg_range_t-class.html" class="summary-name">sreg_range_t</a><br />
+      Proxy of C++ sreg_range_t class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#copy_sreg_ranges" class="summary-sig-name">copy_sreg_ranges</a>(<span class="summary-sig-arg">dst_rg</span>,
+        <span class="summary-sig-arg">src_rg</span>,
+        <span class="summary-sig-arg">map_selector</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Duplicate segment register ranges.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#del_sreg_range" class="summary-sig-name">del_sreg_range</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>)</span><br />
+      Delete segment register range started at ea.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#get_prev_sreg_range" class="summary-sig-name">get_prev_sreg_range</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>)</span><br />
+      Get segment register range previous to one with address.more 
+      efficient then get_sreg_range(reg, ea-1)</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">sel_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#get_sreg" class="summary-sig-name">get_sreg</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>)</span><br />
+      Get value of a segment register.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#get_sreg_range" class="summary-sig-name">get_sreg_range</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>)</span><br />
+      Get segment register range by linear address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">int</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#get_sreg_range_num" class="summary-sig-name">get_sreg_range_num</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>)</span><br />
+      Get number of segment register range by address.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#get_sreg_ranges_qty" class="summary-sig-name">get_sreg_ranges_qty</a>(<span class="summary-sig-arg">rg</span>)</span><br />
+      Get number of segment register ranges.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#getn_sreg_range" class="summary-sig-name">getn_sreg_range</a>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">rg</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Get segment register range by its number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#set_default_dataseg" class="summary-sig-name">set_default_dataseg</a>(<span class="summary-sig-arg">ds_sel</span>)</span><br />
+      Set default value of DS register for all segments.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#set_default_sreg_value" class="summary-sig-name">set_default_sreg_value</a>(<span class="summary-sig-arg">sg</span>,
+        <span class="summary-sig-arg">rg</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Set default value of a segment register for a segment.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#set_sreg_at_next_code" class="summary-sig-name">set_sreg_at_next_code</a>(<span class="summary-sig-arg">ea1</span>,
+        <span class="summary-sig-arg">ea2</span>,
+        <span class="summary-sig-arg">rg</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Set the segment register value at the next instruction.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_segregs-module.html#split_sreg_range" class="summary-sig-name">split_sreg_range</a>(<span class="summary-sig-arg">ea</span>,
+        <span class="summary-sig-arg">rg</span>,
+        <span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">tag</span>,
+        <span class="summary-sig-arg">silent</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Create a new segment register range.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_cs"></a><span class="summary-name">R_cs</span> = <code title="30">30</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_ds"></a><span class="summary-name">R_ds</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_es"></a><span class="summary-name">R_es</span> = <code title="29">29</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_fs"></a><span class="summary-name">R_fs</span> = <code title="33">33</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_gs"></a><span class="summary-name">R_gs</span> = <code title="34">34</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="R_ss"></a><span class="summary-name">R_ss</span> = <code title="31">31</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SR_auto"></a><span class="summary-name">SR_auto</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SR_autostart"></a><span class="summary-name">SR_autostart</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SR_inherit"></a><span class="summary-name">SR_inherit</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SR_user"></a><span class="summary-name">SR_user</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="copy_sreg_ranges"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">copy_sreg_ranges</span>(<span class="sig-arg">dst_rg</span>,
+        <span class="sig-arg">src_rg</span>,
+        <span class="sig-arg">map_selector</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Duplicate segment register ranges.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dst_rg</code></strong> - number of destination segment register (C++: int)</li>
+        <li><strong class="pname"><code>src_rg</code></strong> - copy ranges from (C++: int)</li>
+        <li><strong class="pname"><code>map_selector</code></strong> - map selectors to linear addresses using  sel2ea() (C++: bool)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_sreg_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_sreg_range</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete segment register range started at ea. When a segment register 
+  range is deleted, the previous range is extended to cover the empty 
+  space. The segment register range at the beginning of a segment cannot be
+  deleted.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - start_ea of the deleted range (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_prev_sreg_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_prev_sreg_range</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment register range previous to one with address.more efficient
+  then get_sreg_range(reg, ea-1)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>out</code></strong> - segment register range (C++: sreg_range_t  *)</li>
+        <li><strong class="pname"><code>ea</code></strong> - any linear address in the program (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_sreg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_sreg</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get value of a segment register. This function uses segment register 
+  range and default segment register values stored in the segment 
+  structure.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address in the program (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - number of the segment register (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: sel_t</dt>
+        <dd>value of the segment register,  BADSEL  if value is unknown.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_sreg_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_sreg_range</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment register range by linear address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>out</code></strong> - segment register range (C++: sreg_range_t  *)</li>
+        <li><strong class="pname"><code>ea</code></strong> - any linear address in the program (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_sreg_range_num"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_sreg_range_num</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get number of segment register range by address.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - any address in the range (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: int</dt>
+        <dd>-1 if no range occupies the specified address. otherwise returns 
+          number of the specified range (0..get_srranges_qty()-1)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_sreg_ranges_qty"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_sreg_ranges_qty</span>(<span class="sig-arg">rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get number of segment register ranges.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: size_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getn_sreg_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getn_sreg_range</span>(<span class="sig-arg">out</span>,
+        <span class="sig-arg">rg</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get segment register range by its number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>out</code></strong> - segment register range (C++: sreg_range_t  *)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+        <li><strong class="pname"><code>n</code></strong> - number of range (0..qty()-1) (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_default_dataseg"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_default_dataseg</span>(<span class="sig-arg">ds_sel</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set default value of DS register for all segments.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ds_sel</code></strong>, <strong class="pname"><code>(C++</code></strong> - sel_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_default_sreg_value"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_default_sreg_value</span>(<span class="sig-arg">sg</span>,
+        <span class="sig-arg">rg</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set default value of a segment register for a segment.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sg</code></strong> - pointer to segment structure if NULL, then set the register for 
+          all segments (C++: segment_t  *)</li>
+        <li><strong class="pname"><code>rg</code></strong> - number of segment register (C++: int)</li>
+        <li><strong class="pname"><code>value</code></strong> - its default value. this value will be used by get_sreg()  if 
+          value of the register is unknown at the specified address. (C++: 
+          sel_t)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_sreg_at_next_code"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_sreg_at_next_code</span>(<span class="sig-arg">ea1</span>,
+        <span class="sig-arg">ea2</span>,
+        <span class="sig-arg">rg</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set the segment register value at the next instruction. This function 
+  is designed to be called from 'idb_event::sgr_changed' handler in order 
+  to contain the effect of changing a segment register value only until the
+  next instruction.It is useful, for example, in the ARM module: the 
+  modification of the T register does not affect existing instructions 
+  later in the code.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea1</code></strong> - address to start to search for an instruction (C++: ea_t)</li>
+        <li><strong class="pname"><code>ea2</code></strong> - the maximal address (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the segment register number (C++: int)</li>
+        <li><strong class="pname"><code>value</code></strong> - the segment register value (C++: sel_t)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="split_sreg_range"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">split_sreg_range</span>(<span class="sig-arg">ea</span>,
+        <span class="sig-arg">rg</span>,
+        <span class="sig-arg">v</span>,
+        <span class="sig-arg">tag</span>,
+        <span class="sig-arg">silent</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create a new segment register range. This function is used when the 
+  IDP emulator detects that a segment register changes its value.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ea</code></strong> - linear address where the segment register will have a new value. 
+          if ea== BADADDR , nothing to do. (C++: ea_t)</li>
+        <li><strong class="pname"><code>rg</code></strong> - the number of the segment register (C++: int)</li>
+        <li><strong class="pname"><code>v</code></strong> - the new value of the segment register. If the value is unknown, 
+          you should specify  BADSEL . (C++: sel_t)</li>
+        <li><strong class="pname"><code>tag</code></strong> - the register info tag. see  Segment register range tags (C++: 
+          uchar)</li>
+        <li><strong class="pname"><code>silent</code></strong> - if false, display a warning() in the case of failure (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

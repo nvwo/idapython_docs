@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>ida_expr</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;ida_expr
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="ida_expr-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module ida_expr</h1><p class="nomargin-top"></p>
+<p>IDA Plugin SDK API wrapper: expr</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_expr.highlighter_cbs_t-class.html" class="summary-name">highlighter_cbs_t</a><br />
+      Proxy of C++ highlighter_cbs_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_expr.idc_global_t-class.html" class="summary-name">idc_global_t</a><br />
+      Proxy of C++ idc_global_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_expr.idc_value_t-class.html" class="summary-name">idc_value_t</a><br />
+      Proxy of C++ idc_value_t class.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="ida_expr.idc_values_t-class.html" class="summary-name">idc_values_t</a><br />
+      Proxy of C++ qvector&lt; idc_value_t &gt; class.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idc_class_t *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#add_idc_class" class="summary-sig-name">add_idc_class</a>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">super</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Create a new IDC class.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#add_idc_func" class="summary-sig-name">add_idc_func</a>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">fp</span>,
+        <span class="summary-sig-arg">args</span>,
+        <span class="summary-sig-arg">defvals</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Extends the IDC language by exposing a new IDC function that is backed up by a Python function</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idc_value_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#add_idc_gvar" class="summary-sig-name">add_idc_gvar</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Add global IDC variable.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="compile_idc_file"></a><span class="summary-sig-name">compile_idc_file</span>(<span class="summary-sig-arg">nonnul_line</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#compile_idc_snippet" class="summary-sig-name">compile_idc_snippet</a>(<span class="summary-sig-arg">func</span>,
+        <span class="summary-sig-arg">text</span>,
+        <span class="summary-sig-arg">resolver</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">only_safe_funcs</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Compile text with IDC statements.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="compile_idc_text"></a><span class="summary-sig-name">compile_idc_text</span>(<span class="summary-sig-arg">nonnul_line</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#copy_idcv" class="summary-sig-name">copy_idcv</a>(<span class="summary-sig-arg">dst</span>,
+        <span class="summary-sig-arg">src</span>)</span><br />
+      Copy 'src' to 'dst'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#create_idcv_ref" class="summary-sig-name">create_idcv_ref</a>(<span class="summary-sig-arg">ref</span>,
+        <span class="summary-sig-arg">v</span>)</span><br />
+      Create a variable reference.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#deep_copy_idcv" class="summary-sig-name">deep_copy_idcv</a>(<span class="summary-sig-arg">dst</span>,
+        <span class="summary-sig-arg">src</span>)</span><br />
+      Deep copy an IDC object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#del_idc_func" class="summary-sig-name">del_idc_func</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Unregisters the specified IDC function</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#del_idcv_attr" class="summary-sig-name">del_idcv_attr</a>(<span class="summary-sig-arg">obj</span>,
+        <span class="summary-sig-arg">attr</span>)</span><br />
+      Delete an object attribute.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idc_value_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#deref_idcv" class="summary-sig-name">deref_idcv</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">vref_flags</span>)</span><br />
+      Dereference a 'VT_REF' variable.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#eval_expr" class="summary-sig-name">eval_expr</a>(<span class="summary-sig-arg">rv</span>,
+        <span class="summary-sig-arg">where</span>,
+        <span class="summary-sig-arg">line</span>)</span><br />
+      Compile and calculate an expression.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#eval_idc_expr" class="summary-sig-name">eval_idc_expr</a>(<span class="summary-sig-arg">rv</span>,
+        <span class="summary-sig-arg">where</span>,
+        <span class="summary-sig-arg">line</span>)</span><br />
+      Same as 'eval_expr()' , but will always use the IDC interpreter 
+      regardless of the currently installed extlang.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#exec_idc_script" class="summary-sig-name">exec_idc_script</a>(<span class="summary-sig-arg">result</span>,
+        <span class="summary-sig-arg">path</span>,
+        <span class="summary-sig-arg">func</span>,
+        <span class="summary-sig-arg">args</span>,
+        <span class="summary-sig-arg">argsnum</span>)</span><br />
+      Compile and execute IDC function(s) from file.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#exec_system_script" class="summary-sig-name">exec_system_script</a>(<span class="summary-sig-arg">file</span>,
+        <span class="summary-sig-arg">complain_if_no_file</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Compile and execute &quot;main&quot; function from system file.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idc_class_t *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#find_idc_class" class="summary-sig-name">find_idc_class</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Find an existing IDC class by its name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="find_idc_func"></a><span class="summary-sig-name">find_idc_func</span>(<span class="summary-sig-arg">prefix</span>,
+        <span class="summary-sig-arg">n</span>=<span class="summary-sig-default">0</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">idc_value_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#find_idc_gvar" class="summary-sig-name">find_idc_gvar</a>(<span class="summary-sig-arg">name</span>)</span><br />
+      Find an existing global IDC variable by its name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="first_idcv_attr"></a><span class="summary-sig-name">first_idcv_attr</span>(<span class="summary-sig-arg">obj</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#free_idcv" class="summary-sig-name">free_idcv</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Free storage used by 'VT_STR' / 'VT_OBJ' IDC variables.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#get_idc_filename" class="summary-sig-name">get_idc_filename</a>(<span class="summary-sig-arg">file</span>)</span><br />
+      Get full name of IDC file name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#get_idcv_attr" class="summary-sig-name">get_idcv_attr</a>(<span class="summary-sig-arg">res</span>,
+        <span class="summary-sig-arg">obj</span>,
+        <span class="summary-sig-arg">attr</span>,
+        <span class="summary-sig-arg">may_use_getattr</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Get an object attribute.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#get_idcv_class_name" class="summary-sig-name">get_idcv_class_name</a>(<span class="summary-sig-arg">obj</span>)</span><br />
+      Retrieves the IDC object class name.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#get_idcv_slice" class="summary-sig-name">get_idcv_slice</a>(<span class="summary-sig-arg">res</span>,
+        <span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">i1</span>,
+        <span class="summary-sig-arg">i2</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get slice.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_float" class="summary-sig-name">idcv_float</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Convert IDC variable to a floating point.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_int64" class="summary-sig-name">idcv_int64</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Convert IDC variable to a 64bit number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_long" class="summary-sig-name">idcv_long</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Convert IDC variable to a long (32/64bit) number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_num" class="summary-sig-name">idcv_num</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Convert IDC variable to a long number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_object" class="summary-sig-name">idcv_object</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">icls</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Create an IDC object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#idcv_string" class="summary-sig-name">idcv_string</a>(<span class="summary-sig-arg">v</span>)</span><br />
+      Convert IDC variable to a text string.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="last_idcv_attr"></a><span class="summary-sig-name">last_idcv_attr</span>(<span class="summary-sig-arg">obj</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#move_idcv" class="summary-sig-name">move_idcv</a>(<span class="summary-sig-arg">dst</span>,
+        <span class="summary-sig-arg">src</span>)</span><br />
+      Move 'src' to 'dst'.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="next_idcv_attr"></a><span class="summary-sig-name">next_idcv_attr</span>(<span class="summary-sig-arg">obj</span>,
+        <span class="summary-sig-arg">attr</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">char const *</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="prev_idcv_attr"></a><span class="summary-sig-name">prev_idcv_attr</span>(<span class="summary-sig-arg">obj</span>,
+        <span class="summary-sig-arg">attr</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">str</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#print_idcv" class="summary-sig-name">print_idcv</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">name</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">indent</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Get text representation of 'idc_value_t' .</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="py_add_idc_func"></a><span class="summary-sig-name">py_add_idc_func</span>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">fp_ptr</span>,
+        <span class="summary-sig-arg">args</span>,
+        <span class="summary-sig-arg">defvals</span>,
+        <span class="summary-sig-arg">flags</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="py_get_call_idc_func"></a><span class="summary-sig-name">py_get_call_idc_func</span>()</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pyw_convert_defvals"></a><span class="summary-sig-name">pyw_convert_defvals</span>(<span class="summary-sig-arg">out</span>,
+        <span class="summary-sig-arg">py_seq</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">size_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pyw_register_idc_func"></a><span class="summary-sig-name">pyw_register_idc_func</span>(<span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">args</span>,
+        <span class="summary-sig-arg">py_fp</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pyw_unregister_idc_func"></a><span class="summary-sig-name">pyw_unregister_idc_func</span>(<span class="summary-sig-arg">ctxptr</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">bool</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#set_header_path" class="summary-sig-name">set_header_path</a>(<span class="summary-sig-arg">path</span>,
+        <span class="summary-sig-arg">add</span>)</span><br />
+      Set or append a header path.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#set_idcv_attr" class="summary-sig-name">set_idcv_attr</a>(<span class="summary-sig-arg">obj</span>,
+        <span class="summary-sig-arg">attr</span>,
+        <span class="summary-sig-arg">value</span>,
+        <span class="summary-sig-arg">may_use_setattr</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Set an object attribute.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#set_idcv_slice" class="summary-sig-name">set_idcv_slice</a>(<span class="summary-sig-arg">v</span>,
+        <span class="summary-sig-arg">i1</span>,
+        <span class="summary-sig-arg">i2</span>,
+        <span class="summary-sig-arg">_in</span>,
+        <span class="summary-sig-arg">flags</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Set slice.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#swap_idcvs" class="summary-sig-name">swap_idcvs</a>(<span class="summary-sig-arg">v1</span>,
+        <span class="summary-sig-arg">v2</span>)</span><br />
+      Swap 2 variables.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">error_t</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="ida_expr-module.html#throw_idc_exception" class="summary-sig-name">throw_idc_exception</a>(<span class="summary-sig-arg">r</span>,
+        <span class="summary-sig-arg">desc</span>)</span><br />
+      Create an idc execution exception object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Variables</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CPL_DEL_MACROS"></a><span class="summary-name">CPL_DEL_MACROS</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CPL_ONLY_SAFE"></a><span class="summary-name">CPL_ONLY_SAFE</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="CPL_USE_LABELS"></a><span class="summary-name">CPL_USE_LABELS</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="EXTFUN_BASE"></a><span class="summary-name">EXTFUN_BASE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="EXTFUN_NORET"></a><span class="summary-name">EXTFUN_NORET</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="EXTFUN_SAFE"></a><span class="summary-name">EXTFUN_SAFE</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_COMMENT"></a><span class="summary-name">HF_COMMENT</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_DEFAULT"></a><span class="summary-name">HF_DEFAULT</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_KEYWORD1"></a><span class="summary-name">HF_KEYWORD1</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_KEYWORD2"></a><span class="summary-name">HF_KEYWORD2</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_KEYWORD3"></a><span class="summary-name">HF_KEYWORD3</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_MAX"></a><span class="summary-name">HF_MAX</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_NUMBER"></a><span class="summary-name">HF_NUMBER</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_PREPROC"></a><span class="summary-name">HF_PREPROC</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HF_STRING"></a><span class="summary-name">HF_STRING</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="IDC_LANG_EXT"></a><span class="summary-name">IDC_LANG_EXT</span> = <code title="'idc'"><code class="variable-quote">'</code><code class="variable-string">idc</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SWIG_PYTHON_LEGACY_BOOL"></a><span class="summary-name">SWIG_PYTHON_LEGACY_BOOL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VARSLICE_SINGLE"></a><span class="summary-name">VARSLICE_SINGLE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VREF_COPY"></a><span class="summary-name">VREF_COPY</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VREF_LOOP"></a><span class="summary-name">VREF_LOOP</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VREF_ONCE"></a><span class="summary-name">VREF_ONCE</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_FLOAT"></a><span class="summary-name">VT_FLOAT</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_FUNC"></a><span class="summary-name">VT_FUNC</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_INT64"></a><span class="summary-name">VT_INT64</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_LONG"></a><span class="summary-name">VT_LONG</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_OBJ"></a><span class="summary-name">VT_OBJ</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_PVOID"></a><span class="summary-name">VT_PVOID</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_REF"></a><span class="summary-name">VT_REF</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_STR"></a><span class="summary-name">VT_STR</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="VT_WILD"></a><span class="summary-name">VT_WILD</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="call_idc_func__"></a><span class="summary-name">call_idc_func__</span> = <code title="&lt;CFunctionType object at 0x7f8445421050&gt;">&lt;CFunctionType object at 0x7f8445421050&gt;</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="eExecThrow"></a><span class="summary-name">eExecThrow</span> = <code title="90">90</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="add_idc_class"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_idc_class</span>(<span class="sig-arg">name</span>,
+        <span class="sig-arg">super</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create a new IDC class.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name of the new class (C++: const char *)</li>
+        <li><strong class="pname"><code>super</code></strong> - the base class for the new class. if the new class is not based 
+          on any other class, pass NULL (C++: const idc_class_t *)</li>
+    </ul></dd>
+    <dt>Returns: idc_class_t *</dt>
+        <dd>pointer to the created class. If such a class already exists, a 
+          pointer to it will be returned. Pointers to other existing 
+          classes may be invalidated by this call.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_idc_func"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_idc_func</span>(<span class="sig-arg">name</span>,
+        <span class="sig-arg">fp</span>,
+        <span class="sig-arg">args</span>,
+        <span class="sig-arg">defvals</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+    Extends the IDC language by exposing a new IDC function that is backed up by a Python function
+
+    @param name: IDC function name to expose
+    @param fp: Python callable that will receive the arguments and return a tuple.
+    @param args: Arguments. A tuple of idaapi.VT_XXX constants
+    @param flags: IDC function flags. A combination of EXTFUN_XXX constants
+
+    @return: Boolean
+
+
+    Add an IDC function. This function does not modify the predefined
+    kernel functions. Example:
+    
+    static error_t idaapi myfunc5(idc_value_t *argv, idc_value_t *res)
+    {
+      msg(&quot;myfunc is called with arg0=%a and arg1=%s
+&quot;, argv[0].num, argv[1].str);
+      res-&gt;num = 5;     // let's return 5
+      return eOk;
+    }
+    static const char myfunc5_args[] = { VT_LONG, VT_STR, 0 };
+    static const ext_idcfunc_t myfunc_desc = { &quot;MyFunc5&quot;, myfunc5, myfunc5_args, NULL, 0, EXTFUN_BASE };
+    
+    // after this:
+    add_idc_func(myfunc_desc);
+    
+    // there is a new IDC function which can be called like this:
+    MyFunc5(0x123, &quot;test&quot;);
+    
+    If the function already exists, it will be replaced by the new
+    function
+    
+    @return: success
+    
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_idc_gvar"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_idc_gvar</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Add global IDC variable.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name of the global variable (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: idc_value_t</dt>
+        <dd>pointer to the created variable or existing variable. NB: the 
+          returned pointer is valid until a new global var is added.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="compile_idc_snippet"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">compile_idc_snippet</span>(<span class="sig-arg">func</span>,
+        <span class="sig-arg">text</span>,
+        <span class="sig-arg">resolver</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">only_safe_funcs</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Compile text with IDC statements.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>func</code></strong> - name of the function to create out of the snippet (C++: const 
+          char *)</li>
+        <li><strong class="pname"><code>text</code></strong> - text to compile (C++: const char *)</li>
+        <li><strong class="pname"><code>resolver</code></strong> - callback object to get values of undefined variables This object 
+          will be called if IDC function contains references to undefined 
+          variables. May be NULL. (C++: idc_resolver_t  *)</li>
+        <li><strong class="pname"><code>only_safe_funcs</code></strong> - if true, any calls to functions without EXTFUN_SAFE  flag will 
+          lead to a compilation error. (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="copy_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">copy_idcv</span>(<span class="sig-arg">dst</span>,
+        <span class="sig-arg">src</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Copy 'src' to 'dst'. For idc objects only a reference is copied.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dst</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+        <li><strong class="pname"><code>src</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  idc_value_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="create_idcv_ref"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">create_idcv_ref</span>(<span class="sig-arg">ref</span>,
+        <span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create a variable reference. Currently only references to global 
+  variables can be created.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ref</code></strong> - ptr to the result (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>v</code></strong> - variable to reference (C++: const  idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+        <dd>success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="deep_copy_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">deep_copy_idcv</span>(<span class="sig-arg">dst</span>,
+        <span class="sig-arg">src</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Deep copy an IDC object. This function performs deep copy of idc 
+  objects. If 'src' is not an object, 'copy_idcv()' will be called</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dst</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+        <li><strong class="pname"><code>src</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  idc_value_t  &amp;)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_idc_func"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_idc_func</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Unregisters the specified IDC function</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - IDC function name to unregister</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>Boolean
+          <p>Delete an IDC function</p></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="del_idcv_attr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">del_idcv_attr</span>(<span class="sig-arg">obj</span>,
+        <span class="sig-arg">attr</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Delete an object attribute.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>obj</code></strong> - variable that holds an object reference (C++: idc_value_t *)</li>
+        <li><strong class="pname"><code>attr</code></strong> - attribute name (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>error code, eOk on success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="deref_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">deref_idcv</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">vref_flags</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Dereference a 'VT_REF' variable.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong> - variable to dereference (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>vref_flags</code></strong> - Dereference IDC variable flags (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: idc_value_t</dt>
+        <dd>pointer to the dereference result or NULL. If returns NULL, 
+          qerrno is set to eExecBadRef &quot;Illegal variable 
+          reference&quot;</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="eval_expr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">eval_expr</span>(<span class="sig-arg">rv</span>,
+        <span class="sig-arg">where</span>,
+        <span class="sig-arg">line</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Compile and calculate an expression.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>rv</code></strong> - pointer to the result (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>where</code></strong> - the current linear address in the addressing space of the program
+          being disassembled. If will be used to resolve names of local 
+          variables etc. if not applicable, then should be  BADADDR . (C++:
+          ea_t)</li>
+        <li><strong class="pname"><code>line</code></strong> - the expression to evaluate (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="eval_idc_expr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">eval_idc_expr</span>(<span class="sig-arg">rv</span>,
+        <span class="sig-arg">where</span>,
+        <span class="sig-arg">line</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Same as 'eval_expr()' , but will always use the IDC interpreter 
+  regardless of the currently installed extlang.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>rv</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+        <li><strong class="pname"><code>where</code></strong>, <strong class="pname"><code>(C++</code></strong> - ea_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="exec_idc_script"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">exec_idc_script</span>(<span class="sig-arg">result</span>,
+        <span class="sig-arg">path</span>,
+        <span class="sig-arg">func</span>,
+        <span class="sig-arg">args</span>,
+        <span class="sig-arg">argsnum</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Compile and execute IDC function(s) from file.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>result</code></strong> - ptr to  idc_value_t  to hold result of the function. If execution
+          fails, this variable will contain the exception information. You 
+          may pass NULL if you are not interested in the returned value. 
+          (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>path</code></strong> - text file containing text of IDC functions (C++: const char *)</li>
+        <li><strong class="pname"><code>func</code></strong> - function name to execute (C++: const char *)</li>
+        <li><strong class="pname"><code>args</code></strong> - array of parameters (C++: const  idc_value_t)</li>
+        <li><strong class="pname"><code>argsnum</code></strong> - number of parameters to pass to 'fname' This number should be 
+          equal to number of parameters the function expects. (C++: size_t)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="exec_system_script"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">exec_system_script</span>(<span class="sig-arg">file</span>,
+        <span class="sig-arg">complain_if_no_file</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Compile and execute &quot;main&quot; function from system file.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>file</code></strong> - file name with IDC function(s). The file will be searched in the 
+          idc subdir of ida (C++: const char *)</li>
+        <li><strong class="pname"><code>complain_if_no_file</code></strong> - 1: display warning if the file is not found   0: don't complain 
+          if file doesn't exist (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="find_idc_class"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">find_idc_class</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Find an existing IDC class by its name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name of the class (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: idc_class_t *</dt>
+        <dd>pointer to the class or NULL. The returned pointer is valid until
+          a new call to  add_idc_class()</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="find_idc_gvar"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">find_idc_gvar</span>(<span class="sig-arg">name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Find an existing global IDC variable by its name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>name</code></strong> - name of the global variable (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: idc_value_t</dt>
+        <dd>pointer to the variable or NULL. NB: the returned pointer is 
+          valid until a new global var is added. FIXME: it is difficult to 
+          use this function in a thread safe manner</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="free_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">free_idcv</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Free storage used by 'VT_STR' / 'VT_OBJ' IDC variables. After this 
+  call the variable has a numeric value 0</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_idc_filename"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_idc_filename</span>(<span class="sig-arg">file</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get full name of IDC file name. Search for file in list of include 
+  directories, IDCPATH directory and the current directory.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>file</code></strong> - file name without full path (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>NULL is file not found. otherwise returns pointer to buf</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_idcv_attr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_idcv_attr</span>(<span class="sig-arg">res</span>,
+        <span class="sig-arg">obj</span>,
+        <span class="sig-arg">attr</span>,
+        <span class="sig-arg">may_use_getattr</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get an object attribute.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>res</code></strong> - buffer for the attribute value (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>obj</code></strong> - variable that holds an object reference. if obj is NULL it 
+          searches global variables, then user functions (C++: const 
+          idc_value_t  *)</li>
+        <li><strong class="pname"><code>attr</code></strong> - attribute name (C++: const char *)</li>
+        <li><strong class="pname"><code>may_use_getattr</code></strong> - may call getattr functions to calculate the attribute if it does 
+          not exist (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>error code, eOk on success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_idcv_class_name"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_idcv_class_name</span>(<span class="sig-arg">obj</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Retrieves the IDC object class name.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>obj</code></strong> - class instance variable (C++: const  idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+        <dd>error code, eOk on success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_idcv_slice"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_idcv_slice</span>(<span class="sig-arg">res</span>,
+        <span class="sig-arg">v</span>,
+        <span class="sig-arg">i1</span>,
+        <span class="sig-arg">i2</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get slice.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>res</code></strong> - output variable that will contain the slice (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>v</code></strong> - input variable (string or object) (C++: const  idc_value_t *)</li>
+        <li><strong class="pname"><code>i1</code></strong> - slice start index (C++: uval_t)</li>
+        <li><strong class="pname"><code>i2</code></strong> - slice end index (excluded) (C++: uval_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - IDC variable slice flags  or 0 (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>eOk if success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_float"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_float</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert IDC variable to a floating point.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_int64"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_int64</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert IDC variable to a 64bit number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>v = 0 if impossible to convert to int64</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_long"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_long</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert IDC variable to a long (32/64bit) number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>v = 0 if impossible to convert to long</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_num"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_num</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert IDC variable to a long number.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>v = 0 if IDC variable = &quot;false&quot; string   v = 1 if IDC 
+          variable = &quot;true&quot; string   v = number if IDC variable 
+          is number or string containing a number   eTypeConflict if IDC 
+          variable = empty string</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_object"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_object</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">icls</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create an IDC object. The original value of 'v' is discarded 
+  (freed).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong> - variable to hold the object. any previous value will be cleaned 
+          (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>icls</code></strong> - ptr to the desired class. NULL means &quot;object&quot; class 
+          this ptr must be returned by  add_idc_class()  or 
+          find_idc_class() (C++: const idc_class_t *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>always eOk</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="idcv_string"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">idcv_string</span>(<span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Convert IDC variable to a text string.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="move_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">move_idcv</span>(<span class="sig-arg">dst</span>,
+        <span class="sig-arg">src</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Move 'src' to 'dst'. This function is more effective than copy_idcv 
+  since it never copies big amounts of data.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dst</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+        <li><strong class="pname"><code>src</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="print_idcv"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">print_idcv</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">name</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">indent</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Get text representation of 'idc_value_t' .</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong>, <strong class="pname"><code>(C++</code></strong> - const  idc_value_t  &amp;)</li>
+        <li><strong class="pname"><code>name</code></strong>, <strong class="pname"><code>(C++</code></strong> - const char *)</li>
+        <li><strong class="pname"><code>indent</code></strong>, <strong class="pname"><code>(C++</code></strong> - int)</li>
+    </ul></dd>
+    <dt>Returns: str</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_header_path"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_header_path</span>(<span class="sig-arg">path</span>,
+        <span class="sig-arg">add</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set or append a header path. IDA looks for the include files in the 
+  appended header paths, then in the ida executable directory.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>path</code></strong> - list of directories to add (separated by ';') may be NULL, in 
+          this case nothing is added (C++: const char *)</li>
+        <li><strong class="pname"><code>add</code></strong> - true: append. false: remove old paths. (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: bool</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_idcv_attr"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_idcv_attr</span>(<span class="sig-arg">obj</span>,
+        <span class="sig-arg">attr</span>,
+        <span class="sig-arg">value</span>,
+        <span class="sig-arg">may_use_setattr</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set an object attribute.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>obj</code></strong> - variable that holds an object reference. if obj is NULL then it 
+          tries to modify a global variable with the attribute name (C++: 
+          idc_value_t  *)</li>
+        <li><strong class="pname"><code>attr</code></strong> - attribute name (C++: const char *)</li>
+        <li><strong class="pname"><code>value</code></strong> - new attribute value (C++: const  idc_value_t  &amp;)</li>
+        <li><strong class="pname"><code>may_use_setattr</code></strong> - may call setattr functions for the class (C++: bool)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>error code, eOk on success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_idcv_slice"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_idcv_slice</span>(<span class="sig-arg">v</span>,
+        <span class="sig-arg">i1</span>,
+        <span class="sig-arg">i2</span>,
+        <span class="sig-arg">_in</span>,
+        <span class="sig-arg">flags</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Set slice.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong> - variable to modify (string or object) (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>i1</code></strong> - slice start index (C++: uval_t)</li>
+        <li><strong class="pname"><code>i2</code></strong> - slice end index (excluded) (C++: uval_t)</li>
+        <li><strong class="pname"><code>flags</code></strong> - IDC variable slice flags  or 0 (C++: int)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>eOk on success</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="swap_idcvs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">swap_idcvs</span>(<span class="sig-arg">v1</span>,
+        <span class="sig-arg">v2</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Swap 2 variables.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v1</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+        <li><strong class="pname"><code>v2</code></strong>, <strong class="pname"><code>(C++</code></strong> - idc_value_t  *)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="throw_idc_exception"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">throw_idc_exception</span>(<span class="sig-arg">r</span>,
+        <span class="sig-arg">desc</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create an idc execution exception object. This helper function can be 
+  used to return an exception from C++ code to IDC. In other words this 
+  function can be called from 'idc_func_t()' callbacks. Sample usage: if ( 
+  !ok ) return throw_idc_exception(r, &quot;detailed error msg&quot;);</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>r</code></strong> - object to hold the exception object (C++: idc_value_t  *)</li>
+        <li><strong class="pname"><code>desc</code></strong> - exception description (C++: const char *)</li>
+    </ul></dd>
+    <dt>Returns: error_t</dt>
+        <dd>eExecThrow</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a href="https://www.hex-rays.com/">Hex-Rays</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Fri Oct 11 15:05:11 2019
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+      <div id="footer">
+  Copyright (c) 2019 Hex-Rays SA. <a href="/terms_of_use.shtml">Terms of use</a>
+  and <a href="/privacy_policy.shtml">privacy policy</a>;
+</div>
+    </div>
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
